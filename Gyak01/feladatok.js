@@ -39,14 +39,14 @@ function $(azonosito){
     $('gomb2b').addEventListener('click', kiirNszer);
 
 //  c) számot és szöveget, és a számnyiszor írd ki a szöveget egyre növekvő betűméretekkel!
-    function kiirNszer(){
+    function kiirNszerSzoveg(){
         let szoveg = '';
         for(let i = 0; i < $('bemenet2c_1').value; i++){
             szoveg += '<p style="font-size: ' + (5 + 2 * i) + 'px">' + $('bemenet2c_2').value + '</p>';
         }
         $('f2c').innerHTML = szoveg;
     }
-    $('gomb2c').addEventListener('click', kiirNszer);
+    $('gomb2c').addEventListener('click', kiirNszerSzoveg);
 
 
 // 3) Kérj be egy N számot, és készíts azzal egy NxN-es szorzótáblát!

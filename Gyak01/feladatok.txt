@@ -1,0 +1,42 @@
+
+// 1) Írj
+//  a) a konzolra
+//  b) felugró ablakba
+//  c) magába a dokumentumba
+//  d) valamit tízszer a konzolra
+
+// 2) Kérj be egy
+//  a) nevet, és írd ki egymás alá egyre növekvő betűméretekkel!
+//  b) számot, és írj ki egymás alá annyiszor egy szöveget egyre növekvő betűméretekkel!
+//  c) számot és szöveget, és a számnyiszor írd ki a szöveget egyre növekvő betűméretekkel!
+
+// 3) Kérj be egy N számot, és készíts azzal egy NxN-es szorzótáblát!
+
+// 4) Készítsd el a Fahrenheitből Celsius fokba átalakító programot! Kérd be a felhasználótól a Fahrenheit értéket és írd ki az oldalra az eredményt!
+
+// 5) Készíts egy százalékszámító programot! Kérd be a számot, majd azt is, hogy hány százalékára vagy kíváncsi. Az eredményt írd ki!
+
+// 6) Olvass be három számot, és döntsd el, hogy alkothatják-e egy háromszög oldalát!
+
+// 7) Egy sámsorozatból minden számnak add meg az ellentettjét!
+
+// 8) Adott egy szavakat tartalmazó tömb, válogasd ki azokat, amelyek
+//  a) egy bekért részszöveget tartalmaznak!
+//  b) egy bekért részszöveggel kezdődnek!
+
+// 9) Készíts egy olyan adatszerkezetet, amely egy film adatait írja le. A filmnél a következő adatokat tároljuk: cím, kiadó, rendezők, főszereplők
+// Add meg azokat a filmeket, amiknek bármely adata közt szerepel a keresett kifejezés!
+    
+
+/*
+Hasonló feladatok:
+- Adott két egész szám, a és b. Írj függvény, amely eldönti, hogy b osztója-e a-nak!
+- Adott egy pont a síkon. Írj függvényt, amely megmondja, hogy a pont melyik síknegyedbe esik!
+- Adott két szám. Írj függvényt, amely visszaadja legnagyobb közös osztójukat!
+- Írj függvényt, ami visszaadja egy egész szám faktoriálisát!
+-  Adott a és b egész szám. Osztás művelete nélkül add meg a-nak b-vel való osztásakor keletkező maradékot.
+- Egy számsorozatban keress meg egy negatív számot.
+- Számold meg, hány páros szám van egy számokat tartalmazó tömbben!
+- Válogasd ki azokat a számokat, amelyek mindkét szomszédjuktól egy előre bekért értéken belül térnek el.
+- Írj függvényt, amely megadja egy egész szám prímtényezős felbontását!
+*/

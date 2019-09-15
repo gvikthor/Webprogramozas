@@ -1,0 +1,16 @@
+// 1) Egy szöveges beviteli mezőben legyen lehetőség megadni egy interneten elérhető kép URL-jét. Egy mellette lévő gombra kattintva jelenítsd meg a képet a dokumentumban!
+// 2) Másolás
+//  a) Adott két szöveges beviteli mező és köztük egy gomb. A gomb lenyomására másold át az egyik szöveges beviteli mező tartalmát a másikba!
+//  b) Általánosítsd a feladatot N db szöveges beviteli mezőre!
+// 3) Készíts egy számlálót komponenst!
+//  a) A számláló egy csak olvasható szöveges beviteli mezőből és két gombból (plusz, mínusz) áll! A gombok megnyomásával a szöveges beviteli mezőben lévő szám nő vagy csökken.
+//  b) Definiálj a szkriptben egy minimum és egy maximum értéket! Ha a számláló eléri valamelyik értéket, akkor a megfelelő gomb ne legyen elérhető!
+//  c) Ha a gombot hosszan nyomjuk le, akkor a számláló automatikusan kezdje el az értéket változtatni.
+// 4) Adott egy három oszlopból álló táblázat! A táblázat felett 3 szöveges beviteli mezővel és egy gombbal. A gombra kattintva a 3 beviteli mező értéke új sorként szúródjon be a táblázatba.
+// 5) Fejlesszük az előző gyakról a filmes keresőt annyival, hogy ne különböztesse meg a kis/nagy betűket, és gépelés közben automatikusan frissítse az adatokat.
+
+/*
+Hasonló feladatok:
+- Számolj kamatos kamatot! A számoláshoz meg kell adni a kiindulási összeget, a kamat értékét, valamint azt, hány évvel későbbi összegre vagyunk kíváncsiak. A feladat során jelenítsük meg azt is, hogy melyik évben hogyan változik az összeg.
+- Gondoljon a gép egy számra! A mi feladatunk, hogy kitaláljuk. Legyen lehetőség tippelni a számra, a gép pedig annyit válaszoljon, hogy az általa gondolt szám kisebb-e vagy nagyobb az általunk tippeltnél.
+*/

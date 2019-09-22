@@ -1,0 +1,24 @@
+// 1) Adott egy paragrafusbeli szöveg, amelyben néhány szó `span` elembe van foglalva vagy hivatkozásként van megadva. A paragrafusra kattintáskor írd ki a konzolra:
+//   a) az eseményt jelző objektumot;
+//   b) az esemény típusát;
+//   c) a kattintás közben lenyomott egérgombot;
+//   d) az egér kattintáskori pozícióját;
+// 2) Gépelés
+//    a) Ha bármilyen gomb lenyomásra kerül a billentyűzeten, írjuk ki a lenyomott gombot.
+//    b) Csináljunk egy "keyloggert", de szűrjük a shiftet és a caps lockot
+// 3) Írd ki az oldalra folyamatosan az alábbi adatokat:
+//    a) Két kattintás közt mekkora az átlagos elmozdulás?
+//    b) Átlagosan mennyi idő telik el két kattintás között?
+// 4) Az oldalon minden olyan hivatkozást tiltsunk le, amelyik nem ELTE-s címre mutat!
+// 5) Amőba
+
+/*
+Hasonló feladatok:
+- Készíts memóriajátékot! A páros számú cellában rejts el számokat, és találd meg úgy a párokat, hogy egyszerre csak kettőt fordíthatsz fel! Számold meg, hogy hány lépésben sikerül kitalálni a feladatot! Legyen lehetőség több játékos megadására, ebben az esetben jelezd, hogy éppen ki van soron!
+!- Készíts akasztófa játékot! A gép egy előre tárolt listából válasszon egy szót, majd rajzoljon ki annyi vonalat, ahány betűből áll. Tegyünk ki egy gombsort is, ahol az egyes betűkre tippelhetünk. Ha eltaláltuk, akkor az eltalált betűket jelenítsük meg a megfelelő helyen. Ha nem találtuk el, akkor számoljuk a hibás találatokat. Ha ez elér egy előre megadott értéket, akkor veszítettünk. Ha a szó összes betűjét ez előtt felfedtük, akkor nyertünk! A számláló mellett SVG elemekkel akasztófát is rajzolhatunk!
+- Adott egy range beviteli mező.
+   a. A csúszkát húzogatva jelenítsük meg a slider értékét a mező mellett!
+   b. A csúszkát húzogatva az értéket mindig a csúszka felett jelenítsük meg!
+- Adott egy GYIK oldal. A kérdések h2 elemben, a válaszok alatta p elemekben vannak. Oldjuk meg, hogy egy kérdésre kattintva a válasz eltűnjön/megjelenjen!
+- Készíts egy bankszámlaszámot elfogadó mezőt, amely 4-es csoportonként szóközt helyez el számok között!
+*/

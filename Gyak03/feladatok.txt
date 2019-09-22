@@ -15,7 +15,9 @@
 /*
 Hasonló feladatok:
 - Készíts memóriajátékot! A páros számú cellában rejts el számokat, és találd meg úgy a párokat, hogy egyszerre csak kettőt fordíthatsz fel! Számold meg, hogy hány lépésben sikerül kitalálni a feladatot! Legyen lehetőség több játékos megadására, ebben az esetben jelezd, hogy éppen ki van soron!
-!- Készíts akasztófa játékot! A gép egy előre tárolt listából válasszon egy szót, majd rajzoljon ki annyi vonalat, ahány betűből áll. Tegyünk ki egy gombsort is, ahol az egyes betűkre tippelhetünk. Ha eltaláltuk, akkor az eltalált betűket jelenítsük meg a megfelelő helyen. Ha nem találtuk el, akkor számoljuk a hibás találatokat. Ha ez elér egy előre megadott értéket, akkor veszítettünk. Ha a szó összes betűjét ez előtt felfedtük, akkor nyertünk! A számláló mellett SVG elemekkel akasztófát is rajzolhatunk!
+- !!!Készíts akasztófa játékot! A gép egy előre tárolt listából válasszon egy szót, majd rajzoljon ki annyi vonalat, ahány betűből áll. Tegyünk ki egy gombsort is, ahol az egyes betűkre tippelhetünk. Ha eltaláltuk, akkor az eltalált betűket jelenítsük meg a megfelelő helyen. 
+   a. Ha nem találtuk el, akkor számoljuk a hibás találatokat. Ha ez elér egy előre megadott értéket, akkor veszítettünk. Ha a szó összes betűjét ez előtt felfedtük, akkor nyertünk!
+   b. Ugyanez, vsak számláló helyett a felhasználó képeket lásson.
 - Adott egy range beviteli mező.
    a. A csúszkát húzogatva jelenítsük meg a slider értékét a mező mellett!
    b. A csúszkát húzogatva az értéket mindig a csúszka felett jelenítsük meg!

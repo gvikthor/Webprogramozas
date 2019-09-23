@@ -88,4 +88,4 @@ for(cella of cellak){
             }
         }
     })
-}
+} 

@@ -19,15 +19,19 @@ Képek
         b) Töltsük előre a következő képet.
         c) Oldd meg a képváltás stílusátmenettel. Legegyszerűbb halványulással megoldani az átmenetet.
         d) Ha nincs JavaScript, akkor egyáltalán ne jelenjen meg a képnézegető.
-    8) Egy négyzetrácsos térképen el van dugva egy kincs. Kattintgatással keresd meg, hol van! A megtalálás után, a gép újra rejtse el a kincset!
-        a) A tábla legyen 2x2-es méretű!
-        b) Egy szöveges mezőben lehessen megadni, mekkora legyen a tábla. Egy gombra kattintva a megfelelő méretű táblázat jelenik meg.
-        c) Készítsünk számlálót, mely méri hány kattintásból találtuk meg a kincset!
-
 
 Linkek
     9) Rakjunk fel az oldalra három szöveges beviteli mezőt, amelyekben az új ablak nyitásához szükséges paraméterek értékeit kérjük be. Az elsőbe az URL-t, a másodikban az ablak nevét, a harmadikban az ablaknyitási paramétereket adjuk meg. Egy gomb megnyomására a felvitt értékekkel hívjuk meg az ablaknyitási parancsot.
-    10) Adott néhány hivatkozás az oldalon. a) Ezekre kattintva a linkek által mutatott oldalak új ablakban nyíljanak meg! b) Pozícionáljuk középre az új ablakot! c) Oldjuk meg azt, hogy a fenti metódus minden olyan linkre működjön az oldalon, amelyiknek az "ujablak" stílusosztály be van állítva!
+    10) Adott néhány hivatkozás az oldalon.
+        a) Ezekre kattintva a linkek által mutatott oldalak új ablakban nyíljanak meg!
+        b) Pozícionáljuk középre az új ablakot!
+        c) Oldjuk meg azt, hogy a fenti metódus minden olyan linkre működjön az oldalon, amelyiknek az "ujablak" stílusosztály be van állítva!
     11) Az oldalra tegyünk fel egy szöveges beviteli mezőt és egy gombot. A gombra kattintva nyíljon meg új ablak, amelyben megjelenik a mezőben megadott szöveg.
-    12) Adott egy legördülő lista, benne különböző oldalak neveivel. A lista elemei közül egyet választva töltődjön be az adott oldal!
-    13) Adott egy "Vissza" feliratú hivatkozás az oldalon. Felhasználói megerősítés után ("Biztos, hogy vissza akar menni az előző oldalra?"), töltődjön be az előző oldal.
+    
+Hasonló feladatok
+    Egy négyzetrácsos térképen el van dugva egy kincs. Kattintgatással keresd meg, hol van! A megtalálás után, a gép újra rejtse el a kincset!
+        a) A tábla legyen 2x2-es méretű!
+        b) Egy szöveges mezőben lehessen megadni, mekkora legyen a tábla. Egy gombra kattintva a megfelelő méretű táblázat jelenik meg.
+        c) Készítsünk számlálót, mely méri hány kattintásból találtuk meg a kincset!
+    Adott egy legördülő lista, benne különböző oldalak neveivel. A lista elemei közül egyet választva töltődjön be az adott oldal!
+    Adott egy "Vissza" feliratú hivatkozás az oldalon. Felhasználói megerősítés után ("Biztos, hogy vissza akar menni az előző oldalra?"), töltődjön be az előző oldal.

@@ -1,0 +1,15 @@
+Képnézegető
+
+- a fő kép középen jelenik meg
+- mellette egy-egy nyíl mindkét irányba, amivel lépkedni lehet
+
+- alul több kép egy csíkban, a széle fele halványabbak
+- alapjáraton a megjelenített kép legyen mindig az alsó kép közepén, és a mellette lévők logikusan változzanak
+- ha valamelyikre rákattintunk, kerüljön az a főkép helyére, és alul a csík változzon
+- a csík mellett két oldalt egy-egy gomb, amik a csíkban lévő képeket változtatják (mintha ilyen előnézet lenne)
+- ha elmozgattuk a csíkot valamerre, akkor már nem mindig a fókuszban lévő van középen
+- legyen egy gomb, ami újra visszaállítja a csíkot, hogy az legyen középen, ami fókuszban van
+- valahogy látszódjon, hogy éppen melyik állapotában van az alsó gomb (a szalag a fókuszban lévő képpel mozog, vagy szabadon) 
+
+- legyen egy gomb, amire ha rányomunk, elindul vetítésként, pár másodpercenként vált, és nekünk semmit nem kell nyomni
+- lehessen leállítani a vetítést

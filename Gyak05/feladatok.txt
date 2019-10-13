@@ -1,0 +1,57 @@
+1) Adott egy táblázat az oldalon. JavaScript segítségével tedd lehetővé, hogy az oszlopok fejlécére kattintva a táblázat az adott oszlop szerint rendezve jelenjen meg!
+2) Készíts egy fotóalbumot, ami úgy néz ki, mintha az asztalra kiszórtak volna sok képet. A képek egy felsorolásban legyenek. A képeknek ne csak a pozíciója, hanem elforgatása is változzon. Lehessen a képeket megtekinteni rájuk kattintva, vagy a jobbra-balra billentyűvel navigálva.
+
+Hasonló feladatok (inkább 4. gyak, mint ez)
+1) Adott egy űrlap, ahol több időpontot is fel lehet venni. Minden időpontnál meg kell adni a dátumot és egy tól-ig intervallumot. Ellenőrizzük le JavaScript segítségével, hogy a tól mindig kisebb legyen az ig-nél. Ha rossz, akkor mind a két mező legyen piros keretes. Legyen lehetőség új időpont-blokkot felvenni.
+2) Adott egy legördülő menü, benne az opciók csoportosítva. Alakítsd át ezt úgy, hogy két legördülő legyen: az elsőben a csoportok neve, majd abból választva a másodikban a csoporton belüli opciók jelenjenek meg!
+    Ilyesmi az alap, ezt kell átalakítani
+    <select>
+        <optgroup label="Star Wars">
+        <option value="emp">A Birodalom visszavág</option>
+        <option value="sith">A Sith-ek bosszúja</option>
+        <option value="rogue">Zsivány egyes a vizsgán</option>
+        </optgroup>
+        <optgroup label="Harry Potter">
+        <option value="hp1">Bölcsek köve</option>
+        <option value="hp2">Kígyók kígyóznak</option>
+        <option value="hp3">A szökés</option>
+        <option value="hp4">Tüzesvíz</option>
+        <option value="hp5">Madárcsapat</option>
+        </optgroup>
+        <optgroup label="Marvel">
+        <option value="aveng">Bosszúállók</option>
+        <option value="ultron">Bosszúállók, de Thor haja hülyén néz ki</option>
+        <option value="infinity">Bosszúállók, de Thor fodrásznál volt</option>
+        <option value="endgame">Kib.jó Thor és a sleppje</option>
+        </optgroup>
+        <optgroup label="Mission Impossible">
+        <option value="mi1">Nem</option>
+        <option value="mi2">Láttam</option>
+        </optgroup>
+    </select>
+3) Adott egy űrlap, ahol receptet lehet megadni. Minden sorhoz két input mezőt lehet megadni: elsőben a mennyiség, másodikban a hozzávaló. Legyen lehetőség sorokat törölni, és új sort hozzáadni. Az űrlap elküldésekor valahogy jelezd magadnak az elküldött adatokat (akár konzol, akár valami új lap)
+
+Hasonló feladatok (stílus manipulálós)
+1) Adott egy paragrafus.
+    a) Egy gombra kattintva adjunk neki narancssárga keretet, barna hátteret és a szöveg színe legyen fehér. A feladatot a style attribútummal oldd meg.
+    b) Az előző feladatbeli stílusokat rakjuk egy stílusosztályba, és ezzel a stílusosztállyal ruházzuk fel a paragrafust.
+    c) Egy másik gombbal tüntessük el a bekezdést.
+    d) Fejlesszük tovább ezt úgy, hogy a gomb a bekezdés láthatóságát váltogassa (tüntesse el, majd jelenítse meg, majd megint eltüntet, megjelenít, stb.)
+    e) Egy újabb gomb hatására halványítva tüntessük el a bekezdést. Az animációt JavaScripttel oldjuk meg!
+    f) Az előző feladatbeli elhalványítást CSS3 átmenet segítségével érjük el!
+2) Adott három fejlécsor és mindegyik alatt egy-egy bekezdés. A bekezdések eleinte el nem látszanak.
+    a) Az egyes fejlécekre kattintva jelenjen meg az alatta lévő bekezdés.
+    b) Újabb kattintásra tűnjön el.
+    c) Fejleszd tovább úgy, hogy a kattintáskor lenyíljon/összecsukódjon a paragrafus.
+3) Készíts egy órát!
+    a) Jelenítsd meg az aktuális időt a felületen!
+    b) Frissítsd az időt folyamatosan!
+    c) Jelenítsd meg az időt egy óra formájában. A megfelelő HTML kód:
+4) Készíts egy visszaszámlálót! Egy "Start" feliratú gombbal lehet elindítani.
+    a) Az idő leteltével fessük pirosra a dokumentum hátterét.
+    b) A hátralévő időt jelenítsük meg a felületen szöveges formában.
+    c) A hátralévő idő egy folyamatosan rövidülő piros csíkként jelenjen meg.
+5) Rakj fel egy téglalapot az oldalra abszolútan pozicionálva. Tegyél fel négy gombot. A megfelelő gombra kattintva mozgasd le-fel, jobbra-balra a téglalapot a képernyőn.
+6) Adott három kis kép egymás alatt. A megfelelőre kattintva nagyítsd fel animálva és pozicionáld a kis képek mellé. Egy újabb képre kattintva a felnagyított tűnjön el, és az újabb jelenjen meg.
+7) Készíts egy olyan képnézegetőt, amely a képeket egy háromszögalapú hasáb oldalain jeleníti meg. A balra-jobbra gomb megnyomásakor a hasáb forduljon el az y tengely mentén.
+8) Jeleníts meg egy oldalsó menüt különböző módokon! Használd ki a CSS3 adta 2D-s és 3D-s lehetőségeket!

@@ -1,0 +1,3 @@
+Most nem konkrét hosszú feladatok vannak, a beadandóhoz szükséges dolgokat beszéljük át:
+- sütik
+- canvas

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+        td{
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border: 1px solid black;
+            text-align: center;
+        }
+        #fekete{
+            background-color: black;
+        }
+        #kek{
+            background-color: blue;
+        }
+        #zold{
+            background-color: green;
+        }
+        #aktszin{
+            background-color: black;
+            width: 100px;
+        }
+        #aktvast{
+            width: 100px;
+        }
+    </style>
+    <table>
+        <tr>
+            <td id="aktszin"></td>
+            <td class="szin" id="fekete"></td>
+            <td class="szin" id="kek"></td>
+            <td class="szin" id="zold"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="aktvast">20</td>
+            <td class="vastagsag">10</td>
+            <td class="vastagsag">20</td>
+            <td class="vastagsag">30</td>
+        </tr>
+    </table>
+    <canvas id="rajztabla" width="500px" height="300px"></canvas>
+    <button id="delete">Töröl</button>
+    <script src="index.js"></script>
+</body>
+</html>

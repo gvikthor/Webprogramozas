@@ -1,0 +1,21 @@
+Bevezetés a php-ba (másik tananyag, de kb ugyanaz, mint amit órán veszünk): http://webprogramozas.inf.elte.hu/tananyag/szerver/
+
+Gyakorló feladatok
+
+1) Egy filmeket listázó oldalon szeretnénk legördülő mezőből kiválasztani a film kategóriáját,
+a háttérrendszernek azonban a kategória azonosítójára van szüksége. Például: 5 - Akció, 4 - Dráma, 8 - Vígjáték.
+Találjuk ki az adatokat tároló adatszerkezetet, majd az alapján állítsuk elő az oldalon a legördülő mezőt!
+
+2) Adott áruknak a megnevezése és azonosítójuk (pl. 23 - pendrive, stb.). Jelenítsük meg az árukat jelölőmezőkként az oldalon!
+
+3) Egy tesztrendszerhben minden tesztről tároljuk a kérdés szövegét és a megoldásokat, valamint azt, hogy melyik válasz a helyes.
+    a) Generáld le a kérdéseket és a hozzájuk tartozó válaszokat tartalmazó űrlapot úgy,
+       hogy minden kérdésnél csak egy válasz a helyes! A válaszok mellett a megfelelő űrlapelemet használd!
+    b) Az előző feladathoz képest most egy kérdésnél több válasz is helyes lehet. Generáld le az ennek megfelelő űrlapot!
+
+4) Egy hallgatói nyilvántartásban minden hallgatóról tároljuk a nevét, a neptun azonosítóját, a születési évét és nemét.
+    a) Táblázat formájában jelenítsük meg a hallgatói nyilvántartást!
+    b) Írjuk ki a legidősebb hallgatót!
+    c) Ha 1970 előtt született a legidősebb hallgató, akkor írjuk ki mellé, hogy "az egész életen át tartó tanulás példaképe".
+    d) Döntsük el a nyilvántartás alapján, van-e lány a hallgatók között!
+    e) Két csík formájában tüntessük fel a fiúk és lányok darabszámát! 

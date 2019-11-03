@@ -1,3 +1,5 @@
+<!-- Nézd meg itt: http://webprogramozas.inf.elte.hu/hallgatok/mohmas/Gyak07/bevezeto.php -->
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>

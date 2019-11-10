@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background: #f1f2f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#kepek{
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+    text-align: center;
+}
+
+#kepek img{
+    height: 500px;
+    box-shadow: -4px 4px 3px -2px #4d4d4d57;
+}
+
+#kepek button{
+    width: 49%;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+form{
+    background: white;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+    box-shadow: -4px 4px 3px -2px #4d4d4d57;
+}
+
+input, button{
+    background: #ffffff;
+}
+
+form table{
+    width: 50%;
+}
+td{
+    width: 50%;
+}
+td select{
+    width: 100%;
+}
+
+.error{
+    background-color: rgb(255, 87, 87);
+}
+
+.error_message{
+    size: 0.7em;
+    font-weight: bold;
+    color: gray;
+}

@@ -1,0 +1,18 @@
+{
+    "users": {
+        "almafa": {
+            "password": "$2y$10$fpjftt3Whcl\/ksD9VwKhxO2YLv0CXLPjbMtb.u9xjRKmCxjssJvAa",
+            "udata": {
+                "desc": "Helloszia",
+                "img": "sdklfjafjh"
+            }
+        },
+        "belabela": {
+            "password": "$2y$10$MoCW2\/uqnOvi2wQja8jq7e9w0wiqe4DPlcCUE6mSgfU1S8zGo.o9C",
+            "udata": {
+                "desc": "\u00e9n vagyok a valaki",
+                "img": "alma"
+            }
+        }
+    }
+}

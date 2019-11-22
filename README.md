@@ -1,6 +1,6 @@
 # Webprogramozás @ Gerely Viktor (Gyak: 6, 7, 10)
 
-<b>Óraütrközést jelezzétek itt:</b> <a href="bit.ly/web-thor-utkozes19osz">bit.ly/web-thor-utkozes19osz</a> <br>
+<b>Óraütrközést jelezzétek itt:</b> http://bit.ly/web-thor-utkozes19osz <br>
 
 E-mail: mohmas@inf.elte.hu<br>
 Tárgyi honlap: http://webprogramozas.inf.elte.hu/

@@ -1,0 +1,128 @@
+{
+    "felhasznalok": {
+        "SERVER": {
+            "jelszo": "kljfsjgj\u00e9lsdfkjgh\u00e9ldsfkbgjdl\u00e9fskjbgdfkl\u00e9jbvg\u00e9ldfyjbgldsfkjbg"
+        },
+        "Poppol\u00f369": {
+            "jelszo": "$2y$10$jrkTk4.hsPaLL7kV\/WtA0u0ciyOKnodqOJTtC1ikZOcdLOIlLJRj6",
+            "kartya": {
+                "nev": "PopexxxxxxxJuliANUS",
+                "szam": "0000-0000-0000-0000",
+                "cv": "001",
+                "lejarat": "09\/11"
+            },
+            "liked": []
+        },
+        "Almafa123": {
+            "jelszo": "$2y$10$Qp.uXycaeu8ftRQE4zuUt.DQeAR.XIr\/RzEbvF8TA9ESOZAn6THzC",
+            "kartya": {
+                "nev": "Valali",
+                "szam": "0000-0000-0000-0000",
+                "cv": "001",
+                "lejarat": "99\/99"
+            },
+            "liked": [
+                6
+            ]
+        }
+    },
+    "kepek": [
+        {
+            "id": 0,
+            "src": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fb\/Aubergine.jpg\/260px-Aubergine.jpg",
+            "tulajdonos": "Poppol\u00f369",
+            "tags": [
+                "hosszu",
+                "ebony",
+                "vegan"
+            ]
+        },
+        {
+            "id": 1,
+            "src": "https:\/\/p1.akcdn.net\/full\/505984378.erzi-repa-fabol.jpg",
+            "tulajdonos": "Poppol\u00f369",
+            "tags": [
+                "hosszu",
+                "vegan",
+                "redhead"
+            ]
+        },
+        {
+            "id": 2,
+            "src": "http:\/\/kep.cdn.index.hu\/1\/0\/1397\/13971\/139712\/13971268_727594_1fc135ded228db74e241e8d344e3557e_wm.jpg",
+            "tulajdonos": "SERVER",
+            "tags": [
+                "thicc",
+                "juicy"
+            ]
+        },
+        {
+            "id": 3,
+            "src": "http:\/\/www.hetek.hu\/files\/2018\/07\/tej1.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "white",
+                "bigload"
+            ]
+        },
+        {
+            "src": "https:\/\/www.eatright.org\/-\/media\/eatrightrecipeimages\/mango-gelatin-968914698.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "tropical",
+                "exotic"
+            ],
+            "id": 4
+        },
+        {
+            "src": "http:\/\/www.kamaszpanasz.hu\/uploads\/Cikkek\/Eves_es_mozgas\/carambola.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "cute",
+                "twink"
+            ],
+            "id": 5
+        },
+        {
+            "src": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxAPDw8PDxAQDxUPDxUPDxAPEA8QDw8VFRUWFhUVFRUYHSggGBomHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0jHSYtLS0uLy8tLSstLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf\/AABEIAOAA4AMBIgACEQEDEQH\/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQYCBAUDB\/\/EADwQAAEDAgQEAwQKAQIHAAAAAAEAAgMEEQUSITEGQVFhEyJxMoGh0RQjQlJikbHB4fByFoIHFTNDU2Px\/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFBv\/EACURAAICAgMAAQQDAQAAAAAAAAABAgMEERIhMWEFIjJBE3GBFP\/aAAwDAQACEQMRAD8A+4KURAFClQgJRFCAlQiICVClEARFCAlQiIApUIgJRQiAlEUICVCIgClQiAlQiIAiKUARQpQBERAFClQgJREQBFCICUUIgCKVCAlQilAQpUIgClQiAlFCIAiKUBClQpQEKVCICUUKUBCKUQEIpRAERQgJUIiAIiICVCIgCIiAIiIAiKUBCIiAIiIAiIgJUIiAKVhmTMgM1CxuUzIDNQscyZkBkixumZAZovPOvOerZH7b2s\/yICjaJ02bChebJQ4Aggg7Eagryq61kQvI4N6X3PoOabXoSbejZRVmp4vjafKxzvUgH8lvYVxFBUHK05XfcfoT6dVmroN6TNZY9kVtro7ClYZl5PqmNNi9gPQuAK02ZaPdSvMPU5lJBmoWOZMyAyRY5kzIDJSsMyZkBmoWOZMyAyRY5kDkBCIiEhERAERamI4gyBmZ5\/xaN3HsobSW2Sk29I9qmobG0ve4NA5lVDF+I3yXbFdjeo9p3r0XOxfFnzOu42A9lo2b\/K4dZWBo78u68u\/Lcuo+HsY2El90+2bjMRm8VoikeH3uTckAcyeq2MRqnOJL3FxO5K1cPh8Jhe\/236u7dApbFnOZ+3TquXlLWtnY4RT3o3cExaohLshBYRs\/UA9WrGrq3Pddzi9x53\/tlrT1BtZug2XOqa0Rg9firOx647KqmPLlrs2qqqbH07riTYwWuHhXzZgW5fauDpZcatxCSaQRxguc42DRzVtwLA2UrRJLZ8rhqeTOw+alR12zWSjFaZba7iKWRjQ28Qyi\/wB9xtrfoFwKmUkXJ+f5pJUbk2AXJNRLUPyQi9t3n2G\/ypnbKfphXRGHiLNw1xE6GeOCR92SEjzH\/p6aG59FZK7iiNlxE3xPxE5WfnuVR6XD44dT9Y87uOtvQcl6+MDcnktY5MoR4mE8WE58jvf6vlB1bGR0AcPiu\/guOMqfLbI8C+U63HUFfMquub\/HVenC2JPdiNMG83lpA2y5TdWqyZ8kn2Vuw4cG0tM+vqCbanRamIYjHALuNydmD2j\/AAqhi2NSSmxOVvJjdvf1XbbfGv8As86nGna+vC3nFYAcplZf1W2031GvSy+VSy9V2OHeI3QtfG9pkAF47cj0vyCwrzVJ6kdVuA4x3F7L6XAC5Nh1OgWr\/wAzgzZfFZfpmComJ4tLOT4jtOTG6MHzXKkmt2UTzUn9qJr+ntr7mfWgVKpnBeOl7zTSG+l4id9N2q5rrqsVkeSOG6p1S4sIiLQzCIubjGKtgbYWc8jyt6dz2VZSUVtloxcnpGeLYoynbc6uPss5nuegVDxKvfK8uebk\/kOwUV9a57i5xzE7n9h2XFrawMB1Xk35Dsel4e3i4irW36TV1YYDcrzwenMrvHk9kH6sHn3XMoIXVkttRGw3e7r+EK4RRCwFrMboB1ssOOjtm+K0jFrM3mdo0bDqsJpL9gEqZ76LlV1blH6KrZSMWxiFYGj9FUK+tfNIIogXuebADcqcQrXzSCKIF7nmzQNyrlw3w+yiZ4klnzPHmdyZ+Fq2jFQXKRZy49L0cOYEyjZnfZ8zh5ncm\/hat2qnABJKxq6oAEkrVoaN1SfEku2IHQc5P4Wbk5Mpr9s8qelfVncsiB1dsX\/4rsgMiaI4wGgdOfqsppbANaLAaADYLnzzWUOWukNOXpnNU2HJcOvxK1wF44niG4uqrW4i55yMBJOnVXrrci\/UVtnQrcUtufmu9wGKkTfS2gRtDS1pe29772C8eGODrWnrBe+rYzue7unordJJpYAADYDQBaSlGH4+mUtz6fh6VVUXEkkuJ3cdSVz5ZrLGaRZ09Lm879ByHMrnbcn2WSUUeUMBk1Ojf1W2bNFmi36qZZLfJaU0ynwekzzW\/uy501QsKidcmerJOVmp+AUJbLpFo4RqmNronySBjWXJJ56Wt8V9dgla8BzHBwOoLTcFfC8LpSzzHUnclfR\/+HUznNnaT5Wubl6Aka2+C78O3T4Hm\/UKNr+TZcESy5uM4q2BthYvI0HTuey9CUlFbZ5UIuT0iMZxZsDbDV5Gg5N7lUatqnPcSTmLtSTuUraouJLjck3JPNcetq8oXkX3ux\/B7mNiqtfJjX1YYDrqq250lTKIY9STqeTRzJXliNa57gxl3OebNA5kq38NYMKdljrI\/wA0junZZqPFbZ3NqC+TdwzD2wxtjZo1vtHm4r2qZeQ2C95DYWC51ZKAFnKRjFbe2aVZUBoJVSxKtfNIIogXuebBoW3itW+WQQxAuc82DQrRw7gDKNud9nzPHmf938LVpBKK5M0k+K+TDhvAW0TC99nzPHmdyb+Fq3KuewJJXvUPsLkrnUtMap+Z1xE06\/8AsPQdlSUnJlIrXbMaCiNS7xJLiJp8o\/8AIfku1I7Sw0A0AGyzfYAAAAAWAGwC1KiawUN\/or+TPGpksFWcWxIAHXRemNYoADrYBVOmpp8Rm8OEHKD53n2WjuVpVVy7fheUlBfJgZJauURRBzrnluVf+G+F46QCSW0kp2+7H6d1u4DgUVCzKwZnkeeQ7k9ugW9K+2pVrLf1Hwy7l2yJn31K51TUgKaurAXrh1Ff66X\/AGNP6lc\/rNPF2TRUl\/rJP9rT+pXtNKsp5rrSkerfCI97ZjPLuuVUVG6yrKkC5JsB1VZq68yusz2dh3PX0VoQcix61Vc6R2SPQc3fJdTC6HKASPRa+EUHM\/8A1dtnlCmbXiLeEyvytsNyvqPCGGfRqVjXDzP+sf6u5e4WVL4LwY1U\/jvH1cLr67PfyHoF9OC7sKrX3s8f6hdt\/wAa\/wBNPFK0Qx5tydGjuqXU5nkuN3FxuTzKsHE5OaPS\/lJHqquMWZnLRqRu3p69Ascu1ufF+I0wqtQ5JdnOrRlBcqZjOIWv8ArnjNUMpLre7YrlYbwq58kdRUAgHzxxnQ25Od68lzVpbbfiPUU1Fd+mvwrgpYBUSi8j9GNP2Af3V1jgIbbrutRkf18Q2HmsPQLt+FdocD1Pu\/t1Ztz7OayemtnEqzZVfFqtz3CKIFznmzQP7srbjDmCFzratB16rncJYZ5fpLhd82rb\/ZZyt67rNLs2jNKPJjAMDbStLj55Xjzv6fhHZbs7rarpmLTay4+IwOfIIWHfVzhyCSbZSM+T2zSbG6pflFxG0+d33uwXaDWtaGtFg0WACyipxGwNaLADReMzrXTxBy5Po8amWyrONYoGg6rZxvEAxpJK0cG4cfVkT1ILY92R7GTueymEd9vw1WorbONheCTYk\/MbxwA6vO7+zfmvoNBRxU0YigaGNG5G5PUlbJaGtDWgNa0WDRoAtSonAVp2b6Xhklt7Z6SzALl1daBda9ZW91OCUBqHeLJpG06X+2fkskmzbiorbNvCKEyHxpfZGrGnn39F0Kma69ZX30GgGi053DZT4tIz3t7Z4yOXMraoAHWwG69qyosLKmYxXumd4bPZvqeqvXDkyTzr651S\/K24jB1\/Et\/C6HMRpsvDDqK9gBp+qs9JThoAH5rWyaS4xLJcffTKNgaNrWXth1FJVzNgi3cbuPJjeZK85AXubGwFxccoA3JK+n8J4C2jh1sZJLGR3T8I7BMel2S+DlyshVR+WdPDKFlPEyGMWawW7k8ye62woUr2UtLSPAbbe2amI0LZ2ZSSD9lw3aVUHcLvilMkcQe4i2cOHmvve6vShY248LHt+m9OTOpaXhUsO4TBkbLUhpDTdsI1bfq7r6L1xwZai5GhY3L00VnWpiFC2ZtjoR7LuYWc8ZKvjAvHKk7OUz59jtXlcDZoyEuaRa+otl+KnD6tx8shAAsCM2w5LqYlgM4IIjEtnC2W23oVhhnBeeojqaloYIjdsQN87uRfbSw6Lz449kp6a0eq8ilVenF4gqs7HNiaZDa1mDyt5ankuhg0\/hU0TJCA9jMriNvd7lcMcow+Bwa0CxDyAAL2N1RcdniZ5LXOW5tv6BL63SyMe1ZEeOjsPnEjSS4AcgNzbYDstTCpmOfMNMzSAR0BGir30ycwOLXMj0OUZbkep5rDgqJwjfO993yPcHE9GmwA+JWW99s3dHGLLtUNYHeQk2AJvzJ5Lm4vIC0nKG26LKhqs2YkjQ6He\/dcTibFmRMy3zOecrWjUuJNgpb5LozqralplbomfS8RZE7VrLyPHI5dgfevpZg8umwAv0Cr2BYY2lyPIGZxvK\/nc\/tyXbZWBznMvoHXJGocp3F9Fr25S68PCthAZmDvUKsV9QBe5VixGYAEnT13PuXzvFKiSaQsiBdc2JGw\/lU48paNqYvW2bmFwmtqPDBORnmkI6ch71fhThrQ1osGiwA2AXE4Gwv6OyTNq5zgXW3Gmis1RMLaDXkB0Cu9frwxtsblo49Wcu+i5FTUdF2MWkLmHMdtdNgqPjeI+G0hvtO0HZUitvSNI+dmljuJEnwmHX7RH6LVoKM7Dc7n9l50NISbnUn4K14dRBjdRquiUlBcUaCjpQwW5rZleGiyyldlC73BXD\/0l4qJh9Uw+UH\/ALjh+wWVcHZLSMbrVXHlI7PAvDvhgVUw87h9W0\/YB5+pVyQBF7VdahHij52212S5MKVCkLQzMUREJCIiAIiIAQqtinCmcudEW+b7L\/s+hVpRZ21RsWpI1qunU9xZSI+C3yeWV7YmE+ZsZJc7sDawWxi\/D8dPG0QMyxhuVzQLkH7x9eZVvUOF9DqsXiV8HFG3\/ba5qTZ8rpqJkUkoDnAOsdDztqtGtonVNRDDTR+I4PbI93JrWm5Lncl9MqeG6WQ5iwjn5XOaPgtygw6GnblhjawHew1d3J5rmhgyUvufR2y+ppLcV2UWrgL22BIO1j+i0qONwYTm8wJFiNLcrK84pggkd4kZDHcwfZd37FcNvClQ51jJHG03zFt3OI7DqueeHYpaSNas2tw7einQRz1c72vcBFHoQ0WL3dL9F2IMMjjIytAsNNrLrSYXHSSGJl7WDyXG5eTuSfctTFH+E5rmi7Xe1Y+z3WU4OLaf6N1fz\/HxmjUVLoXEsFiSA4jUW625pDXljSXnLmtq\/Q25f0LdOR5Dxu0A6c1qYu5hY4m21+3qFmXTT60V\/iPiNjGENu4nYAWF\/XmqxQ4fLO7xJAbnUDkFYcMwH6TJ48g8jdIm9fxFWMUAYNAtVPgtR9LvSejhUGGCMXO63HkNC9Z3ALxoKKSrmbDGNTueTBzJVUnJ6Kykktvw2eHsHfXTZdRGw3lf2+6O5X1imgbGxsbGhrWDK0DYALWwfDI6WFsUY0G55uPMlbq9nHpVcfk+fych2y+AiIug5gpUIEBCIiEhERAEREAREQBERAEREASyIgOZjGGeNZ7dHtFh0cOhVSxaiqHOazwJNDplbcG3UjRfQEXNbixse\/DppypVdelKwjhaV8rpahzomFtmwtIuT94nl6Lq\/wClKZrXHK6U5Tl8R2YD3bKwIrRxq4rWiJ5VsnvZ86FXHDZjtL2y9uS9Y6hl3AubtsT5iupjvDpMnixNDxcuLPtNJ5jsuXWU0zhlbTvLjp7Gl+tzsvJnVOEtNHrQtrnFNP8AsrU0T5ZxFG0uc91gAvp3DWBso4sos57tZH9T0HYLV4U4dFKDLLZ0zxqRtGPuj5qxL0cXH4LlL08\/Myv5Hxj4ERF2HAEREARFKAZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUyqUQEZUAUogIsllKICLJZSiAiyWUogJRFCAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAilEBCKVCAIiIAiKUBCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiA\/9k=",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "gay"
+            ],
+            "id": 6
+        },
+        {
+            "src": "http:\/\/kep.cdn.indexvas.hu\/1\/0\/1724\/17242\/172421\/17242144_e538dc2be850cb9c4cadb4349c8d21af_wm.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "juicy"
+            ],
+            "id": 7
+        },
+        {
+            "src": "http:\/\/kep.cdn.indexvas.hu\/1\/0\/1724\/17242\/172421\/17242144_e538dc2be850cb9c4cadb4349c8d21af_wm.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "alma",
+                "alma"
+            ],
+            "id": 8
+        },
+        {
+            "src": "https:\/\/fmc.hu\/upload\/post_featured\/6000-7000\/6997_post_big.jpg",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "twins"
+            ],
+            "id": 9
+        },
+        {
+            "src": "https:\/\/ocdn.eu\/pulscms-transforms\/1\/c1_ktkqTURBXy9mZmQxMzA1Yzc2OGJiYThiNmYxODE5NmQ4ZDM2Njg3OC5qcGVnkpUDADLNA-jNAjKVAs0DUgDCww",
+            "tulajdonos": "Almafa123",
+            "tags": [
+                "longschlong"
+            ],
+            "id": 10
+        }
+    ]
+}

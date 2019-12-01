@@ -34,7 +34,7 @@
             <li>3 == interactive (néhány adat érkezett)</li>
             <li>4 == complete</li>
         </ul>
-    <h3>status
+    <h3>status</h3>
         a szerverről érkező HTTP státuszkód, pl. 200 (oké), 404 (Nem oké)
     <h3>statusText</h3>
         a szerverről érkező szöveges HTTP státusz

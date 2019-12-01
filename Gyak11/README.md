@@ -1,46 +1,48 @@
 <h1>AJAX: Asincron JAvascript and Xml</h1>
 
 <h2>Alapfogalmak</h2>
-HTML, XHTML, CSS
+<h3>HTML, XHTML, CSS</h3>
     megjelenítés
-DOM
+<h3>DOM</h3>
     dinamikus felhasználói felület, interakció
-XML, XSLT
+<h3>XML, XSLT</h3>
     adatleíró és kommunikációs formátum
-XMLHttpRequest
+<h3>XMLHttpRequest</h3>
     aszinkron kliens-szerver adatátvitel
 
 <h2>Metódusok</h2>
-    open("method", "URL", async)
+    <h3>open("method", "URL", async)</h3>
         a meghívandó URL, metódus, stb. beállítása
-    send([data])
+    <h3>send([data])</h3>
         kérés küldése; az opcionális data paraméter a kérés törzseként továbbítódik
-    abort()
+    <h3>abort()</h3>
         az aktuális kérés leállítása
-    getAllResponseHeaders()
+    <h3>getAllResponseHeaders()</h3>
         HTTP fejlécek visszaadása szövegként újsorral elválasztott fejléc: érték formában
-    getResponseHeader("fejléc")
+    <h3>getResponseHeader("fejléc")</h3>
         adott fejléc értékét adja vissza
-    setRequestHeader("fejléc", "érték")
+    <h3>setRequestHeader("fejléc", "érték")</h3>
         a kérés fejlécét állítja be küldés előtt
 
 <h2>Tulajdonságok</h2>
-    readyState
+    <h3>readyState</h3>
         a kérés aktuális státusza
-        0 = uninitialized
-        1 = loading
-        2 = loaded
-        3 = interactive (néhány adat érkezett)
-        4 = complete
-    status
+        <ol>
+            <li>uninitialized</li>
+            <li>loading</li>
+            <li>loaded</li>
+            <li>interactive (néhány adat érkezett)</li>
+            <li>complete</li>
+        </ol>
+    <h3>status
         a szerverről érkező HTTP státuszkód, pl. 200 (oké), 404 (Nem oké)
-    statusText
+    <h3>statusText</h3>
         a szerverről érkező szöveges HTTP státusz
-    responseText
+    <h3>responseText</h3>
         a szerverről visszaérkezett válasz szöveges változata
-    responseXML
+    <h3>responseXML</h3>
         ha a válasz XML dokumentum volt, akkor annak XML DOM dokumentuma
 
 <h2>Események</h2>
-    readystatechange
+    <h3>readystatechange</h3>
         a readyState állapot változásainál hívódik meg

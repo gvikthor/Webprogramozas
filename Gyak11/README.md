@@ -27,13 +27,13 @@
 <h2>Tulajdonságok</h2>
     <h3>readyState</h3>
         a kérés aktuális státusza
-        <ol>
-            <li>uninitialized</li>
-            <li>loading</li>
-            <li>loaded</li>
-            <li>interactive (néhány adat érkezett)</li>
-            <li>complete</li>
-        </ol>
+        <ul>
+            <li>0 == uninitialized</li>
+            <li>1 == loading</li>
+            <li>2 == loaded</li>
+            <li>3 == interactive (néhány adat érkezett)</li>
+            <li>4 == complete</li>
+        </ul>
     <h3>status
         a szerverről érkező HTTP státuszkód, pl. 200 (oké), 404 (Nem oké)
     <h3>statusText</h3>

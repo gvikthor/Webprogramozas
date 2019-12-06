@@ -1,0 +1,106 @@
+{
+    "felhasznalok": {
+        "Almafa123": {
+            "jelszo": "$2y$10$5IqQ5rN\/DjnOT0FBSDmBDOpNu0Wt3wZwXetRkVqLW2pNP01yRYWAq",
+            "leiras": "valami",
+            "liked": [],
+            "disliked": []
+        },
+        "NewUser123": {
+            "jelszo": "$2y$10$UGEVEKvwkonIGa2jYgYBgOgu4H849GVd1M9eH6gb2lA9L8q6O3arO",
+            "leiras": "muse"
+        },
+        "WaltDisney": {
+            "jelszo": "$2y$10$p7UxYBrvgsFJU1n2ojaFWesbuUmRlhY4GoQ9f8H8UDLyMnZoKIyoS",
+            "leiras": "Hello",
+            "disliked": [
+                "Let it go",
+                "Imperial March"
+            ],
+            "liked": [
+                "Hakuna matata",
+                "Into the Unknown"
+            ]
+        },
+        "NewUser1234": {
+            "jelszo": "$2y$10$PYuSgI\/O\/6MbJVTk27dDb.yqbeLfEW0IBiTT9KOxGVsrl0B6.oJci",
+            "leiras": "catalog",
+            "liked": [
+                "Imperial March",
+                "Let it go",
+                "Into the Unknown",
+                "Hakuna matata"
+            ],
+            "disliked": []
+        },
+        "Valami123": {
+            "jelszo": "$2y$10$qCLJ1NNuWKdP7SYV.Y\/W2.4ffMClzByNqDAcPkGHBJoQmqhX2fE5q",
+            "leiras": "Valami123",
+            "liked": [
+                "Imperial March",
+                "Let it go",
+                "Hakuna matata",
+                "Into the Unknown"
+            ],
+            "disliked": []
+        },
+        "Felhasznalooooooo": {
+            "jelszo": "$2y$10$HSHn6AtjHv1uq\/YCJ9ejNO2Y6xKD71vsGpU.IICR7.noIrK1Svp26",
+            "leiras": "JelszoJelszo",
+            "liked": [],
+            "disliked": []
+        }
+    },
+    "dalok": {
+        "Let it go": {
+            "cim": "Let it go",
+            "film": "Frozen",
+            "enekes": "Elsa",
+            "felhasznalo": "Valaki123",
+            "liked": [
+                "Valami123",
+                "NewUser1234"
+            ],
+            "disliked": [
+                "WaltDisney"
+            ]
+        },
+        "Hakuna matata": {
+            "cim": "Hakuna matata",
+            "film": "Lion King",
+            "enekes": "Timon and Pumba",
+            "felhasznalo": "Almafa123",
+            "liked": [
+                "WaltDisney",
+                "NewUser1234",
+                "Valami123"
+            ],
+            "disliked": []
+        },
+        "Into the Unknown": {
+            "cim": "Into the Unknown",
+            "film": "Frozen",
+            "enekes": "Elsa",
+            "felhasznalo": "Valami123",
+            "liked": [
+                "WaltDisney",
+                "NewUser1234",
+                "Valami123"
+            ],
+            "disliked": []
+        },
+        "Imperial March": {
+            "cim": "Imperial March",
+            "film": "minden SW",
+            "enekes": "Luke",
+            "felhasznalo": "NewUser1234",
+            "liked": [
+                "Valami123",
+                "NewUser1234"
+            ],
+            "disliked": [
+                "WaltDisney"
+            ]
+        }
+    }
+}

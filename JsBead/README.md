@@ -35,11 +35,11 @@ Nekeresdország egy négyzetráccsal ábrázolható. Van benne pár kitüntetett
     <li>Az oldalnak tartalmaznia kell a következő kijelentéseket</li>
 </ul>
 <pre>
-<Név>
-<Neptun ID>
-<Tárgy & beadandó neve>
-<Beküldés ideje>
-Ezt a megoldást <Név, Neptun ID> küldte be és készítette a <Tárgy neve> kurzus <Feladat neve> feladatához.
+[Név]
+[Neptun]
+[Tárgy & beadandó neve]
+[Beküldés ideje]
+Ezt a megoldást [Név, Neptun ID] küldte be és készítette a [Tárgy neve] kurzus [Feladat neve] feladatához.
 Kijelentem, hogy ez a megoldás a saját munkám.
 Nem másoltam vagy használtam harmadik féltől származó megoldásokat.
 Nem továbbítottam megoldást hallgatótársaimnak, és nem is tettem közzé.

@@ -1,4 +1,4 @@
-<h1>AJAX: Asincron JAvascript and Xml</h1>
+<h1>AJAX: Asincron Javascript And Xml</h1>
 
 <h2>Alapfogalmak</h2>
 <h3>HTML, XHTML, CSS</h3>

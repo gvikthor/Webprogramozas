@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "nap": "2019.06.05",
+        "mettol": "8:00:00",
+        "meddig": "9:00:00",
+        "etelek": "joghurt,alma,m\u00fczli",
+        "kcal": 100,
+        "aktiv": true
+    },
+    {
+        "id": "2",
+        "nap": "2019.06.05",
+        "mettol": "10:00:00",
+        "meddig": "11:00:00",
+        "etelek": "mogyor\u00f3",
+        "kcal": 10,
+        "aktiv": true
+    },
+    {
+        "id": "3",
+        "nap": "2019.06.05",
+        "mettol": "12:00:00",
+        "meddig": "13:00:00",
+        "etelek": "h\u00fas,sal\u00e1ta",
+        "kcal": 200,
+        "aktiv": false
+    },
+    {
+        "id": "4",
+        "nap": "2019.06.05",
+        "mettol": "16:00:00",
+        "meddig": "17:00:00",
+        "etelek": "mandula",
+        "kcal": 10,
+        "aktiv": true
+    },
+    {
+        "id": "5",
+        "nap": "2019.06.05",
+        "mettol": "18:00:00",
+        "meddig": "20:00:00",
+        "etelek": "v\u00edz",
+        "kcal": 0,
+        "aktiv": false
+    },
+    {
+        "id": "6",
+        "nap": "2019.06.04",
+        "mettol": "8:00:00",
+        "meddig": "10:00:00",
+        "etelek": "toj\u00e1s,narancsl\u00e9",
+        "kcal": 80,
+        "aktiv": true
+    },
+    {
+        "id": "7",
+        "nap": "2019.06.04",
+        "mettol": "10:00:00",
+        "meddig": "11:00:00",
+        "etelek": "t\u00f6r\u00f6kmogyor\u00f3",
+        "kcal": 5,
+        "aktiv": true
+    },
+    {
+        "id": "8",
+        "nap": "2019.06.03",
+        "mettol": "11:00:00",
+        "meddig": "12:00:00",
+        "etelek": "alma,k\u00f6rte",
+        "kcal": 20,
+        "aktiv": true
+    },
+    {
+        "id": 9,
+        "nap": "2005-05-06",
+        "mettol": "18:14",
+        "meddig": "16:32",
+        "etelek": "M\u00e1glyarak\u00e1s,Ban\u00e1n,Kajszibarack",
+        "kcal": "68",
+        "aktiv": true
+    }
+]

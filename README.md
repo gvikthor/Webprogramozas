@@ -2,7 +2,7 @@
 
 <b>Óraütrközést jelezzétek itt:</b> http://bit.ly/web-thor-utkozes19osz <br>
 
-E-mail: mohmas@inf.elte.hu<br>
+E-mail: mohmas@inf.elte.hu<br><br>
 Tárgyi honlap: http://webprogramozas.inf.elte.hu/ <br>
 > Érdemes legörgetni, mert vannak online tananyagok.
   

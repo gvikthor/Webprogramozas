@@ -3,8 +3,9 @@
 <b>Óraütrközést jelezzétek itt:</b> http://bit.ly/web-thor-utkozes19osz <br>
 
 E-mail: mohmas@inf.elte.hu<br>
-Tárgyi honlap: http://webprogramozas.inf.elte.hu/
-
+Tárgyi honlap: http://webprogramozas.inf.elte.hu/ <br>
+  Érdemes legörgetni, mert vannak online tananyagok.
+  
 <h2>6.  csoport</h2>
 Hétfő 14:00-15:30<br>
 Déli 2.709

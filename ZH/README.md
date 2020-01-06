@@ -10,4 +10,5 @@ A tesztelőben a következők failelnek:
 <h1>Egyéb dolgok</h1>
 Visnovitz Marci megoldásai: https://github.com/vimtaai/elte/tree/master/2019-20-1/exam <br>
 Data attribútumok (pl. data-id): https://www.abeautifulsite.net/working-with-html5-data-attributes <br>
-Ne felejtsetek el write jogot adni a file-okra!
+Ne felejtsetek el write jogot adni a file-okra! <br>
+Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni!

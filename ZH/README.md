@@ -14,13 +14,13 @@ A tesztelőben a következők failelnek:
   <li>Ne felejtsetek el write jogot adni a file-okra! </li>
   <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
-  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Használjatok inkább shift+2 idézőjelet, de leginkább altgr+7-et mindenhol a jas-ben. Pl.: (? helyett K-t írok, mert a github belehal)  <br>
+  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Használjatok inkább shift+2 idézőjelet, de leginkább altgr+7-et mindenhol a jas-ben. Pl.: <br>
   Ez elhal
   <pre>
-  <Kphp
+  < ?php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  K>
+  ?>
 
   <script>
       console.log('<K=$alma["elso"]K>')
@@ -29,14 +29,15 @@ A tesztelőben a következők failelnek:
     
   Ez nem
   <pre>
-  <Kphp
+  <? php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  K>
+  ?>
 
   <script>
       console.log("< ?=$alma["elso"]?>")
   </script>
   </pre>
+  A kérdőjelek környékén a szóközök csak a formázás miatt kellenek.
   </li>
 </ul>

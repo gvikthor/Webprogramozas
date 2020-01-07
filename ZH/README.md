@@ -14,7 +14,7 @@ A tesztelőben a következők failelnek:
   <li>Ne felejtsetek el write jogot adni a file-okra! </li>
   <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
-  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Használjatok inkább shift+2 idézőjelet, de leginkább altgr+7-et mindenhol a jas-ben. Pl.: <br>
+  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Használjatok inkább shift+2 idézőjelet, de leginkább altgr+7-et mindenhol a javascriptben. Pl.: <br>
   Ez elhal
   <pre>
   < ?php

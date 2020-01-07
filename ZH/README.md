@@ -16,9 +16,9 @@ A tesztelőben a következők failelnek:
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
   <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.:
     <pre>
-      <?php
+      < ?php
         $alma = "Luke's lightsaber";
-      ?>
+      ? >
       
       <script>
         console.log('<?=$alma?>')

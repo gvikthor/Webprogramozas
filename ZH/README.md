@@ -8,8 +8,21 @@ A tesztelőben a következők failelnek:
 </ul>
 
 <h1>Egyéb dolgok</h1>
-Visnovitz Marci megoldásai: https://github.com/vimtaai/elte/tree/master/2019-20-1/exam <br>
-Data attribútumok (pl. data-id): https://www.abeautifulsite.net/working-with-html5-data-attributes <br>
-Ne felejtsetek el write jogot adni a file-okra! <br>
-Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! <br>
-Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra!
+<ul>
+  <li>Visnovitz Marci megoldásai: https://github.com/vimtaai/elte/tree/master/2019-20-1/exam </li>
+  <li>Data attribútumok (pl. data-id): https://www.abeautifulsite.net/working-with-html5-data-attributes </li>
+  <li>Ne felejtsetek el write jogot adni a file-okra! </li>
+  <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
+  <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
+  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.:
+    <pre>
+      <?php
+        $alma = "Luke's lightsaber";
+      ?>
+      
+      <script>
+        console.log('<?=$alma?>')
+      </script>
+    </pre>
+  </li>
+</ul>

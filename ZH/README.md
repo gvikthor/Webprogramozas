@@ -7,6 +7,9 @@ A tesztelőben a következők failelnek:
 <li>Az új menü felvétele failel, mert már vettem fel kézzel tesztelés közben más menüket. Ha JSON-t visszaállítom eredeti állapotba, átmegy a teszten. <b>Erre ZH-n is figyeljetek!</b></li>
 </ul>
 
+<h1>Avengerses ZH</h1>
+Ti küldtétek.
+
 <h1>Egyéb dolgok</h1>
 <ul>
   <li>Visnovitz Marci megoldásai: https://github.com/vimtaai/elte/tree/master/2019-20-1/exam </li>

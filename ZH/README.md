@@ -3,7 +3,7 @@ Feladat: http://webprogramozas.inf.elte.hu/#!/subjects/webprog-pti/zh/2018-19-2/
 Az 5-ös feladatig készen vannak a feladatok.<br>
 A tesztelőben a következők failelnek:
 <ul>
-<li>Amikor a tesztelő rossz adatot próbál megadni. Ez azért van, mert AJAX-al csináltam, és letiltom a gomb tényleges eventjét, de a teszt GET metódust küld. <b>Tehát ha ZH-ban form kezelés van, ne AJAX hívást csináljatok, hanem töltsétek újra az oldalt, és helyben kezeljétek le!</b></li>
+<li>Amikor a tesztelő rossz adatot próbál megadni. Ez azért van, mert AJAX-al csináltam, és letiltom a gomb tényleges eventjét, de a teszt GET metódust küld. <b>Tehát ha ZH-ban form kezelés van, ne AJAX hívást csináljatok, hanem töltsétek újra az oldalt, és helyben kezeljétek le</b>, pl.: https://github.com/gvikthor/Webprogramozas/tree/master/Gyak08</li>
 <li>Az új menü felvétele failel, mert már vettem fel kézzel tesztelés közben más menüket. Ha JSON-t visszaállítom eredeti állapotba, átmegy a teszten. <b>Erre ZH-n is figyeljetek!</b></li>
 </ul>
 

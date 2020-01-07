@@ -38,6 +38,18 @@ A tesztelőben a következők failelnek:
       console.log("< ?=$alma["elso"]? >")
   </script>
   </pre>
+  
+  Ez a legbiztosabb
+  <pre>
+  < ?php
+    $alma = [];
+    $alma["elso"] = "Luke's lightsaber";
+  ? >
+
+  <script>
+      console.log(`< ?=$alma["elso"]? >`)
+  </script>
+  </pre>
   (A kérdőjelek környékén a szóközök csak a github formázás miatt kellenek)
   </li>
 </ul>

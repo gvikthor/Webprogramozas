@@ -29,7 +29,7 @@ A tesztelőben a következők failelnek:
     
   Ez nem
   <pre>
-  <? php
+  < ?php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
   ? >

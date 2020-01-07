@@ -20,10 +20,10 @@ A tesztelőben a következők failelnek:
   < ?php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  ?>
+  ? >
 
   <script>
-      console.log('<K=$alma["elso"]K>')
+      console.log('< ?=$alma["elso"]? >')
   </script>
   </pre>
     
@@ -32,12 +32,12 @@ A tesztelőben a következők failelnek:
   <? php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  ?>
+  ? >
 
   <script>
-      console.log("< ?=$alma["elso"]?>")
+      console.log("< ?=$alma["elso"]? >")
   </script>
   </pre>
-  A kérdőjelek környékén a szóközök csak a formázás miatt kellenek.
+  (A kérdőjelek környékén a szóközök csak a github formázás miatt kellenek)
   </li>
 </ul>

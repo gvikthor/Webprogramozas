@@ -17,25 +17,25 @@ A tesztelőben a következők failelnek:
   <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.: <br>
   Ez elhal
   <pre>
-  <?php
+  < ?php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  ?>
+  ? >
 
   <script>
-      console.log('<?=$alma["elso"]?>')
+      console.log('< ?=$alma["elso"]?>')
   </script>
   </pre>
     
   Ez nem
   <pre>
-  <?php
+  < ?php
     $alma = [];
     $alma["elso"] = "Luke's lightsaber";
-  ?>
+  ? >
 
   <script>
-      console.log("<?=$alma["elso"]?>")
+      console.log("< ?=$alma["elso"]?>")
   </script>
   </pre>
   </li>

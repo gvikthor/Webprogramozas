@@ -14,7 +14,8 @@ A tesztelőben a következők failelnek:
   <li>Ne felejtsetek el write jogot adni a file-okra! </li>
   <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
-  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.:
+  <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.: <br>
+    Ez elhal:
     <pre>
       < ?php
         $alma = "Luke's lightsaber";
@@ -22,6 +23,16 @@ A tesztelőben a következők failelnek:
       
       <script>
         console.log('<?=$alma?>')
+      </script>
+    </pre>
+    Ez működik:
+    <pre>
+      < ?php
+        $alma = "Luke's lightsaber";
+      ? >
+      
+      <script>
+        console.log("<?=$alma?>")
       </script>
     </pre>
   </li>

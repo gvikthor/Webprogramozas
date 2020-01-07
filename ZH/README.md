@@ -21,19 +21,10 @@ A tesztelőben a következők failelnek:
         $alma = "Luke's lightsaber";
       ? >
       
-      <script>
+      < script >
         console.log('<?=$alma?>')
-      </script>
+      < /script >
     </pre>
-    Ez működik:
-    <pre>
-      < ?php
-        $alma = "Luke's lightsaber";
-      ? >
-      
-      <script>
-        console.log("<?=$alma?>")
-      </script>
-    </pre>
+
   </li>
 </ul>

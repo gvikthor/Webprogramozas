@@ -15,16 +15,28 @@ A tesztelőben a következők failelnek:
   <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
   <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Pl.: <br>
-    Ez elhal:
-    <pre>
-      < ?php
-        $alma = "Luke's lightsaber";
-      ? >
-      
-      < script >
-        console.log('<?=$alma?>')
-      < /script >
-    </pre>
+  Ez elhal
+  <pre>
+  <?php
+    $alma = [];
+    $alma["elso"] = "Luke's lightsaber";
+  ?>
 
+  <script>
+      console.log('<?=$alma["elso"]?>')
+  </script>
+  </pre>
+    
+  Ez nem
+  <pre>
+  <?php
+    $alma = [];
+    $alma["elso"] = "Luke's lightsaber";
+  ?>
+
+  <script>
+      console.log("<?=$alma["elso"]?>")
+  </script>
+  </pre>
   </li>
 </ul>

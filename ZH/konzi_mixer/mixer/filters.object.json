@@ -1,0 +1,42 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Compressor"
+    },
+    "2": {
+        "id": "2",
+        "name": "XCompressor"
+    },
+    "3": {
+        "id": "3",
+        "name": "Delay"
+    },
+    "4": {
+        "id": "4",
+        "name": "Reverb"
+    },
+    "5": {
+        "id": "5",
+        "name": "Equalizer"
+    },
+    "6": {
+        "id": "6",
+        "name": "FFT"
+    },
+    "7": {
+        "id": "7",
+        "name": "Gate"
+    },
+    "8": {
+        "id": "8",
+        "name": "Pitch"
+    },
+    "9": {
+        "id": "9",
+        "name": "Tune"
+    },
+    "10": {
+        "id": "10",
+        "name": "Low-frequency oscillator"
+    }
+}

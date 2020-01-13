@@ -1,3 +1,6 @@
+<h1>MIDI és MIXER ZH</h1>
+Eredeti pontozás szerint hármasig oldottuk meg őket konzultáción. Amit ti küldtetek, az 240 pontig megy.
+
 <h1>Thoros ZH</h1>
 Feladat: http://webprogramozas.inf.elte.hu/#!/subjects/webprog-pti/zh/2018-19-2/thor <br>
 Az 5-ös feladatig készen vannak a feladatok.<br>
@@ -17,6 +20,7 @@ Ti küldtétek.
   <li>Ne felejtsetek el write jogot adni a file-okra! </li>
   <li>Ha valahol valami érték furcsa, vagy elakadtok, ne féljetek console.log()-ot és var_dump()-ot használni! </li>
   <li>Logikai kifejezések zárójelezésére figyeljetek, főleg a tagadásokra! </li>
+  <li>Az AJAX nagyon sok pontot ér. Már ha csak küldesz egy empty post metódust AJAX-el, arra is ad pontot a tesztelő!</li>
   <li>Figyeljetek rá, hogy a sima aposztrófok php stringekben megölhetik a javascripteket! Használjatok inkább shift+2 idézőjelet, de leginkább altgr+7-et mindenhol a javascriptben. Pl.: <br>
   Ez elhal
   <pre>

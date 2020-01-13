@@ -1,0 +1,114 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Hi hat 1",
+        "category": "Drum",
+        "instrument": "114",
+        "color": "#800080",
+        "notes": [
+            {
+                "note": "C",
+                "start": 100,
+                "end": 600
+            }
+        ]
+    },
+    "2": {
+        "id": "2",
+        "name": "Base bass",
+        "category": "Bass",
+        "instrument": "45",
+        "color": "#808000",
+        "notes": [
+            {
+                "note": "D",
+                "start": 0,
+                "end": 500
+            },
+            {
+                "note": "A",
+                "start": 1000,
+                "end": 2000
+            },
+            {
+                "note": "B",
+                "start": 2000,
+                "end": 2500
+            },
+            {
+                "note": "C+",
+                "start": 2500,
+                "end": 3000
+            }
+        ]
+    },
+    "3": {
+        "id": "3",
+        "name": "Main melody",
+        "category": "Melody",
+        "instrument": "4",
+        "color": "#008000",
+        "notes": [
+            {
+                "note": "C",
+                "start": 0,
+                "end": 100
+            },
+            {
+                "note": "D",
+                "start": 100,
+                "end": 200
+            },
+            {
+                "note": "E",
+                "start": 300,
+                "end": 400
+            }
+        ]
+    },
+    "4": {
+        "id": "4",
+        "name": "Beat",
+        "category": "Drum",
+        "instrument": "114",
+        "color": "#008080",
+        "notes": "\"\""
+    },
+    "5": {
+        "id": "5",
+        "name": "Cello",
+        "category": "String",
+        "instrument": "27",
+        "color": "#800000",
+        "notes": [
+            {
+                "note": "D",
+                "start": 0,
+                "end": 2000
+            },
+            {
+                "note": "F",
+                "start": 2000,
+                "end": 4000
+            },
+            {
+                "note": "B",
+                "start": 4000,
+                "end": 6000
+            },
+            {
+                "note": "A",
+                "start": 6000,
+                "end": 8000
+            }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "name": "pzltrmhm",
+        "category": "ebbxwuv",
+        "instrument": "54",
+        "color": "#727868",
+        "notes": []
+    }
+}

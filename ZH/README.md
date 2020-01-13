@@ -1,3 +1,17 @@
+<h1>REGEX</h1>
+https://github.com/gvikthor/Webprogramozas/tree/master/Gyak09/regex_minta <br>
+Például egy xx-xx-xxx-xxxx formátumú telefonszámot úgy tudsz tesztelni, hogy
+<pre>
+preg_match("/^[0-9][0-9]\-[0-9][0-9]\-[0-9][0-9][0-9]\-[0-9][0-9][0-9][0-9]$/", $valami);
+</pre>
+Ahol:<br>
+"/ megnyitja a reguláris kifejezést<br>
+^ jelzi, hogy ez a kifejezés eleje, tehát semmi más nem lehet előtte<br>
+[0-9] egy karakter 0-tól 9-ig<br>
+\- levédve egy kötőjel<br>
+$ jelzi, hogy ez a kifejezés vége, tehát semmi más nem lehet utána<br>
+/" reguláris kifejezés vége<br>
+
 <h1>MIDI és MIXER ZH</h1>
 Eredeti pontozás szerint hármasig oldottuk meg őket konzultáción. Amit ti küldtetek, az 240 pontig megy.
 

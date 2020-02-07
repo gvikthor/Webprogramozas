@@ -1,4 +1,0 @@
-[
-    {"id": "1", "name": "Sokovia", "terrial": true, "strength": 50, "speed": 30, "durability": 60, "avenger1": "iron-man", "avenger2": "captain-america"},
-    {"id": "2", "name": "Escape from prison", "terrial": false, "strength": 20, "speed": 70, "durability": 40, "avenger1": "star-lord", "avenger2": "rocket-raccoon"}
-]

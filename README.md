@@ -7,18 +7,22 @@ Tárgyi honlap: http://webprogramozas.inf.elte.hu/
 
 <h2>1. csoport</h2>
 Hétfő 14:00-16:00  
+
 Déli 2.710 (PC 10)  
 
 <h2>2. csoport</h2>
 Hétfő 10:00-12:00  
+
 Déli 2.709 (PC 9)  
 
 <h2>3. csoport</h2>
 Hétfő 12:00-14:00  
+
 Déli 2.202 (PC3)  
 
 <h2>Szombathelyi csoport</h2>
-Kéthetente péntekenként lesz Web, tömbösítve.
+Kéthetente péntekenként lesz Web, tömbösítve.  
+
 12:00-13:30 EA  
 14:00-15:30 GY  
 16:00-17:30 GY  

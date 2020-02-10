@@ -21,7 +21,7 @@ Hétfő 12:00-14:00
 Déli 2.202 (PC3)  
 
 <h2>Szombathelyi csoport</h2>
-Kéthetente péntekenként lesz Web, tömbösítve.  
+Kéthetente péntekenként lesz Web, tömbösítve a BA02 teremben.
 
 12:00-13:30 EA  
 14:00-15:30 GY  

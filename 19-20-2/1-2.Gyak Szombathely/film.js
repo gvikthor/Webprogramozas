@@ -6,6 +6,16 @@ for(szam of tomb){
 	console.log(szam);
 }
 
+let testDiv = document.querySelector('#testDiv');
+let gyerek1 = document.createElement('p');
+gyerek1.innerHTML = 'Gyerek 1';
+testDiv.appendChild(gyerek1);
+
+let gyerek2 = document.createElement('p');
+gyerek2.innerHTML = 'Gyerek 2';
+let p = testDiv.querySelector('#testP');
+testDiv.insertBefore(gyerek2, p); //szülő.insertBefore(mit, miElé)
+
 /////////////////////////////////
 
 let div = document.querySelector('#div_filmek');
@@ -110,6 +120,8 @@ for(let i = 0; i < filmek.length; i++){
 	let rendezoCella = document.createElement('td');
 	rendezoCella.innerHTML = filmek[i].rendezo
 	sor.appendChild(rendezoCella);
+	
+	//sor.removeChild(cimCella);
 			
 	let karakterekCella = document.createElement('td');
 	for(karakter of filmek[i].karakterek){

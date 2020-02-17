@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    table, tr, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .blue button{
+        background-color: blue;
+        color: yellow;
+    }
+    .red button{
+        background-color: red;
+        color: purple;
+    }
+    .green button{
+        background-color: green;
+        color: white;
+    }
+</style>
+<body>
+    <div data-alma="piros" data-egyetem="elte"></div>
+
+    <table>
+        <tr>
+            <td> Gomb: <button data-sor="0" data-szin="blue">Kék</button> </td>
+            <td> Gomb: <button data-sor="0" data-szin="red">Piros</button> </td>
+            <td> Gomb: <button data-sor="0" data-szin="green">Zöld</button> </td>
+        </tr>
+        <tr>
+            <td> Gomb: <button data-sor="1" data-szin="blue">Kék</button> </td>
+            <td> Gomb: <button data-sor="1" data-szin="red">Piros</button> </td>
+            <td> Gomb: <button data-sor="1" data-szin="green">Zöld</button> </td>
+        </tr>
+        <tr>
+            <td> Gomb: <button data-sor="2" data-szin="blue">Kék</button> </td>
+            <td> Gomb: <button data-sor="2" data-szin="red">Piros</button> </td>
+            <td> Gomb: <button data-sor="2" data-szin="green">Zöld</button> </td>
+        </tr>
+    </table>
+
+    <script src="dataset.js"></script>
+</body>
+</html>

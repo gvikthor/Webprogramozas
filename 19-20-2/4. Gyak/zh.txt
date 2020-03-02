@@ -1,0 +1,19 @@
+45 perc, 10 pont
+Készíts egy oldalt, ami a következő feladatot képes megoldani:
+Az oldalon található egy lista, ami szavakat sorol fel. A listából kattintással tudjunk kiválasztani/kijelölni elemeket, és ha egy kijelölt elemre rákattintunk, a kijelölés szűnjön meg. A lista alatt a következő elemek találhatók:
+
+    Egy beviteli mező és egy gomb. A gombot megnyomva a kijelölt listaelemek tartalma átíródik a beviteli mező tartalmára.
+    Mégegy beviteli mező és gomb. Ha a beviteli mezőbe a kék/zöld/piros szöveget írják, a gomb megnyomására színezze át a kijelölt elemek hátterét az adott színre, minden más esetben hagyja változatlanul.
+    Egy harmadik gomb, amit megnyomva a kijelölt elemek visszaállnak eredeti állapotba (szöveg és szín).
+
+Pontozás:
+
+    A listaelemek kattintással kijelölhetőek, a kijelölt elemek kijelölése kattintással megszüntethető (2 pont)
+        Részpont: A kijelölés működik, de nem szüntethető meg (1.5 pont)
+    Az első gomb megnyomására a kijelölt elemek szövege megváltozik a beviteli mező értékére (3 pont)
+        Részpont: A kijelölés nem működik, viszont minden elem átíródik a beviteli mező értékére (1.5 pont)
+    A második gomb megnyomására a kijelölt elemek színe megváltozik a beírt színnek megfelelően, hibás érték esetén pedig nem változik (3 pont)
+        Részpont: A kijelölés nem működik, viszont minden elem helyesen átszíneződik a beviteli mező értéke alapján (1.5 pont)
+        Részpont: A színválasztás nem működik, a gomb csak egy fix színre változtat, függetlenül attól, hogy a kijelölés működik-e (0.5 pont)
+    A harmadik gomb megnyomására a kijelölt értékek visszaállnak az eredetire (2 pont)
+        Részpont: A kijelölés nem működik, viszont minden elem visszaállítódik az eredeti értékére (1 pont)

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matekórás színező</title>
+</head>
+<style>
+    input{
+        width: 50px;
+    }
+    table, td, tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #szinek td{
+        width: 50px;
+        height: 50px;
+    }
+    #tablazat td{
+        width: 10px;
+        height: 10px;
+    }
+</style>
+<body>
+    N: <input id="input-n" type="number"> M: <input id="input-m" type="number"> <button id="general-kenobi">Generál</button>
+    <table><tr id="szinek"></tr></table>
+    <table id="tablazat"></table>
+    <script src="1_matekoras_szinezo.js"></script>
+</body>
+</html>

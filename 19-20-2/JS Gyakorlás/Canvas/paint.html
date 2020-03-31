@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+</head>
+<body>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+        td{
+            width: 50px;
+            height: 50px;
+            border: 3px solid black;
+            cursor: pointer;
+        }
+
+        #aktszin{ 
+            border: 5px solid black;
+            background-color: black;
+            width: 100px;
+        }
+        #feher{ background-color: #ffffff;}
+        #fekete{ background-color: #000000;}
+        #szurke{ background-color: #616161;}
+        #barna{ background-color: #5e4015;}
+        #pink{ background-color: #ed4ae8}
+        #lila{ background-color: #9b1ad6;}
+        #skek{ background-color: #13294b;}
+        #vkek{ background-color: #558ce0;}
+        #vzold{ background-color: #2cb83a;}
+        #szold{ background-color: #16691e;}
+        #sarga{ background-color: #ffda0a;}
+        #narancs{ background-color: #ff9900;}
+        #piros{ background-color: #ff0000;}
+
+        #aktvast{
+            border: 5px solid black;
+            background-color: #ffffff;
+            width: 100px;
+            text-align: center;
+            font-weight: bolder;
+        }
+        .vast{
+            text-align: center;
+            font-weight: bolder;
+        }
+        #torol{
+            text-align: center;
+            font-weight: bolder;
+            border: 5px solid black;
+            background-color:darkred;
+            width: 165px;
+            color: white;
+        }
+
+    </style>
+
+    <table>
+        <tr>
+            <td id="aktszin"></td>
+            <td class="szin" id="feher"></td>
+            <td class="szin" id="fekete"></td>
+            <td class="szin" id="szurke"></td>
+            <td class="szin" id="barna"></td>
+            <td class="szin" id="pink"></td>
+            <td class="szin" id="lila"></td>
+            <td class="szin" id="skek"></td>
+            <td class="szin" id="vkek"></td>
+            <td class="szin" id="szold"></td>
+            <td class="szin" id="vzold"></td>
+            <td class="szin" id="sarga"></td>
+            <td class="szin" id="narancs"></td>
+            <td class="szin" id="piros"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td id="aktvast">5</td>
+            <td class="vast">5</td>
+            <td class="vast">10</td>
+            <td class="vast">15</td>
+            <td class="vast">20</td>
+            <td class="vast">25</td>
+            <td class="vast">30</td>
+            <td class="vast">35</td>
+            <td class="vast">40</td>
+            <td class="vast">45</td>
+            <td class="vast">50</td>
+            <td id="torol">Töröl</td>
+        </tr>
+    </table>
+
+    <canvas id="vaszon" width="500" height="500"></canvas>
+
+    <script src="paint.js"></script>
+</body>
+</html>

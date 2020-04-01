@@ -33,3 +33,16 @@ Legyen egy input mező, amibe beírhatjuk a kívánt minimális spam-pontot. Egy
 A spam pontokat szűrésenként nem kell minden szűrésre újra kiszámolni.
 
 Próbáld becsapni a saját szűrődet, készíts saját e-maileket!
+
+## Császkáló teknősök
+
+### Lore
+A Budapesti Állat- és Növénykertből megszökött Leonardo, a Galapagosi Óriásteknős. Ez alap esetben nem lenne akkor probléma, hiszen elég lassú teremtés, de sajnos pont arra járt az MVM Paks egyik teherautója, összeütközött vele, és kétszáz tonna urán szívódott bele a teknőc testébe, aki ettől ninjává változott, és eltűnt a hatóságok elől. A Budapesti Rendőrfőkapitányság ötlete alapján Imagine Logoban szeretnék követni Leonardo útvonalát, de az a szoftver drága, szóval inkább kisource-olják egy IK-snak, aki egy kreditért megcsinálja.
+
+### Feladat
+Legyen egy felület, aminek a közepéről indulunk. Legyen egy input mező és egy gomb. Ha a gombot megnyomjuk, a teknős hajtsa végre a beírt parancsot:
+- Előre lép x egxséget, ahol x egy egész szám: `ELŐRE x`
+- Balra lép x egxséget, ahol x egy egész szám: `BALRA x`
+- Jobbra lép x egxséget, ahol x egy egész szám: `JOBBRA x`
+- Hátra lép x egxséget, ahol x egy egész szám: `HÁTRA x`
+Ha a parancs hibás, ezt írjuk ki.

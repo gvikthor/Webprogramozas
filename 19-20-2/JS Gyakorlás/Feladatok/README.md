@@ -27,6 +27,7 @@ Adott egy adatszerkezet, tele e-mailekkel (2_thor_spam.json, vagy beégetve 2_th
 - +1 pont, ha van csatolmány
 - +1 pont, ha 3-nál több csatolmány van
 - +5 pont, ha egy csatolmány kiterjesztése .exe (minden exe-ért jár a pont!)
+
 Legyen egy input mező, amibe beírhatjuk a kívánt minimális spam-pontot. Egy gomb megnyomására listázzuk a nem spam  e-maileket.
 A spam pontokat szűrésenként nem kell minden szűrésre újra kiszámolni.
 

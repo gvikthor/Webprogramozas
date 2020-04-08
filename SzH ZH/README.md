@@ -1,4 +1,6 @@
 # Javascript csoportZH - Szombathely
+
+**Írjátok át a fileok nevét valami.js helyett valami-js re (tehát pont helyett kötőjel)**
 Készíts egy számológépet a következő komponensekkel:
 - Adott két szöveg, ami a két számot mutatja, melyeken műveleteket végzünk (hívjuk ezeket számmezőknek). Az egyik ki van választva, a másik nincs.
 - A kettő között egy szöveg, ami az aktuális műveletet mutatja.

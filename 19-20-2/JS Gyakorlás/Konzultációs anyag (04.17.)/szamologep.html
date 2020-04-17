@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+</head>
+<style>
+    #eredmeny div{
+        display: inline-block;
+        width: 100px;
+    }
+    .kivalasztva{
+        background-color: lime;
+    }
+</style>
+<body>
+    <div id="eredmeny">
+        <div id="elso" class="kivalasztva">0</div>
+        <div id="aktMuv">+</div>
+        <div id="masodik">0</div>
+    </div>
+    <div>
+        <div id="szamok">
+            <button>0</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+        <div id="muveletek">
+            <button class="muvelet">+</button>
+            <button class="muvelet">-</button>
+            <button class="muvelet">*</button>
+            <button class="muvelet">/</button>
+            <button id="egyenlo">=</button>
+            <button id="valt">VÁLT</button>
+            <button id="torol">C</button>
+        </div>
+    </div>
+
+    <script src="szamologep.js"></script>
+</body>
+</html>

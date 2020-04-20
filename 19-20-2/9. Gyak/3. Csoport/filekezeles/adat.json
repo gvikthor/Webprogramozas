@@ -1,0 +1,15 @@
+{
+    "Bela": {
+        "kor": 40,
+        "ffi": true,
+        "gyerekek": [
+            "Pisti",
+            "Kata"
+        ]
+    },
+    "Anna": {
+        "kor": 25,
+        "ffi": false,
+        "gyerekek": []
+    }
+}

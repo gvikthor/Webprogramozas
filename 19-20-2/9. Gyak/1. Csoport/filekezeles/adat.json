@@ -1,0 +1,17 @@
+{
+    "Bela": {
+        "kor": 45,
+        "ffi": true,
+        "polo": [
+            "piros r\u00f6vidujj\u00fa",
+            "cs\u00edkos z\u00f6ldfeh\u00e9r"
+        ]
+    },
+    "Eszti": {
+        "kor": 20,
+        "ffi": false,
+        "polo": [
+            "feh\u00e9r ing"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    table, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    td{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+<body>
+    <div id="thor-tiktaktoe">
+        <button>Új játék!</button>
+        <table>
+            <tr>
+                <td data-oszlop="0" data-sor="0"></td>
+                <td data-oszlop="1" data-sor="0"></td>
+                <td data-oszlop="2" data-sor="0"></td>
+            </tr>
+            <tr>
+                <td data-oszlop="0" data-sor="1"></td>
+                <td data-oszlop="1" data-sor="1"></td>
+                <td data-oszlop="2" data-sor="1"></td>
+            </tr>
+            <tr>
+                <td data-oszlop="0" data-sor="2"></td>
+                <td data-oszlop="1" data-sor="2"></td>
+                <td data-oszlop="2" data-sor="2"></td>
+            </tr> 
+        </table>
+    </div>
+
+    <script src="tiktaktoe.js"></script>
+</body>
+</html>

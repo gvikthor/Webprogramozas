@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+        table, tr, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .selected{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr id="szinek">
+            <td class="szin-gomb selected" data-color="red">Piros</td>
+            <td class="szin-gomb" data-color="green">Zöld</td>
+            <td class="szin-gomb" data-color="blue">Kék</td>
+        </tr> 
+        <tr id="vastagsagok">
+            <td class="vast-gomb selected" data-width="10">Vékony</td>
+            <td class="vast-gomb" data-width="20">Közepes</td>
+            <td class="vast-gomb" data-width="30">Vastag</td>
+        </tr>
+    </table>
+    <br>
+    <canvas width="500" height="500"></canvas>
+    <button id="torol-btn">Törlés</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

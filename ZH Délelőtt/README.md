@@ -108,7 +108,7 @@ Nem kötelező.
         {
             "nev" : "Esidisi Béla",
             "egyenleg" : 1101
-        }
+        },
         {
             "nev" : "Jean-Pierre Nándor",
             "egyenleg" : 1138

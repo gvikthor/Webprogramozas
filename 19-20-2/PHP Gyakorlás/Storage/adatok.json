@@ -1,0 +1,40 @@
+{
+    "5eca7625b7d88": {
+        "nev": "Gerg\u0151",
+        "lakhely": "Budapest",
+        "kor": 25,
+        "etelek": [
+            "p\u00e1rolt z\u00f6lds\u00e9g",
+            "alma"
+        ],
+        "id": "5eca7625b7d88"
+    },
+    "5eca7625b7e23": {
+        "nev": "N\u00e1ndor",
+        "lakhely": "Budapest",
+        "kor": 19,
+        "etelek": [
+            "k\u00f6rte",
+            "szilva",
+            "ban\u00e1n"
+        ],
+        "id": "5eca7625b7e23"
+    },
+    "5eca7625b7ebd": {
+        "nev": "Istv\u00e1n",
+        "lakhely": "Budapest",
+        "kor": 19,
+        "etelek": [],
+        "id": "5eca7625b7ebd"
+    },
+    "5eca7625b7f42": {
+        "nev": "\u00c1ron",
+        "lakhely": "Etyek",
+        "kor": 20,
+        "etelek": [
+            "BigMac",
+            "ChikieNuggie"
+        ],
+        "id": "5eca7625b7f42"
+    }
+}

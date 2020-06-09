@@ -1,35 +1,22 @@
 {
     "1": {
-        "name": "Alma",
-        "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
-        ]
+        "name": "Item 1",
+        "tags": ["tag1", "tag2", "tag3"]
     },
     "2": {
         "name": "Item 2",
-        "tags": [
-            "tag2"
-        ]
+        "tags": ["tag2", "tag3"]
     },
     "3": {
-        "name": "K\u00f6rte",
+        "name": "Item 3",
         "tags": []
     },
     "4": {
         "name": "Item 4",
-        "tags": [
-            "tag1",
-            "tag2",
-            "tag3",
-            "tag5"
-        ]
+        "tags": ["tag1", "tag2", "tag3", "tag5"]
     },
     "5": {
         "name": "Item 5",
-        "tags": [
-            "tag3"
-        ]
+        "tags": ["tag3"]
     }
 }

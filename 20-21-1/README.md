@@ -2,7 +2,7 @@
 
 E-mail: mohmas@inf.elte.hu  
 Tárgyi honlap: http://webprogramozas.inf.elte.hu/  
-> Érdemes legörgetni, mert vannak online tananyagok.  
+> Ezen a honlapon érdemes legörgetni, mert vannak online tananyagok.  
 
 <h2>4. csoport</h2>
 Hétfő 14:00-16:00

@@ -32,15 +32,15 @@ Készíts olyan JavaScript programot, ami a listában található összes olyan 
 
 ### Példa
 <ul>
-<li style="text-decoration: underline;">Szűts Viktória (19) </li>
+    <li style="text-decoration: underline;"><ins>Szűts Viktória (19)</ins> </li>
 <li><b>Ikea Nándor (56)</b></li>
-<li style="text-decoration: underline;">Frappáns Patrik (10) </li>
+<li style="text-decoration: underline;"><ins>Frappáns Patrik (10)</inst> </li>
 <li><b>Hoska Áron (23)</b></li>
-<li style="text-decoration: underline;">Lajka Henrietta (18) </li>
+<li style="text-decoration: underline;"><ins>Lajka Henrietta (18)</ins> </li>
 <li><b>Csíkos Míra (48)</b></li>
 <li>József Erik (3) </li>
-<li style="text-decoration: underline;">Bucsári Katalin (15) </li>
-<li style="text-decoration: underline;"><b>Bogár Tamás (20)</b></li>
+<li style="text-decoration: underline;"><ins>Bucsári Katalin (15)</ins> </li>
+<li style="text-decoration: underline;"><b><ins>Bogár Tamás (20)</ins></b></li>
 </ul>
 
 ### Induló kód
@@ -66,14 +66,20 @@ A Bors Inc. megbízott, hogy fejleszd egy kicsit a felsoroló szoftverüket, de 
 Készíts olyan JavaScript programot, ami egy HTML-ben olvasható adatsokaság minden eleméhez színt rendel annak függvényében, hogy mi olvasható az adatmezőjükben. Az adatokat nem égetheted be a JavaScript kódba, és a HTML-t kézzel nem módosíthatod. Ha az adott elem `tipus` értéke `helyes`, akkor legyen a szöveg zöld, ha `barkacs`, akkor legyen piros.
 
 ### Példa
-<ul>
-    <li style="color: green;">Programozási tételek</li>
-    <li style="color: green;">Ciklusinvariáns kiszámolása</li>
-    <li style="color: red;">Amit előző óra végén csináltunk</li>
-    <li style="color: green;">Szekvenciák szekvencializálása</li>
-    <li style="color: red;">"NeM mEgYeK aZ iKeÁbA, mAjD mEgoLdOm MaGaMnAk"</li>
-</ul>
 
+```diff
++ Programozási tételek
+
++ Ciklusinvariáns kiszámolása
+
+- Amit előző óra végén csináltunk
+
++ Szekvenciák szekvencializálása
+
+- "NeM mEgYeK aZ iKeÁbA, mAjD mEgoLdOm MaGaMnAk"
+```
+Nem kell ennyit szenvedni a css-el, csak a GitHub nem tud másképp színes szöveget megjeleníteni. Elég, ha a szöveg jó színű. A + - jelek is csak emiatt kellenek, elég a normál felsorolás.
+    
 ### Induló kód
 ````HTML
 <ul>

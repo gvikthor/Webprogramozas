@@ -78,9 +78,7 @@ Készíts olyan JavaScript programot, ami egy HTML-ben olvasható adatsokaság m
 
 - "NeM mEgYeK aZ iKeÁbA, mAjD mEgoLdOm MaGaMnAk"
 ```
-
-
-</h2>
+Nem kell ennyit szenvedni a css-el, csak a GitHub nem tud másképp színes szöveget megjeleníteni. Elég, ha a szöveg jó színű.
     
 ### Induló kód
 ````HTML

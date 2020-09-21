@@ -7,7 +7,7 @@ Egy baráti társaság összegyűjtötte azokat a helyszíneket, ahova gyakran j
 Legyen az oldalon egy lista, ami helyszíneket sorol fel. Ha rákattintunk egy elemre, az legyen innentől kijelölve, ha újra rákattintunk, szűnjön meg a kijelölés.  
 A listán kívül a következő elemek találhatók az oldalon:
 - Egy beviteli mező és egy gomb. A gombot megnyomva a kijelölt listaelemek tartalma átíródik a beviteli mező tartalmára.
-- Még egy beviteli mező és gomb. Ha a beviteli mezőbe a kék/zöld/piros szöveget írják, a gomb megnyomására színezze át a kijelölt elemek hátterét az adott színre, minden más esetben hagyja változatlanul.
+- Még egy beviteli mező és gomb. Ha a beviteli mezőbe a kék/zöld/piros szöveget írják, a gomb megnyomására színezze át a kijelölt elemek szövegét az adott színre, minden más esetben hagyja változatlanul.
 - Egy harmadik gomb, amit megnyomva a kijelölt elemek visszaállnak eredeti állapotba (szöveg és szín).
 
 ### Pontozás

@@ -7,9 +7,7 @@ Megnyitotta kapuit a III. Kerületi Nemzeti Kisállatsimogató, ahova a főváro
 Az oldaladon legyenek felsorolva a simogatóban élő állatok. Mindegyükhöz tartozzon egy gomb és egy szám. A gomb megnyomására az említett szám növekedjen eggyel.
 
 ### Példa
-Vilmos medve 5 <button>+</button> <br>
-Gergő mókus 15 <button>+</button> <br>
-Timi hörcsög 1 <button>+</button> <br>
+![Példa felépítés az első feladatra. Felsorolva pár állat neve és faja, majd utánuk a szám, hogy hányan látogatták meg őket eddig, ezt követően pedig egy gomb, melyben plusz jel olvasható.](gy3f1.png)
 
 ### Induló kód
 *Az induló kód csak javaslat, más megközelítést is használhattok.*
@@ -38,13 +36,10 @@ Timi hörcsög 1 <button>+</button> <br>
 Él egy rettentő boldog család, nem messze innen, ők a Habsváriak. A Habsvári család szereti járni Európát, és sok városban megfordultak már. Egyik ilyen utazásuk alatt azonban csúnya vitába keveredtek, ugyanis egy félreértés miatt Habsvári Ottóra mérges lett a felesége, a testvére és az unokatestvére. Hogy feszültségeiket feloldják, mindketten felfüggesztették szarajevói nyaralásukat, és új úti célt keresnek.
 
 ### Feladat
-Készíts olyan JavaScript programot, ami segít megtalálni a Habsvári házaspárnak, hogy a keresett országon belülre mely városokba utazhatnak vonattal.
+Készíts olyan JavaScript programot, ami segít megtalálni a Habsvári házaspárnak, hogy a keresett országon belül mely városokba utazhatnak vonattal.
 
 ### Példa
-Ország: <input>Németország</input><button>Keres</button>
-- Berlin
-- München
-- Königsberg
+![Példa felépítés a második feladatra. Egy input mezőbe van írva, hogy Németország, mellette a keres gomb. Ezek alatt egy rendezetlen listában (ul) listaelemekként (li) felsorolva városok: Berlin, München, Königsberg.](gy3f2.png)
 
 ### Induló kód
 *Az induló kód csak javaslat, más megközelítést is használhattok.*

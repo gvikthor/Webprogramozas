@@ -46,60 +46,60 @@ Készíts olyan JavaScript programot, ami segít megtalálni a Habsvári házasp
 ````JS
 [
     {
-        varos: 'Berlin',
-        orszag: 'Németország'
+        orszag: 'Németország',
+        varos: 'Berlin'
     },
     {
-        varos: 'München',
-        orszag: 'Németország'
+        orszag: 'Németország',
+        varos: 'München'
     },
     {
-        varos: 'Königsberg',
-        orszag: 'Németország'
+        orszag: 'Németország',
+        varos: 'Königsberg'
     },
     {
-        varos: 'Franciaország',
-        orszag: 'Párizs'
+        orszag: 'Franciaország',
+        varos: 'Párizs'
     },
     {
-        varos: 'Egyesült Királyság',
-        orszag: 'London'
+        orszag: 'Egyesült Királyság',
+        varos: 'London'
     },
     {
-        varos: 'Egyesült Királyság',
-        orszag: 'Dublin'
+        orszag: 'Egyesült Királyság',
+        varos: 'Dublin'
     },
     {
-        varos: 'Egyesült Királyság',
-        orszag: 'Hong Kong'
+        orszag: 'Egyesült Királyság',
+        varos: 'Hong Kong'
     },
     {
-        varos: 'Egyesült Királyság',
-        orszag: 'Delhi'
+        orszag: 'Egyesült Királyság',
+        varos: 'Delhi'
     },
     {
-        varos: 'Ausztria',
-        orszag: 'Bécs'
+        orszag: 'Ausztria',
+        varos: 'Bécs'
     },
     {
-        varos: 'Ausztria',
-        orszag: 'Pozsony'
+        orszag: 'Ausztria',
+        varos: 'Pozsony'
     },
     {
-        varos: 'Ausztria',
-        orszag: 'Budapest'
+        orszag: 'Ausztria',
+        varos: 'Budapest'
     },
     {
-        varos: 'Moszkva',
-        orszag: 'Oroszország'
+        orszag: 'Moszkva',
+        varos: 'Oroszország'
     },
     {
-        varos: 'Kijev',
-        orszag: 'Oroszország'
+        orszag: 'Kijev',
+        varos: 'Oroszország'
     },
     {
-        varos: 'Varsó',
-        orszag: 'Oroszország'
+        orszag: 'Varsó',
+        varos: 'Oroszország'
     },
 ]
 ````

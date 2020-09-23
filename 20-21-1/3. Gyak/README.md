@@ -90,16 +90,16 @@ Készíts olyan JavaScript programot, ami segít megtalálni a Habsvári házasp
         varos: 'Budapest'
     },
     {
-        orszag: 'Moszkva',
-        varos: 'Oroszország'
+        orszag: 'Oroszország',
+        varos: 'Moszkva'
     },
     {
-        orszag: 'Kijev',
-        varos: 'Oroszország'
+        orszag: 'Oroszország',
+        varos: 'Kijev'
     },
     {
-        orszag: 'Varsó',
-        varos: 'Oroszország'
+        orszag: 'Oroszország',
+        varos: 'Varsó'
     },
 ]
 ````

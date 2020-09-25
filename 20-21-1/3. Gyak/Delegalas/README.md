@@ -1,4 +1,5 @@
-# Hogyan delegáljunk?
+# Delegálás
+## Hogyan delegáljunk?
 1. keressük ki Thor githubjáról a delegal függvényt
 2. illesszük be a kódunkba, és ne törődjünk azzal, mi van beleírva
 3. hívjuk meg a függvényt négy paraméterrel
@@ -21,3 +22,22 @@
     }
     delegal(anyuka, '.altalanosIskolasGyerek', 'beirnakAzEllenorzobe', bemegyAzOsztalyfonokhoz);
     ````
+
+
+## Függvény
+````JS
+function delegal(szulo, gyerek, mikor, mit){
+    function esemenyKezelo(esemeny){
+        let esemenyCelja    = esemeny.target;
+        let esemenyKezeloje = this;
+        let legkozelebbiKeresettElem = esemenyCelja.closest(gyerek);
+
+        if(esemenyKezeloje.contains(legkozelebbiKeresettElem)){
+            mit(esemeny, legkozelebbiKeresettElem);
+        }
+    }
+
+
+    szulo.addEventListener(mikor, esemenyKezelo);
+}
+````

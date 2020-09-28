@@ -31,6 +31,8 @@ A táblázaton kívül a következő elemek találhatók az oldalon:
     - *Tipp: Figyelj arra, hogy milyen típusú adatot mivel hasonlítasz össze!*
 - Ha a táblázatot dinamikusan generálod ki, +1 pont (de nem mehetsz 10 fölé)
     - A táblázatot nem muszáj JavaScriptből generálni, azonban az eseménykezelőknek akkor is jól kell működni, ha a HTML-be égetett adatok számát változtatjuk.
+- Szavazz Neptunban az IK HÖK választásokon (0 pont, de hatalmas szeretet)
+    - *Tipp: Ügyéntézés > Kérdőívek*
 
 ### Példa
 ![Animáció, ami bemutatja, hogyan működik a program.](jscszh4.gif)

@@ -126,7 +126,7 @@ leGomb.addEventListener('click', ()=>{
     for(const kijelolt of kijeloltek){
         let cellak = kijelolt.querySelectorAll('td');
         legioIndex = parseInt(kijelolt.dataset.legio);
-        let osszeg = legiok[legioIndex].vesztesegek.reduce((a,b) => a+b, 0);
+        
         for(let i = 0; i < legiok[legioIndex].vesztesegek.length; i++){
             let maradek = legiok[legioIndex].vesztesegek[i] % 10;
             legiok[legioIndex].vesztesegek[i] -= maradek;

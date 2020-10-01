@@ -27,7 +27,7 @@ A táblázaton kívül a következő elemek találhatók az oldalon:
     - A győzelmet 3 pont, a döntetlent 1 pont, a vereséget 0 pont jelöli.
     - Ha a kijelölés pontosan egy csapatot érint, számold ki az egy meccsre jutó pontátlagukat +1 ZH pontért (de nem mehetsz 10 fölé)
     - *Tipp: Egy kijelölt sorban nem nehéz megtalálni a meccsek celláit, és azokkal közvetlen számolni, azonban kézenfekvőbb lehet valamilyen módon eltárolni a sorban (valamilyen adathalmazzal), hogy melyik adathoz tartozik az eredeti tömbünkben (mi az indexe), és onnan dolgozni. Amennyiben mégis előbbit alkalmazod, ne felejtsd el, hogy a HTML-ben csak szöveg tárolódik, számok soha.*
-- A második gomb megnyomására a kijelölt sorokban minden győzelem átíródik vereséggé, és minden vereség átíródik győzelemmé (tehát 1->3 és 3->1). (3 pont)
+- A második gomb megnyomására a kijelölt sorokban minden győzelem átíródik vereséggé, és minden vereség átíródik győzelemmé (tehát 0->3 és 3->0). (3 pont)
     - Részpont: A kijelölés nem működik, viszont mindnekinek a győzelmei és vereségei módosulnak (1.5 pont)
     - *Tipp: Vegyük észre, hogy ha a meccsek celláit tekintjük csak, adott meccsek tömbben egy-egy szám ugyanannyiadik helyen van, mint ahányadik meccs cellába írtuk az adott soron belül. Mintha a meccsek celláit meg kéne jelölni valamivel, mert bár több van belőlük, ők bizony mind meccseredmények.*
 - A harmadik gomb megnyomására kilistázódnak a kijelöltek közül azon csapatok nevei, melyek a beírt országból származnak. (3 pont)

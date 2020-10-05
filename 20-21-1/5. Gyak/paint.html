@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+</head>
+<style>
+    canvas{
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td class="szin" data-szin="black">Fekete</td>
+            <td class="szin" data-szin="red">Piros</td>
+            <td class="szin" data-szin="blue">Kék</td>
+            <td class="szin" data-szin="green">Zöld</td>
+        </tr>
+        <tr>
+            <td class="vastagsag" data-meret="5">5</td>
+            <td class="vastagsag" data-meret="10">10</td>
+            <td class="vastagsag" data-meret="15">15</td>
+        </tr>
+    </table>
+    <canvas width="1000" height="1000"></canvas>
+</body>
+<script src="paint.js"></script>
+</html>

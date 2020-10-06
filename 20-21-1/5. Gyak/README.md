@@ -1,5 +1,5 @@
 # 5. Gyakorlat feladatok
-## 1. Feladat - Állatkert
+## 1. Feladat - Katalógus
 ### Lore
 Tisztában vagyunk vele, hogy a katalógus megkérdőjelezhetetlenül javítja a jegyeket - de mennyire? Nagyon. Viszont ez a válasz valamiért nem elég a kötekedő hallgatóknak, így, hogy bizonyítsuk az abszolút igazunkat, számokra fogjuk alapozni érveinket, és megdönthetetlen bizonyítékkal állunk a szkeptikusok elé.
 

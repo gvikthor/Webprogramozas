@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+</head>
+<style>
+    canvas{
+        border: 1px solid black;
+    }
+    td{
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .kijelolve{
+        border: 2px solid pink;
+    }
+</style>
+<body>
+    <table>
+        <tr id="szin">
+            <td data-szin="blue"  style="background-color: blue;"></td>
+            <td data-szin="green" style="background-color: green;"></td>
+            <td data-szin="red"   style="background-color: red;"></td>
+            <td data-szin="black" class="kijelolve" style="background-color: black;"></td>
+        </tr>
+        <tr id="vastagsag">
+            <td data-vastagsag="10">10</td>
+            <td data-vastagsag="20" class="kijelolve">20</td>
+            <td data-vastagsag="30">30</td>
+        </tr>
+    </table>
+    <canvas width="500" height="500"></canvas>
+</body>
+<script src="paint.js"></script>
+</html>

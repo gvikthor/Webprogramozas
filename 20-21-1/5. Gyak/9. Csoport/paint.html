@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+</head>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+        #szin td{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+<body>
+    <table>
+        <tr id="szin">
+            <td data-szin="#754a24" style="background-color: #754a24;">Barna</td>
+            <td data-szin="#cc9c0c" style="background-color: #cc9c0c;">Arany</td>
+            <td data-szin="#24211a" style="background-color: #24211a;">Fekete</td>
+        </tr>
+        <tr id="meret">
+            <td data-meret="10">10</td>
+            <td data-meret="15">15</td>
+            <td data-meret="20">20</td>
+        </tr>
+    </table>
+    <canvas width="500" height="500"></canvas>
+</body>
+<script src="paint.js"></script>
+</html>

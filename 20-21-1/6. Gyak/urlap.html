@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<style>
+    body{
+        background-color: #f1f2f1;
+    }
+    form{
+        background-color: white;
+        width: 50%;
+        margin-left: 25%;
+        padding: 1%;
+        box-shadow: -4px 4px 3px -2px #161616;
+    }
+    .hibaVan{
+        box-shadow: -4px 4px 3px -2px #c82121;
+    }
+    .irunkValamit{
+        box-shadow: -4px 4px 3px -2px #0c7c2e;
+    }
+</style>
+<body>
+    <form>
+        <h1>Szőrmók rendelő űrlap</h1>
+        
+        <label>Gazdi neve</label><br>
+        <input type="text" name="gazdinev">
+
+        <br><br>
+
+        <label>Gazdi kora</label><br>
+        <input type="text" name="gazdikor">
+
+        <br><br>
+
+        <label>Szőrmók fajtája</label><br>
+        <input type="radio" name="fajta" value="roka"> Róka <br>
+        <input type="radio" name="fajta" value="kutya"> Kutya <br>
+        <input type="radio" name="fajta" value="macska"> Macska <br>
+        <input type="radio" name="fajta" value="poni"> Póni <br>
+        <input type="radio" name="fajta" value="chewbacca"> Chewbacca <br>
+
+        <br><br>
+
+        <label>Szőrmók neme</label><br>
+        <input type="checkbox" name="nem" value="fiu"> Fiú <br>
+        <input type="checkbox" name="nem" value="lany"> Lány <br>
+
+        <br><br>
+
+        <label>Település</label><br>
+        <select name="varos">
+            <option value="Budapest">Budapest</option>
+            <option value="Debrecen">Debrecen</option>
+            <option value="videk">Vidék</option>
+        </select>
+
+        <br><br>
+
+        <label>Egyéb megjegyzés</label><br>
+        <textarea name="egyeb"></textarea>
+
+        <br><br>
+
+        <input type="submit">
+
+        <ul></ul>
+    </form>
+    <div id="koszones"></div>
+</body>
+<script src="urlap.js"></script>
+</html>

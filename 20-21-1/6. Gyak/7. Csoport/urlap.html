@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<style>
+    body{
+        background-color: #f1f2f1;
+    }
+    form{
+        background-color: white;
+        width: 50%;
+        margin-left: 25%;
+        padding: 1%;
+        box-shadow: -4px 4px 3px -2px #313131;
+    }
+    .hibaVan{
+        box-shadow: -4px 4px 3px -2px #ca2a2a;
+    }
+    .nincsHiba{
+        box-shadow: -4px 4px 3px -2px #1aaf26;
+    }
+</style>
+<body>
+    <form>
+        <h1>Piac</h1>
+
+        <label>Vásárló neve</label> <br>
+        <input name="vasarloneve">
+
+        <br><br>
+
+        <label>Súly</label> <br>
+        <input name="termektomege">
+        <select name="mertekegyseg">
+            <option value="kg">kg</option>
+            <option value="g">g</option>
+            <option value="dkg">dkg</option>
+            <option value="db">db</option>
+        </select>
+
+        <br><br>
+
+        <label>Több lett. Maradhat?</label> <br>
+        <input type="radio" name="tobblett" value="igen"> Igen <br>
+        <input type="radio" name="tobblett" value="nem"> Nem
+
+        <br><br>
+
+        <label>Termék</label> <br>
+        <input type="checkbox" name="termek" value="krumpli"> Krumpli <br>
+        <input type="checkbox" name="termek" value="paprika"> Paprika <br>
+        <input type="checkbox" name="termek" value="paradicsom"> Paradicsom <br>
+        <input type="checkbox" name="termek" value="salata"> Salata <br>
+        <input type="checkbox" name="termek" value="barack"> Barack
+
+        <br><br>
+
+        <label>Megjegyzés</label> <br>
+        <textarea name="megjegyzes"></textarea>
+
+        <br><br>
+
+        <input type="submit">
+        <ul></ul>
+    </form>
+</body>
+<script src="urlap.js"></script>
+</html>

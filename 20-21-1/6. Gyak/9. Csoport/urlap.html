@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<style>
+    body{
+        background-color: #f1f2f1;
+    }
+    form{
+        background-color: white;
+        width: 50%;
+        margin-left: 25%;
+        padding: 1%;
+        box-shadow: -4px 4px 3px -2px #242424;
+    }
+    .voltHiba{
+        box-shadow: -4px 4px 3px -2px #d62525;
+    }
+    .bemenetTortenik{
+        box-shadow: -4px 4px 3px -2px #24cc6a;
+    }
+</style>
+<body>
+    <form>
+        <label>Ország neve</label><br>
+        <input name="orszagnev">
+        
+        <br><br>
+
+        <label>Ország népessége</label><br>
+        <input name="orszagnepesseg">
+
+        <br><br>
+
+        <label>Kontinens</label><br>
+        <input type="radio" name="kontinens" value="amerika"> Amerika<br>
+        <input type="radio" name="kontinens" value="azsia"> Ázsia<br>
+        <input type="radio" name="kontinens" value="afrika"> Afrika<br>
+        <input type="radio" name="kontinens" value="europa"> Európa<br>
+        <input type="radio" name="kontinens" value="antarktika"> Antarktika<br>
+        <input type="radio" name="kontinens" value="ausztralia-oceania"> Ausztrális és Óceánia
+
+        <br><br>
+
+        <label>Természeti erőforrások</label><br>
+        <input type="checkbox" name="eroforras" value="szen"> Szén <br>
+        <input type="checkbox" name="eroforras" value="arany"> Arany <br>
+        <input type="checkbox" name="eroforras" value="uran"> Urán <br>
+        <input type="checkbox" name="eroforras" value="viz"> Forrásvíz
+
+        <br><br>
+
+        <label>Címerállat</label><br>
+        <select name="allat">
+            <option value="oroszlan">Oroszlán</option>
+            <option value="griff">Griff</option>
+            <option value="sas">Sas</option>
+            <option value="duplasas">Kétfejű sas</option>
+            <option value="turul">Turul</option>
+        </select>
+
+        <br><br>
+
+        <label>Leírás</label> <br>
+        <textarea name="leiras"></textarea>
+
+        <br><br>
+
+        <input type="submit">
+
+        <ul id="hibak"></ul>
+    </form>
+</body>
+<script src="urlap.js"></script>
+</html>

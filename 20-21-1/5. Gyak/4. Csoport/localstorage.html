@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage</title>
+</head>
+<body>
+    <input><button>Ment</button>
+</body>
+<script>
+    //localStorage.setItem('valtozonev','ertek')
+    let input = document.querySelector('input');
+    input.value = localStorage.getItem('nev');
+    localStorage.removeItem('nev');
+    localStorage.clear();
+    document.querySelector('button').addEventListener('click', ()=>{
+        localStorage.setItem('nev', input.value);
+    })
+</script>
+</html>

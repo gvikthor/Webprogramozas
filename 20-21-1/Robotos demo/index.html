@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil robot</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    body{
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+    }
+    svg{
+        cursor: pointer;
+        display: inline-block;
+    }
+    #info{
+        display: flex;
+        flex-direction: column;
+    }
+    table, tr, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" style="border: 1px solid black; margin-right: 10px;"></svg>
+    <div id="info">
+        <div style="margin-bottom: 10px;">Click anywhere on the field to place beacons, then click start to start the simulation.<br>It is wise to place the beacons in a circle-like shape.</div>
+        
+        Drain speed (to change the speed at which batteries drain)<br>
+        <input type="range" id="drain-scale" min="1" max="10" value="1" step="1" style="margin-bottom: 10px;">
+
+        Robot speed (to change the speed at which the robot travels)<br>
+        <input type="range" id="robot-speed" min="1" max="10" value="1" step="1" style="margin-bottom: 10px;">
+
+        Robot charge (to change the speed at which the robot charges)<br>
+        <input type="range" id="robot-charge" min="1" max="10" value="5" step="1" style="margin-bottom: 10px;">
+        
+        Warning level (to change the battery level when a beacon cries for help)<br>
+        <input type="range" id="warning-level" min="1" max="100" value="30" step="1" style="margin-bottom: 10px;">
+        
+        <button id="startBtn">Start</button>
+        <ul>
+            <li>BN: Beacon Number</li>
+            <li>CH: Battery Charge</li>
+            <li>QL: Battery Quality</li>
+            <li>SS: Signal Sent</li>
+            <li>SR: Signal Received</li>
+            <li>RW: Robot is on the Way</li>
+            <li>RH: Robot is Here</li>
+            <li>RC: Robot is Charging the beacon</li>
+        </ul>
+        <table id="beaconTable">
+            <tr>
+                <th style="width: 30px; height: 30px;">BN</th>
+                <th style="width: 100px;">CH</th>
+                <th style="width: 30px;">QL</th>
+                <th style="width: 30px;">SS</th>
+                <th style="width: 30px;">SR</th>
+                <th style="width: 30px;">RW</th>
+                <th style="width: 30px;">RH</th>
+                <th style="width: 30px;">RC</th>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

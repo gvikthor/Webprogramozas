@@ -121,6 +121,7 @@ class Robot{
 }
 
 const robot = new Robot();
+const robot2 = new Robot();
 let beacons = [];
 let setupPhase = true;
 
@@ -197,7 +198,7 @@ class Beacon{
         if(this.sentSignal || this.robotOnTheWay) return;
 
         if(this.robotIsHere){
-            robot.chargeBeacon();
+            this.robot.chargeBeacon();
         }else{
             console.log(this.index, 'CRIES FOR HELP');
             prevBeacon(this).warn();
@@ -210,7 +211,7 @@ class Beacon{
         this.receivedSignal = true;
         if(!this.sentSignal && !this.robotOnTheWay && !this.isCharging){
             if(this.robotIsHere){
-                robot.startPacking();
+                this.robot.startPacking();
             }else{
                 prevBeacon(this).warn();
             }
@@ -299,6 +300,9 @@ start.addEventListener('click', ()=>{
     setupPhase = false;
 
     robot.init(beacons[0]);
+    if(beacons.length > 10){
+        robot2.init(beacons[ Math.floor(beacons.length/2) ]);
+    }
 
     for(const beacon of beacons){
         beacon.start();

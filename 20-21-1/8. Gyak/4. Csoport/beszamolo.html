@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beszámoló</title>
+</head>
+<body>
+    <h1>Havi beszámoló</h1>
+    <form action="beszamolo-ellenoriz.php">
+        <h2>Név</h2> <br>
+        <input name="nev"> <br>
+
+        <h2>Hónap</h2> <br>
+        <select name="honap">
+            <option value="január">Január</option>
+            <option value="február">Február</option>
+            <option value="március">Március</option>
+        </select>
+
+        <h2>Tisztviselő szintje</h2>
+        <input type="radio" name="tisztviselo" value="elnok"> Elnökségi tag <br>
+        <input type="radio" name="tisztviselo" value="manager"> Manager
+
+        <h2>Beszámoló</h2>
+        <textarea name="beszamolo"></textarea>
+
+        <h2>Ülések</h2>
+        <input type="checkbox" name="ules[]" value="elnokseg0507"> Elnökségi ülés 05.07. <br>
+        <input type="checkbox" name="ules[]" value="elnokseg0515"> Elnökségi ülés 05.15. <br>
+        <input type="checkbox" name="ules[]" value="elnokseg0519"> Elnökségi ülés 05.19. <br>
+
+        <h2>Fizetés</h2>
+        <input name="fizetes">
+
+        <h2>Adatvédelem</h2>
+        <input type="checkbox" name="adatvedelem" value="igen"> Elfogadom az adatkezelési és adatvédelmi szabályzatot.
+
+        <br>
+
+        <!--input type="hidden" name="ellenorozo" value="almafa"-->
+
+        <input type="submit">
+    </form>
+</body>
+</html>

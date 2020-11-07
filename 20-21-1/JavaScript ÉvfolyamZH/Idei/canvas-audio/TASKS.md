@@ -1,0 +1,7 @@
+- 3. feladat: Hangvizualizáció (3. task: Audio visualization)
+    + [ ] b. (1 pont)
+    + [ ] c. (1,5 pont)
+    + [ ] d. (1,5 pont)
+    + [ ] e. (1 pont)
+    + [ ] f. (1,5 pont)
+    + [ ] g. (1,5 pont)

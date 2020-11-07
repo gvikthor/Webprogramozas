@@ -1,0 +1,8 @@
+2. feladat: Madármegfigyelés (2. task: Bird watch)
+    - [ ] b. (1,5 pont)
+    - [ ] c. (1 pont)
+    - [ ] d. (1,5 pont)
+    - [ ] e. (1 pont)
+    - [ ] f. (1 pont)
+    - [ ] g. (1 pont)
+    - [ ] h. (1 pont)

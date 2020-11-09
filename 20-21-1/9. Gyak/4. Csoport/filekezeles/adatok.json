@@ -1,0 +1,19 @@
+[
+    {
+        "honap": "Janu\u00e1r",
+        "beszamolok": [
+            {
+                "nev": "Dek\u00e1s Anna",
+                "elnok": true,
+                "fizetes": 750000,
+                "beszamolo": "Lorem ipsum dolor sit..."
+            },
+            {
+                "nev": "B\u00fazai Tam\u00e1s \",",
+                "elnok": false,
+                "fizetes": 120000,
+                "beszamolo": "Lorem ipsum dolor sit..."
+            }
+        ]
+    }
+]

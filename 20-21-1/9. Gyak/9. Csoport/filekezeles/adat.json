@@ -1,0 +1,40 @@
+[
+    {
+        "nev": "Trombit\u00e1s D\u00e9nes",
+        "szavazatok": 1235000,
+        "ferfi": true,
+        "kabinet": [
+            "Trombit\u00e1s Valaki",
+            "Trombit\u00e1s M\u00e1svalaki"
+        ]
+    },
+    {
+        "nev": "Bit\u00f3s J\u00f3n\u00e1s",
+        "szavazatok": 2235000,
+        "ferfi": true,
+        "kabinet": [
+            "Orvai Vikt\u00f3ria",
+            "Orvai Vikt\u00f3ria",
+            "Valaki \","
+        ]
+    },
+    {
+        "nev": "Hegyi Kl\u00e1ra",
+        "szavazatok": 4235000,
+        "ferfi": false,
+        "kabinet": [
+            "Dombi Kl\u00e1ra",
+            "V\u00f6lgyi Kl\u00e1ra",
+            "Mezei Kl\u00e1ra"
+        ]
+    },
+    {
+        "nev": "Barackfa Alma",
+        "szavazatok": 1545000,
+        "ferfi": true,
+        "kabinet": [
+            "Szilvafa K\u00f6rte",
+            "Meggyfa Cseresznye"
+        ]
+    }
+]

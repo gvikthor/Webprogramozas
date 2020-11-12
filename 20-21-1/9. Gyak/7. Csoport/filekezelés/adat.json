@@ -1,0 +1,36 @@
+[
+    {
+        "nev": "Sz\u0151rm\u00f3k Tam\u00e1s",
+        "kor": 21,
+        "fiu": true,
+        "targyak": [
+            {
+                "targynev": "Webprogramoz\u00e1s",
+                "targykod": "IP18-WEBPROGEG"
+            },
+            {
+                "targynev": "Gyerekek lelk\u00e9nek \u00e1pol\u00e1sa",
+                "targykod": "PPK-GYEREKEG"
+            }
+        ]
+    },
+    {
+        "nev": "Szuts Nandi\"",
+        "kor": 20,
+        "fiu": true,
+        "targyak": [
+            {
+                "targynev": "Webprogramoz\u00e1s",
+                "targykod": "IP18-WEBPROGEG"
+            },
+            {
+                "targynev": "Objekltumelv\u0171 programoz\u00e1s alapismeretek",
+                "targykod": "IP18-OEPEG"
+            },
+            {
+                "targynev": "Anal\u00edzis 2.",
+                "targykod": "IP18-ANAL2EA"
+            }
+        ]
+    }
+]

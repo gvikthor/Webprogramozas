@@ -1,0 +1,22 @@
+{
+    "1": {
+        "id": 1,
+        "cim": "Star Wars",
+        "megjelenes": 1977,
+        "tetszikelesek": [
+            "Kortefa"
+        ],
+        "nemtetszikelesek": [],
+        "fnev": "Almafa"
+    },
+    "2": {
+        "id": 2,
+        "cim": "Tenet",
+        "megjelenes": "2020",
+        "tetszikelesek": [
+            "Kortefa"
+        ],
+        "nemtetszikelesek": [],
+        "fnev": "Kortefa"
+    }
+}

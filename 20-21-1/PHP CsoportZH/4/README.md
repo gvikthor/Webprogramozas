@@ -16,7 +16,7 @@ Az adatokat megtalálod lentebb az induló kódnál PHP asszociatív tömbök t�
 ### Olvass el!
 A feladatokat nem kell sorban megcsinálni, sőt, az 5. feladatot érdemes a 3. és 4. előtt, mert könnyebb!
 
-A feladatokat a webprogramozas.inf.elte.hu szerverend oldd meg, mert az ottani PHP verzióval fogom tesztelni. A szervert WinSCP-vel a legkönnyebb elérni, és az ottani www mappába helyezett tartalmat a webprogramozas.inf.elte.hu/hallgatok/neptunkod mappából éred el.
+A feladatokat a webprogramozas.inf.elte.hu szerverend oldd meg, mert az ottani PHP verzióval fogom tesztelni. A szervert WinSCP-vel a legkönnyebb elérni, és az ottani www mappába helyezett tartalmat a webprogramozas.inf.elte.hu/hallgatok/neptunkod URL-en éred el böngészőből.
 
 ### Pontozás
 1. **Adott egy listázás gomb, melynek megnyomásával kilistázódnak a képviselők nevei, pártjuk és választókerületük egy táblázatba. Adott képviselő sora a pártja függvényében más színű, például NUK pink, KCsSK lightblue.** (2 pont)

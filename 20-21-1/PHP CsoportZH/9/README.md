@@ -161,7 +161,3 @@ Adatok (JSON)
     }
 ]
 ````
-
-### Visszajelzés
-
-Ha végeztél a ZH-val, ezen az űrlapon keresztül tudod jelezni, hogy kb hány pontot értél el, és visszajelzést tudsz adni a nehézséggel kapcsolatban: [Űrlap]()

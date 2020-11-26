@@ -37,7 +37,11 @@ Az adatokat megtalálod lentebb az induló kódnál PHP asszociatív tömbök t�
 
 ### Példa
 **A gifen az operatív összeg rossz, a helyes: 150.000FT**
+
+
 ![Animáció, ami bemutatja, hogyan működik a program.](csutortok.gif)
+
+
 
 ### Induló kód
 Tartalmaz függvény

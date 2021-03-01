@@ -1,7 +1,7 @@
 # CsoportZH
 
 ## Technikai infók
-A feladat megoldására 45 perc áll rendelkezésre, plusz 5 perc kifejezetten a becsomagolásra és elküldésre. Egy tömörített file-t küldjetek emailben a **mohmas@inf.elte.hu** címre, tárgy **[Web] CsoportZH - *Neptun-kódod*** (pl.: [Web] CsoportZH - MOHMAS). A szögletes zárójelek is legyenek a tárgyban, mert így biztosan a külön erre fenntartott mappába érkezik, nem pedig spambe, kukába stb (volt már rá példa sajnos). A js file kiterjesztését írjátok át, nehogy a levelezőrendszer megfogja, tehát script.js helyett legyen például script.js.txt vagy script.txt.
+A feladat megoldására 45 perc* áll rendelkezésre, plusz 5 perc kifejezetten a becsomagolásra és elküldésre [* : kitoltuk 55 percre]. Egy tömörített file-t küldjetek emailben a **mohmas@inf.elte.hu** címre, tárgy **[Web] CsoportZH - *Neptun-kódod*** (pl.: [Web] CsoportZH - MOHMAS). A szögletes zárójelek is legyenek a tárgyban, mert így biztosan a külön erre fenntartott mappába érkezik, nem pedig spambe, kukába stb (volt már rá példa sajnos). A js file kiterjesztését írjátok át, nehogy a levelezőrendszer megfogja, tehát script.js helyett legyen például script.js.txt vagy script.txt.
 
 ## Lore
 Yavaszkripsztán egyik legnépesebb városa Kombathely, ahol az ország gépiparának lelke működik, a Kombathelyi Űrsiklómanufaktúra. A gyár számos járművet gyárt. Mindegyiknek ismert a neve, tömege (a tömeg mértékegysége `Yoteon`) és típusa (`teher` vagy `személy`). A **teher**űrjárművek mindegyikéről tudjuk, hogy mekkora a maximális terhelhetőségük, míg a **személy**űrjárműveknek a maximális utasszáma ismert.

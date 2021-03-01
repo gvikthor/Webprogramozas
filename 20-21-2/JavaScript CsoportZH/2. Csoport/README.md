@@ -1,7 +1,7 @@
 # CsoportZH
 
 ## Technikai infók
-A feladat megoldására 45 perc áll rendelkezésre, plusz 5 perc kifejezetten a becsomagolásra és elküldésre. Egy tömörített file-t küldjetek emailben a **mohmas@inf.elte.hu** címre, tárgy **[Web] CsoportZH - *Neptun-kódod*** (pl.: [Web] CsoportZH - MOHMAS). A szögletes zárójelek is legyenek a tárgyban, mert így biztosan a külön erre fenntartott mappába érkezik, nem pedig spambe, kukába stb (volt már rá példa sajnos). A js file kiterjesztését írjátok át, nehogy a levelezőrendszer megfogja, tehát script.js helyett legyen például script.js.txt vagy script.txt.
+A feladat megoldására 45* perc áll rendelkezésre, plusz 5 perc kifejezetten a becsomagolásra és elküldésre. [* : menet közben a határidők módosultak, feladatmegoldás .55-ig, elküldés egészig] Egy tömörített file-t küldjetek emailben a **mohmas@inf.elte.hu** címre, tárgy **[Web] CsoportZH - *Neptun-kódod*** (pl.: [Web] CsoportZH - MOHMAS). A szögletes zárójelek is legyenek a tárgyban, mert így biztosan a külön erre fenntartott mappába érkezik, nem pedig spambe, kukába stb (volt már rá példa sajnos). A js file kiterjesztését írjátok át, nehogy a levelezőrendszer megfogja, tehát script.js helyett legyen például script.js.txt vagy script.txt.
 
 ## Lore
 Yavaszkripsztán önkormányzatai pályázatok (projektek) keretei közt igyekeznek fejlesztésekhez jutni. Minden pályázatnak ismerjük a nevét, az arra szánt erőforrásokat (Yavaszkripsztán valutája a `Yeet`), illetve a pályázat jellegét, mely lehet `infrastruktúra fejlesztés` vagy `közterületi beruházás`. Az infrastruktúra fejlesztéseknek van egy-egy korlátja, ami megmondja, minimum hány embert kell érintenie a projektnek. A közterületi beruházásoknál minimális befogadóképesség van megadva.

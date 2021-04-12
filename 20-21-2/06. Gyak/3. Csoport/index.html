@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<style>
+    #hibak{
+        border: 3px solid black;
+        background-color: brown;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .rejtett{
+        display: none;
+    }
+</style>
+<body>
+    <form>
+        <h1>Vezetéknév</h1>
+        <input name="vezeteknev">
+
+        <h1>Keresztnév</h1>
+        <input name="keresztnev">
+
+        <h1>Életkor</h1>
+        <input name="eletkor">
+
+        <h1>E-mail cím</h1>
+        <input name="levelezes">
+
+        <h1>Nem</h1>
+        <input class="nemcheck" type="radio" name="nem" value="ffi"> Férfi <br>
+        <input class="nemcheck" type="radio" name="nem" value="no"> Nő <br>
+        <input class="nemcheck" type="radio" name="nem" value="egyeb"> Egyéb <input name="nemegyeb" class="rejtett">
+
+        <h1>Lakhely</h1>
+        <select name="lakhely">
+            <option value="budapest">Budapest</option>
+            <option value="miskolc">Miskolc</option>
+            <option value="szeged">Szeged</option>
+            <option value="debrecen">Debrecen</option>
+            <option value="egyeb100k">Egyéb 100k+</option>
+            <option value="egyeb10k">Egyéb 10k+</option>
+            <option value="egyeb1k">Egyéb 1k+</option>
+            <option value="egyeb">Egyéb</option>
+        </select>
+
+        <h1>Milyen e-mailek érdeklik?</h1>
+        <input type="checkbox" name="hirdetes" value="végtagnövelo"> Végtagnövelő szerek <br>
+        <input type="checkbox" name="hirdetes" value="nemetscam"> Német scam e-mail <br>
+        <input type="checkbox" name="hirdetes" value="bolgarpapirok"> Bolgár papírok <br>
+        <input type="checkbox" name="hirdetes" value="emailscam"> Saját fiókkal scam <br>
+        <input type="checkbox" name="hirdetes" value="webkamera"> Webkamerán keresztül felvették ahogy a gép előtt ebédelsz <br>
+        <input type="checkbox" name="hirdetes" value="haziasszony"> Magányos háziasszonyok segítséget kérnek a takarításban <br>
+
+        <h1>Egyéb megjegyzés</h1>
+        <textarea></textarea>
+
+        <br><br>
+
+        <input type="submit">
+    </form>
+    <ul id="hibak" class="rejtett"></ul>
+</body>
+<script src="script.js"></script>
+</html>

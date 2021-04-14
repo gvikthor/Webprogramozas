@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Táblázat, delegálás</title>
+</head>
+<style>
+    .kijelolt{
+        background-color: greenyellow;
+    }
+    .kijeloltcella{
+        font-weight: bolder;
+    }
+    ul div{
+        display: inline;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Név</th>
+            <th>Lakosság</th>
+            <th>Terület</th>
+        </tr>
+    </table>
+    <ul>
+        <li>Lakosság: <div id="lakossag-output">0</div>fő</li>
+        <li>Terület négyzete: <div id="terulet-output">0</div>km2</li>
+    </ul>
+    <div id="randomszoveg"></div>
+</body>
+<script src="index.js"></script>
+</html>

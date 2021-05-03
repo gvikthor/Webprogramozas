@@ -6,11 +6,8 @@ A feladat megoldására 45 perc áll rendelkezésre, plusz 5 perc kifejezetten a
 **TÖLTSD KI A NEPTUN.TXT FILET, ÉS NEVEZD ÁT A SAJÁT NEPTUNKÓDODNAK MEGFELELŐRE!**
 
 ## GYIK
-- Lesz pótZH.
-- Mindkét csoportZH-t lehet pótolni.
-- Minimum 4 pontot kell elérni.
+- **Nem** lesz pótZH.
 - A tört pont nem kerekül.
-- A pluszpont is beleszámít a 4-be.
 - Nem lehet JavaScripttel megoldani.
 - Mindegy, hogy néz ki.
 - Én javítom.

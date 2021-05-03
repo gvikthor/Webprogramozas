@@ -1,0 +1,37 @@
+<Hallgató neve> 
+<Neptun kódja> 
+Webprogramozás - számonkérés
+Ezt a megoldást a fent írt hallgató küldte be és készítette a Webprogramozás kurzus számonkéréséhez.
+Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam harmadik féltől 
+származó megoldásokat. Nem továbbítottam megoldást hallgatótársaimnak, és nem is tettem közzé. 
+Az Eötvös Loránd Tudományegyetem Hallgatói Követelményrendszere 
+(ELTE szervezeti és működési szabályzata, II. Kötet, 74/C. §) kimondja, hogy mindaddig, 
+amíg egy hallgató egy másik hallgató munkáját - vagy legalábbis annak jelentős részét - 
+saját munkájaként mutatja be, az fegyelmi vétségnek számít. 
+A fegyelmi vétség legsúlyosabb következménye a hallgató elbocsátása az egyetemről.
+
+1. Feladat
+[] a Lista (1 pont)
+[] b Szín (1 pont)
+
+2. Feladat
+[] a Elküldés (0.5 pont)
+[] b Megérkezés (0.5 pont)
+[] c Év kiírás (0.5 pont)
+[] d Megszámlálás/keresés (1.5 pont)
+[] P Nem érkezik év (1 pont)
+
+3. Feladat
+[] a Elküldés (0.5 pont)
+   b Ellenőrzés:
+   [] Megérkezett, nem üres (0.5 pont)
+   [] Év - szám (0.5 pont)
+   [] Év - egész (0.5 pont)
+   [] Év - 2000 (0.5 pont)
+   c Mentés:
+   () Objektum kiírás (0.5 pont)
+   () Fileba mentés (1 pont)
+   () JSON file hozzáfűzés (1.5 pont)
+[] d Hibakezelés (0.5 pont)
+[] e Főoldal (0.5 pont)
+[] P Hibakiírás (2 pont)

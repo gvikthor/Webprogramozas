@@ -34,8 +34,34 @@ Minden leállásról tudjuk az évet, a hónapot, a hozzá fűzött megjegyzést
 
 ## Feladatok
 
-Hamarosan
+### 1. Feladat (2 pont)
+- a) Kilistázod egy táblázatba a leállások évét, hónapját és a hozzájuk tartozó megjegyzést. (1 pont)
+- b) A listázott sorok színe piros, ha a leállást kibertámadás okozta, kék, ha nem. (1 pont)
+    - *Érdemes használni a `nem-tamadas` és `kibertamadas` stílusosztályokat, de nem kötelező.*
+
+### 2. Feladat (3+1 pont)
+- a) A táblázat alatti mező elküldi valahova az évet valamilyen kérés paraméterként. (0.5 pont)
+- b) A táblázat oldala megkapja valahonnan az évet valamilyen kérés paramétereként. (0.5 pont)
+- c) Kiírod a paraméterként kapott évet a táblázat alá. (0.5 pont)
+- d) Kiírod az adott évben történt kibertámadások számát. (1.5 pont)
+- **Plusz pont:** Ha nem érkezik paraméter, nem írod ki a körítő szöveget se. (1 pont)
+    - *Ha eleve nem írsz ki semmit, ez a plusz pont természetesen nem jár.*
+
+### 3. Feladat (5+2 pont)
+- a) A táblázat alatti mező elküldi valahova az évet, a hónapot, a megjegyzést és a kibertámadás-jelleget. (0.5 pont)
+- b) Az a) részfeladatból kapott adatokra ellenőrzöd a következőket:
+    - Megérkezett az év, hónap és megjegyzés paraméter, azok nem üresek. (0.5 pont)
+    - Az év paraméter egy szám. (0.5 pont)
+    - Az év paraméter egész. (0.5 pont)
+    - Az év paraméter értéke legalább 2000. (0.5 pont)
+- c) Az alábbiak közül csak az egyikre jár pont, egymást kizárják:
+    - A fogadó oldalon az adatokat egy objektumba teszed, és azt az objektumot kidumpolod az oldalra. (0.5 pont)
+    - A fogadó oldalról az adatokat strukturálatlanul beleírod egy fileba, akár felülírva annak tartalmát. (1 pont)
+    - A fogadó oldalról az adatokat hozzáfűzöd egy JSON fileban tárolt tömbhöz, és visszamented a fileba. (1.5 pont)
+- d) A c) feladatrészben a kiírás/mentés csak akkor történik meg, ha nem volt hiba az adatokban (0.5 pont)
+    - *Ha az ellenőrző feladatrészt nem sikerült megcsinálni, akkor a feltétel lehet konstans igaz, de kommentben jelezd, mit kéne ellenőrizni!*
+- e) Az adatok elküldése után visszajutunk a főoldalra. (0.5 pont)
+- **Plusz pont:** Az c) feladatrészben keletkezett hibákat kiírod a felhasználónak. (2 pont)
 
 ## Megoldás
-
-Hamarosan
+![Így nézzen ki a végeredmény](delelott.gif)

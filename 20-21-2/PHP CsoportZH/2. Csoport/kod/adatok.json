@@ -1,0 +1,44 @@
+[
+    {
+        "ev": "2019",
+        "honap": "janu\u00e1r",
+        "megjegyzes": "Hekkerek t\u00e1madt\u00e1k meg a szervereinket!",
+        "kibertamadas": true
+    },
+    {
+        "ev": "2019",
+        "honap": "j\u00fanius",
+        "megjegyzes": "C\u00e9lzottan \u00e9s sz\u00e1nd\u00e9kosan akad\u00e1lyozt\u00e1k a munk\u00e1nkat a hekkerek!",
+        "kibertamadas": true
+    },
+    {
+        "ev": "2019",
+        "honap": "augusztus",
+        "megjegyzes": "Szerverfriss\u00edt\u00e9s 2007-es keretrendszerre.",
+        "kibertamadas": false
+    },
+    {
+        "ev": "2020",
+        "honap": "m\u00e1rcius",
+        "megjegyzes": "Nem a mi hib\u00e1nk volt igaz\u00e1b\u00f3l.",
+        "kibertamadas": false
+    },
+    {
+        "ev": "2020",
+        "honap": "okt\u00f3ber",
+        "megjegyzes": "Tervezett le\u00e1ll\u00e1s.",
+        "kibertamadas": false
+    },
+    {
+        "ev": "2020",
+        "honap": "december",
+        "megjegyzes": "A Mikul\u00e1s elvitte a s\u00e1vsz\u00e9less\u00e9get.",
+        "kibertamadas": false
+    },
+    {
+        "ev": "2021",
+        "honap": "\u00e1prilis",
+        "megjegyzes": "Meghirdett\u00fcnk k\u00e9tsz\u00e1zezer ingyen fagylatot, \u00e9s r\u00f6gt\u00f6n ut\u00e1na kiberb\u0171n\u00f6z\u0151k t\u00e1madtak meg minket, \u00e9s ez az egyetlen oka, hogy lehalt a szerver!",
+        "kibertamadas": true
+    }
+]

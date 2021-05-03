@@ -21,7 +21,7 @@ A tömörített állományokban található php fileokat nem szokta megfogni a l
 - Azért dobja a permission errort, mert nem adtál írási jogot a filera.
 
 ## Lore
-Yavaszkripsztán legnagyobb állami fagylaltgyára, a Nemzeti Jéeskrém Manufaktúra hatalmas mennyiségű online rendelést vesz fel. A rendszerüket a yavaszkripsztáni felsőoktatás titánja, a Saturn rendszerre építették, ami 2000 óta kiválóan működik, azonban néha leáll. Ezeket a leállásokat számon tartja a Manufaktúra, mivel nem mindig mezei hibáról vagy karbantartásról van szó - rendszeresen kibertámadás éri a rendszert.
+Yavaszkripsztán legnagyobb állami fagylaltgyára, a Nemzeti Jéeskrém Manufaktúra hatalmas mennyiségű online rendelést vesz fel. A rendszerüket a yavaszkripsztáni felsőoktatás titánjára, a Saturn rendszerre építették, ami 2000 óta kiválóan működik, azonban néha leáll. Ezeket a leállásokat számon tartja a Manufaktúra, mivel nem mindig mezei hibáról vagy karbantartásról van szó - rendszeresen kibertámadás éri a rendszert.
 
 Minden leállásról tudjuk az évet, a hónapot, a hozzá fűzött megjegyzést, és azt, hogy kibertámadás okozta, vagy sem.
 

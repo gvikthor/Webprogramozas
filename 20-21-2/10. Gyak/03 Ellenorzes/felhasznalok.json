@@ -1,0 +1,26 @@
+[
+    {
+        "fnev": "Vilmos",
+        "pw": "$2y$10$q4OyLTKteid\/uI8deZm\/A.oBUfAKyU\/qMxeHmZYMJv1qypABTLEDq"
+    },
+    {
+        "fnev": "Rego",
+        "pw": "$2y$10$QzM7A4m\/A4eQfOpuwG8bsOZ.QC.MZ\/asLRuI5OziF\/YOtQOnY1uN."
+    },
+    {
+        "fnev": "Szilvafa",
+        "pw": "$2y$10$A0HAEtOsD4mCYQ6pqDkdwuJ2F4jTIhOuWnTSbMTlM7XZX6sAuIhXC"
+    },
+    {
+        "fnev": "User",
+        "pw": "$2y$10$q7MNIvaT6pxuC.ie2F6XkuYr8oio\/Qs6klTR1IXqkKI7pnAmhPKCm"
+    },
+    {
+        "fnev": "Almaf",
+        "pw": "$2y$10$NmNTHdeo6ZHNeQ9PNgdGCuYpoYciam2tVsLkEwMUWnOozrwaj6YXy"
+    },
+    {
+        "fnev": "Alma",
+        "pw": "$2y$10$jAkK7uvrsFp1Sz14CZ215Oq.fhfQT1j6aoaX.udmWFrRPTfWC1m1O"
+    }
+]

@@ -26,12 +26,12 @@
     ],
     (object)[
         "nev" => "Zserbó Hunorka",
-        "kerulet" => "Tanbere City Ceneter",
+        "kerulet" => "Tanbere Királyi Várkerület",
         "nepszeruseg" => 4
     ],
     (object)[
         "nev" => "Józsefi Katica",
-        "kerulet" => "Tanbere Királyi Várköz",
+        "kerulet" => "Tanbere Királyi Várkerület",
         "nepszeruseg" => 29
     ],
     (object)[

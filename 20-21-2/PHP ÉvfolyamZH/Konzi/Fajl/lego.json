@@ -1,0 +1,25 @@
+{
+    "1": {
+        "szam": 12345,
+        "nev": "UCS Millenium Falcon",
+        "cimkek": [
+            "\u0170r",
+            "Var\u00e1zslat",
+            "Star Wars"
+        ]
+    },
+    "2": {
+        "szam": 10283,
+        "nev": "Nasa Space Shuttle and Hubble",
+        "cimkek": [
+            "\u0170r"
+        ]
+    },
+    "3": {
+        "szam": 9876,
+        "nev": "Hoghwarts Castle",
+        "cimkek": [
+            "Var\u00e1zslat"
+        ]
+    }
+}

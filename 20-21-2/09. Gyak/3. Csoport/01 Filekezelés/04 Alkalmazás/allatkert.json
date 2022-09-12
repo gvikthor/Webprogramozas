@@ -1,0 +1,17 @@
+[
+    {
+        "nev": "Vilmos",
+        "faj": "medve",
+        "suly": 250
+    },
+    {
+        "nev": "Regő",
+        "faj": "oroszlán",
+        "suly": 130
+    },
+    {
+        "nev": "Timi",
+        "faj": "mókus",
+        "suly": 0.5
+    }
+]

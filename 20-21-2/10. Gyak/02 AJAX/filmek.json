@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "cim": "Star Wars",
+        "megjelenes": 1977,
+        "like": [
+            "User"
+        ],
+        "dislike": [
+            "Almaf"
+        ]
+    },
+    {
+        "id": 1,
+        "cim": "Avengers",
+        "megjelenes": 2010,
+        "like": [
+            "User",
+            "Almaf"
+        ],
+        "dislike": []
+    },
+    {
+        "id": 2,
+        "cim": "Tenet",
+        "megjelenes": 2020,
+        "like": [
+            "User"
+        ],
+        "dislike": []
+    }
+]

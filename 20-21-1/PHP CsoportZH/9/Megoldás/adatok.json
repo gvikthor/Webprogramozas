@@ -1,0 +1,32 @@
+[
+    {
+        "vadasz": "Regő",
+        "allat": "őz",
+        "suly" : 15
+    },
+    {
+        "vadasz": "Vilmos",
+        "allat": "vadkan",
+        "suly" : 12
+    },
+    {
+        "vadasz": "Regő",
+        "allat": "kecske",
+        "suly" : 7
+    },
+    {
+        "vadasz": "Regő",
+        "allat": "nyúl",
+        "suly" : 2
+    },
+    {
+        "vadasz": "Vilmos",
+        "allat": "sárkány",
+        "suly" : 480
+    },
+    {
+        "vadasz": "Regő",
+        "allat": "teknős",
+        "suly" : 4
+    }
+]

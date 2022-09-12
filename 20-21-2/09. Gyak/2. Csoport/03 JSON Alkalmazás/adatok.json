@@ -1,0 +1,32 @@
+[
+    {
+        "nev": "Vilmos",
+        "faj": "medve",
+        "suly": 250
+    },
+    {
+        "nev": "Reg\u0151",
+        "faj": "oroszl\u00e1n",
+        "suly": 120
+    },
+    {
+        "nev": "Timi",
+        "faj": "m\u00f3kus",
+        "suly": 0.5
+    },
+    {
+        "nev": "H\u00e9k\u00e1s",
+        "faj": "l\u00f3",
+        "suly": "130"
+    },
+    {
+        "nev": "Zsolti",
+        "faj": "b\u00e9ka",
+        "suly": "1"
+    },
+    {
+        "nev": "Alma",
+        "faj": "alma",
+        "suly": "5"
+    }
+]

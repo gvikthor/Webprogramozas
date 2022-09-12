@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<style>
+    .rejtett{
+        display: none;
+    }
+    #hibak{
+        background-color: red;
+        font-weight: bolder;
+        color: white;
+        min-height: 10px;
+    }
+</style>
+<body>
+    <form>
+        <h1>Vezetéknév</h1>
+        <input name="vezeteknev">
+
+        <h1>Keresztnév</h1>
+        <input name="keresztnev">
+
+        <h1>Kor</h1>
+        <input name="kor">
+
+        <h1>Nem</h1>
+        <input type="radio" class="nem-radio" name="nem" value="ffi"> Férfi <br>
+        <input type="radio" class="nem-radio" name="nem" value="no"> Nő <br>
+        <input type="radio" class="nem-radio" name="nem" value="egyeb"> Egyéb
+        <input name="nemegyeb" class="rejtett" id="nemegyeb">
+
+        <h1>Lakhely</h1>
+        <select name="lakhely">
+            <option value="budapest">Budapest</option>
+            <option value="szeged">Szeged</option>
+            <option value="debrecen">Debrecen</option>
+            <option value="miskolc">Miskolc</option>
+            <option value="egyeb100k">Egyéb 100.000+</option>
+            <option value="egyeb10k">Egyéb 10.000+</option>
+            <option value="egyeb1k">Egyéb 1.000+</option>
+            <option value="egyeb">Egyéb</option>
+        </select>
+
+        <h1>Melyik vakcinákat szeretné?</h1>
+        <input type="checkbox" name="vakcina" value="astra"> AstraZeneca <br>
+        <input type="checkbox" name="vakcina" value="pfizer"> Pfizer-BioNTech <br>
+        <input type="checkbox" name="vakcina" value="sputnik"> Sputnik <br>
+        <input type="checkbox" name="vakcina" value="hunor"> Hunor <br>
+        <input type="checkbox" name="vakcina" value="project51"> Project 51
+        
+        <h1>Egyéb megjegyzés</h1>
+        <textarea name="egyeb"></textarea>
+
+        <br><br>
+
+        <input type="submit">
+    </form>
+
+    <ul id="hibak" class="rejtett"></ul>
+</body>
+<script src="script.js"></script>
+</html>

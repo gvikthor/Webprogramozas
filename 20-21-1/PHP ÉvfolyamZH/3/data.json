@@ -1,0 +1,30 @@
+{
+    "5fe21af734d9f": {
+        "nev": "Alma",
+        "ertek": 15,
+        "szin": "piros",
+        "megtart": true,
+        "id": "5fe21af734d9f"
+    },
+    "5fe21afedf9e0": {
+        "nev": "K\u00f6rte",
+        "ertek": 12,
+        "szin": "s\u00e1rga",
+        "megtart": false,
+        "id": "5fe21afedf9e0"
+    },
+    "5fe21b089cc99": {
+        "nev": "Narancs",
+        "ertek": 20,
+        "szin": "narancs",
+        "megtart": true,
+        "id": "5fe21b089cc99"
+    },
+    "5fe21b2724492": {
+        "nev": "Barack",
+        "ertek": 15,
+        "szin": "s\u00e1rga",
+        "megtart": false,
+        "id": "5fe21b2724492"
+    }
+}

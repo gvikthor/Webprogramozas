@@ -1,0 +1,58 @@
+{
+    "0": {
+        "id": 0,
+        "nev": "Din Djarin",
+        "elofordulas": [
+            "Mandalorian"
+        ],
+        "like": [],
+        "dislike": []
+    },
+    "1": {
+        "id": 1,
+        "nev": "Darth Vader",
+        "elofordulas": [
+            "Sithek Bossz\u00faja",
+            "\u00daj Rem\u00e9ny",
+            "Birodalom Visszav\u00e1g",
+            "Jedi Visszat\u00e9r",
+            "Zsiv\u00e1ny Egyes",
+            "L\u00e1zad\u00f3k"
+        ],
+        "like": [
+            "Almafa"
+        ],
+        "dislike": [
+            "Szilvafa"
+        ]
+    },
+    "2": {
+        "id": 2,
+        "nev": "Jango Fett",
+        "elofordulas": [
+            "Kl\u00f3nok T\u00e1mad\u00e1sa"
+        ],
+        "like": [
+            "Almafa"
+        ],
+        "dislike": []
+    },
+    "3": {
+        "id": 3,
+        "nev": "Luke Skywalker",
+        "elofordulas": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "R"
+        ],
+        "like": [],
+        "dislike": [
+            "Szilvafa"
+        ]
+    }
+}

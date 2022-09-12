@@ -1,0 +1,17 @@
+[
+    {
+        "nev": "Nándor",
+        "kor": 21,
+        "hajszin": "fekete"
+    },
+    {
+        "nev": "István",
+        "kor": 20,
+        "hajszin": "barna"
+    },
+    {
+        "nev": "Dalma",
+        "kor": 22,
+        "hajszin": "vörös"
+    }
+]

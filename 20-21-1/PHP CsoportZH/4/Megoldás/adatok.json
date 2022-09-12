@@ -1,0 +1,50 @@
+[
+    {
+        "kerulet" : 1,
+        "nev": "Deák Ferenc Dániel",
+        "part": "NUK",
+        "szavazatok" : 25345
+    },
+    {
+        "kerulet" : 1,
+        "nev": "Feling Erika",
+        "part": "KCsSK",
+        "szavazatok" : 27486
+    },
+    {
+        "kerulet" : 2,
+        "nev": "Borász Lázár Petrezselyem",
+        "part": "NUK",
+        "szavazatok" : 29415
+    },
+    {
+        "kerulet" : 2,
+        "nev": "Szűcsné Szucsogó Isabella",
+        "part": "KCsSK",
+        "szavazatok" : 21735
+    },
+    {
+        "kerulet" : 3,
+        "nev": "Gerlei Andrea",
+        "part": "NUK",
+        "szavazatok" : 23811
+    },
+    {
+        "kerulet" : 3,
+        "nev": "Illés Patrícia",
+        "part": "KCsSK",
+        "szavazatok" : 24719
+    },
+    {
+        "kerulet" : 4,
+        "nev": "Fakanál Árpád",
+        "part": "NUK",
+        "szavazatok" : 2
+    },
+    {
+        "kerulet" : 4,
+        "nev": "Morgó, a kutya",
+        "part": "KCsSK",
+        "szavazatok" : 57815
+    }
+]

@@ -46,7 +46,7 @@ Which places were visited by at least 3 people?
 Write them into an unordered list on the page! (3)  
 If a place was visited by Steve, make it red! (1)  
 
-## 5. Task - 2+1 points
+## 4. Task - 2+1 points
 If we click on a list item, make it be visually selected in some way, for example making it underlined. (2)  
 If we click a selected list item, make it become inselected! (1)  
 If you could not solve task 3, you can create the list by hand into the HTML file.

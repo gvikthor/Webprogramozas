@@ -110,7 +110,7 @@ function delegate(parent, child, when, what){
     }
 
     parent.addEventListener(when, eventHandlerFunction)
-}
+} 
 
 function select2(event, elem){
     elem.classList.toggle('selected')

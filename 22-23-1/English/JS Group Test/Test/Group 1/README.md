@@ -37,3 +37,7 @@ Make it so that if somebody is already selected as new Emperor but we click on a
 *We should be able to click as many times as we want, the crown should always pass to the one we clicked on.*  
 
 **Help:** If you want to solve this by selecting the previous Emperor and make some function call on them, but there's nobody selected as of yet, you might get an error saying you can't reach a property of undefined. Remember, you can use an if to check for that! `if(something){}` means that if `something` is not `undefined` or `null`
+
+## Feedback
+Feedback form: https://forms.office.com/r/9fWbSK1yUb
+You have to select an answer to the task progress questions for the nwxt questions to appear.

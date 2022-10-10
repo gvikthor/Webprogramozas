@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul{
+        size: 2em;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .newEmperor{
+        list-style-type: '👑';
+    }
+</style>
+<body>
+    <ul id="candidates"></ul>
+</body>
+</html>
+
+<script>
+    function delegate(parent, child, when, what){
+        function eventHandlerFunction(event){
+            let eventTarget  = event.target
+            let eventHandler = this
+            let closestChild = eventTarget.closest(child)
+
+            if(eventHandler.contains(closestChild)){
+                what(event, closestChild)
+            }
+        }
+
+        parent.addEventListener(when, eventHandlerFunction)
+    }
+    /*
+    candidateName: the name of the person that wants to be Emperor
+    army: the size of the army of this person (it is not needed until task 3)
+    likelyToVote: the name of the Electors who are likely to vote for this person (4 names means 4 votes for the candidate)
+    */
+    const candidates = [
+        {
+            candidateName: 'Paul Atreides',
+            army: 22000,
+            likelyToVote: ['Duke Simba Mufason', 'Paul Atreides', 'King Elrond of Rivendell']
+        },
+        {
+            candidateName: 'Babar',
+            army: 80000,
+            likelyToVote: ['T\'Challa', 'Princess Bubblegum', 'Princess Zelda', 'Julien', 'King Shrek']
+        },
+        {
+            candidateName: 'Padmé Amidala',
+            army: 34000,
+            likelyToVote: ['Queen Elsa', 'Renly Baratheon', 'Kuzko']
+        },
+        {
+            candidateName: 'Sheev Palpatine',
+            army: 45000,
+            likelyToVote: ['Duke Scar', 'Sheev Palpatine', 'Firelord Ozai', 'Bowser', 'The Imperial Senate', 'Queen Jadis of Narnia']
+        },
+        {
+            candidateName: 'Daenerys Targaryen',
+            army: 120000,
+            likelyToVote: ['Jon Snow']
+        },
+        {
+            candidateName: 'Julien',
+            army: 12000,
+            likelyToVote: ['Renly Baratheon', 'Retexis']
+        }
+    ]
+</script>

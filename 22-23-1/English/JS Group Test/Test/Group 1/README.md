@@ -24,7 +24,7 @@ Log the names alongside their new points to the browser console!
 *If you want to have smaller numbers on your page, you can do: army size divided by 1000, times vote count.*
 
 ## 4. Task - 2 points
-Write the ruler names alongside their new points into an unordered list on the page!  
+Write the candidate names alongside their new points into an unordered list on the page!  
 For example: Paul Atreides (66000)  
 *If you could not solve task 3, write simply the vote count.*  
   

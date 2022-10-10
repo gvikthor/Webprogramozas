@@ -9,7 +9,7 @@ The Javascroman Empire is an elective monarchy, and conveniently for you, it's j
 
 ## 1. Task - 1 point
 You have schemed around the Imperial Court and found out some likely votes.  
-Which candidate is predicted to gain the most votes?  
+Which candidate is likely to gain the most votes?  
 Log the solution into the browser console!  
 
 ## 2. Task - 2 points

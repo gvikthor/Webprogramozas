@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    canvas{
+        border: 1px solid black;
+    }
+    td{
+        width: 50px;
+        height: 50px;
+        border: 3px solid black;
+    }
+    .selected{
+        border: 3px solid rgb(204, 78, 99);
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+    .red{
+        background-color: red;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td data-color="blue" class="blue selected"></td>
+            <td data-color="green" class="green"></td>
+            <td data-color="red" class="red"></td>
+        </tr>
+    </table><br>
+    <canvas width="1000" height="800"></canvas>
+</body>
+</html>
+<script src="script.js"></script>

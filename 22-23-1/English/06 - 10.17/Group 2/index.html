@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    https://css-tricks.com/snippets/css/complete-guide-grid/
+    */
+
+    #main{
+        display: flex;
+        align-items: flex-start;
+    }
+    #main > div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<body>
+    <div id="main">
+        <div id="eur-div">
+            <h2>EUR</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            Amount: <input class="amount-input"><br>
+            Comment: <input class="comment-input"><br>
+            <button class="add-button" data-currency="EUR">➕</button>
+        </div>
+        <div id="usd-div">
+            <h2>USD</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount</th>
+                        <th>Direction</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            Amount: <input class="amount-input"><br>
+            Comment: <input class="comment-input"><br>
+            <button class="add-button" data-currency="USD">➕</button>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
+<script src="data.js"></script>
+<script src="script.js"></script>

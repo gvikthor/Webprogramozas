@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hidden{
+        display: none !important;
+    }
+    body{
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
+    }
+    #grey-barrier{
+        background-color: rgba(0, 0, 0, 0.196);
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        width: 100vw;
+        z-index: 2;
+    }
+    #content{
+        z-index: 1;
+    }
+    .popup#popup-1{
+        background-color: deeppink;
+        display: flex;
+        flex-direction: column;
+        margin-left: 37vw;
+        margin-top: 5vh;
+        position: absolute;
+        text-align: center;
+        width: 25vw;
+        z-index: 3;
+    }
+    .popup#popup-1 #actions p{
+        color: rgb(175, 20, 103);
+        cursor: default;
+        display: inline-block;
+        font-size: xx-small;
+        text-decoration: underline;
+    }
+    .popup#popup-2{
+        background-color: dimgray;
+        position: absolute;
+        width: 100vw;
+        z-index: 3;
+    }
+    #popup-2 #actions{
+        display: flex;
+    }
+    #popup-2 button{
+        background-color: chartreuse;
+        margin: auto;
+    }
+    #popup-2 p{
+        color: darkgrey;
+        font-size: xx-small;
+        margin: auto;
+    }
+    .popup#popup-3{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25vw;
+        margin-top: 5vh;
+        position: absolute;
+        text-align: center;
+        width: 50vw;
+        z-index: 3;
+    }
+    #popup-3 p{
+        color: rgb(248, 77, 77);
+        font-size: xx-small;
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="popup" data-id="1" id="popup-1">
+        <div>Iratkozz fel a hírlevélre!</div>
+        <input>
+        <div id="actions">
+            <button id="accept">Feliratkozok!</button>
+            <p id="cancel">Mégse</p>
+        </div>
+    </div>
+    <div class="hidden" data-id="2" id="popup-2">
+        <div>Engedélyezed az összes sütit?</div>
+        <div id="actions">
+            <button id="accept">✅Igen!</button>
+            <p id="cancel">Mégse</p>
+        </div>
+    </div>
+    <div class="hidden" data-id="3" id="popup-3">
+        <div>🛑Kérjük, kapcsold ki az adblockert!</div>
+        <div id="actions">
+            <button id="accept">✅Kikapcsolom!</button>
+            <p id="cancel">Tovább</p>
+        </div>
+    </div>
+    <div id="grey-barrier"></div>
+    <div id="content"  class="hidden">
+        <button>Alma</button>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="ad-1">
+                Vegyél prémiumot!
+            </div>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </p>
+            <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

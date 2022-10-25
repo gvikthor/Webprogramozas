@@ -39,3 +39,23 @@ function delegate(parent, child, when, what){
     }
     delegate(mother, '.gradeSchoolStudent', 'askForParentToComeIn', visitTheTeacher);
     ````
+
+# LocalStorage
+
+```JS
+function permaSaveJSON(attributeName, value){
+    window.localStorage.setItem(attributeName, JSON.stringify(value))
+}
+
+function permaSaveText(attributeName, value){
+    window.localStorage.setItem(attributeName, value)
+}
+
+function permaLoadJSON(attributeName){
+    return JSON.parse(window.localStorage.getItem(attributeName))
+}
+
+function permaLoadText(attributeName){
+    return window.localStorage.getItem(attributeName)
+}
+```

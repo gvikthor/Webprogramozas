@@ -1,0 +1,15 @@
+{
+    "error_age_empty" : "Age can't be empty!",
+    "error_age_nan" : "Age must be a number!",
+    "error_age_young" : "Age must be atleast 18!",
+    "error_animal_invalid" : "Animal is invalid!",
+    "error_city_invalid" : "City is invalid!",
+    "error_uname_complex" : "Username can only contain letters and numbers!",
+    "error_uname_empty" : "Username can't be empty!",
+    "error_uname_unknown" : "Username doesn't exist!",
+    "error_uname_short" : "Username must be atleast 5 characters!",
+    "error_uname_taken" : "Username is taken!",
+    "error_pword_complex" : "The password must contain atleast one lowercase letter, one uppercase letter, one number and one special chaarcter (#&@?)!",
+    "error_pword_nomatch" : "The passwords are not the same!",
+    "error_pword_short" : "The password must be atleast 8 characters!"
+}

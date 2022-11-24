@@ -1,4 +1,4 @@
-# PHP Group Test - Example
+# PHP Csoport ZH - Minta
 ## Lore
 Egy baráti társaság összegyűjtötte azokat a helyszíneket, ahova gyakran járnak virágot szedni. Mivel a virágok gyönyörűsége néha megrészegíti őket, könnyen elfelejtik, hogy merre jártak már, így egy egyszerű adminisztrációs rendszert szeretnének készíteni hozzá, mert a Messenger csoportokból már kifejezetten elegük lett.
 

@@ -49,10 +49,10 @@ Write all place names into an unordered list onto the page, followed by the amou
 If a place was visited by Steve, make it blue! (1)  
 
 ## 3. Task - 2+2 points
-Have a form on the page that reads a number. If we send the form, write the flower value under the form! (1)
-List the places where at least as many flowers were smelled as the given value! (1)
-If the user enters something that is not a number, show an error! Solve this via PHP, not a built in HTML feature! (1)
-Don't have any warnings or error messages caused by an empty query parameter when first loading the page! (1)
+Have a form on the page that reads a number. If we send the form, write the flower value under the form! (1)  
+List the places where at least as many flowers were smelled as the given value! (1)  
+If the user enters something that is not a number, show an error! Solve this via PHP, not a built in HTML feature! (1)  
+Don't have any warnings or error messages caused by an empty query parameter when first loading the page! (1)  
 
 ## 4. Task - 2 points
 Instead of having the data in the code, read it from a JSON file!

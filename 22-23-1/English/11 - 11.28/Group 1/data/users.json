@@ -1,0 +1,24 @@
+{
+    "0": {
+        "uname": "Apple123",
+        "pword": "Apple@123",
+        "age": 20,
+        "color": "red",
+        "movies": [
+            "sw"
+        ],
+        "desc": "sdf,gkjhsdf,kj",
+        "id": 0
+    },
+    "1": {
+        "uname": "Apple234",
+        "pword": "$2y$10$pdZkhAurYmEO5HvZxWCn8eaLFvbGoLi2J4.Udf0zaw.Y0Tp.AWKCq",
+        "age": 20,
+        "color": "red",
+        "movies": [
+            "sw"
+        ],
+        "desc": "",
+        "id": 1
+    }
+}

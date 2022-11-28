@@ -1,0 +1,28 @@
+{
+    "2": {
+        "uname": "Apple345",
+        "pword1": "",
+        "pword2": "",
+        "year": "2000",
+        "city": "hu-bp",
+        "color": "red",
+        "movies": [
+            "sw"
+        ],
+        "id": 2,
+        "pword": "$2y$10$lTl0oCBrPUqaW1ksX2GlE.9lS7YhPIEAc4A6nmz.3rMuzxjtZ649e"
+    },
+    "3": {
+        "uname": "Apple987",
+        "pword1": "",
+        "pword2": "",
+        "year": "2000",
+        "city": "hu-bp",
+        "color": "red",
+        "movies": [
+            "sw"
+        ],
+        "id": 3,
+        "pword": "$2y$10$1WRsvLy9L6k86gKXUlU1A.gtDa4sKEGLC5hLpEA2pwynJiUwrutTu"
+    }
+}

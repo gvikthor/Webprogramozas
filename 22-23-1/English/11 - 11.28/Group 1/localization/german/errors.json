@@ -1,0 +1,19 @@
+{
+    "noexist_uname" : "Der username kann nicht nichts sein.",
+    "noexist_pw1" : "The password field cannot be empty!",
+    "noexist_p2" : "The password again field cannot be empty!",
+    "noexist_age" : "The age field cannot be empty!",
+    "noexist_clr" : "The color selector cannot be empty!",
+    "noexist_movies" : "The movies checkboxes cannot be all empty!",
+    "uname_short" : "The username should be atleast 5 characters long.",
+    "uname_complex" : "The username should only contain a-z A-Z 0-9 characters!",
+    "uname_exists" : "Username is already in use!",
+    "pwd_nomatch" : "The passwords are not matching!",
+    "pwd_short" : "The password should be atleast 8 characters long!",
+    "pwd_long" : "The password should be atmost 30 characters long!",
+    "pwd_complex" : "The password should contain atleast one lowercase, uppercase letter, one number and one special character (# @ $ %)!",
+    "age_nan" : "The age is not a number!",
+    "age_bad" : "Your age should be between 18 and 200!",
+    "color_bad" : "The color is invalid!",
+    "movie_bad" : "One of the movies is incorrect!"
+}

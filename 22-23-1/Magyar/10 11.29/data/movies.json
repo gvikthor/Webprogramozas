@@ -1,0 +1,14 @@
+{
+    "sw": {
+        "id": "sw",
+        "title": "Star Wars"
+    },
+    "lotr": {
+        "id": "lotr",
+        "title": "Lord of the Rings"
+    },
+    "tw": {
+        "id": "tw",
+        "title": "Twilight"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "0": {
+        "uname": "Almafa",
+        "pword": "$2y$10$mGrN92BOdcfo9MBYFHAOdehtDT0LlnuPqDKQJmecQVMYZMLwMxzsW",
+        "age": 20,
+        "catdog": "cat",
+        "city": "bp",
+        "movies": [
+            "sw",
+            "tw",
+            "lotr"
+        ],
+        "desc": "",
+        "id": 0
+    }
+}

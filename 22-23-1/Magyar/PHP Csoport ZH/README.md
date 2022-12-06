@@ -62,29 +62,29 @@ PHP-ban tárolás helyett file-ból olvasd be az adatokat!
 ```JS
 [
     {
-        place: 'City center, main park',
-        flowersSmelled: 12,
-        visitedBy: ['Steve', 'David', 'Christopher']
+        "place": "City center, main park",
+        "flowersSmelled": 12,
+        "visitedBy": ["Steve", "David", "Christopher"]
     },
     {
-        place: 'River island',
-        flowersSmelled: 27,
-        visitedBy: ['Laure', 'Christopher', 'Patrick', 'Orsy']
+        "place": "River island",
+        "flowersSmelled": 27,
+        "visitedBy": ["Laure", "Christopher", "Patrick", "Orsy"]
     },
     {
-        place: 'Steve\'s apartment',
-        flowersSmelled: 4,
-        visitedBy: ['Steve', 'Victor']
+        "place": "Steve's apartment",
+        "flowersSmelled": 4,
+        "visitedBy": ["Steve", "Victor"]
     },
     {
-        place: 'Univeristy Campus',
-        flowersSmelled: 43,
-        visitedBy: ['Steve', 'David', 'Christopher', 'Laure', 'Orsy', 'Patrick', 'Victor']
+        "place": "Univeristy Campus",
+        "flowersSmelled": 43,
+        "visitedBy": ["Steve", "David", "Christopher", "Laure", "Orsy", "Patrick", "Victor"]
     },
     {
-        place: 'Public Library',
-        flowersSmelled: 2,
-        visitedBy: ['Laure', 'Orsy']
+        "place": "Public Library",
+        "flowersSmelled": 2,
+        "visitedBy": ["Laure", "Orsy"]
     }
 ]
 ```

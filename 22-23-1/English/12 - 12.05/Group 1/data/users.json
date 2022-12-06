@@ -1,0 +1,26 @@
+{
+    "1": {
+        "uname": "Apple234",
+        "pword": "$2y$10$pdZkhAurYmEO5HvZxWCn8eaLFvbGoLi2J4.Udf0zaw.Y0Tp.AWKCq",
+        "age": 20,
+        "color": "red",
+        "movies": [
+            "sw"
+        ],
+        "desc": "",
+        "id": 1
+    },
+    "2": {
+        "uname": "Testuser",
+        "pword": "$2y$10$7LbbQnUksrXscHDoBKSPrOv9RKy\/fmvEtSgo06DivxbJM2k3ayY4a",
+        "age": 20,
+        "color": "red",
+        "movies": [
+            "lotr",
+            "hp",
+            "nb"
+        ],
+        "desc": "asdasd",
+        "id": 2
+    }
+}

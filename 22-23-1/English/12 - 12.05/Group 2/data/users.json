@@ -1,0 +1,31 @@
+{
+    "4": {
+        "uname": "Apple1234",
+        "pword1": "",
+        "pword2": "",
+        "year": "2000",
+        "city": "hu-bp",
+        "color": "red",
+        "movies": [
+            "shrek",
+            "mcu"
+        ],
+        "id": 4,
+        "pword": "$2y$10$8.RWT0xT4Ekvya2Kt7LB0Owworq5T5EnOcb.qW2xE7yYrCvPN6AuC"
+    },
+    "5": {
+        "uname": "Admin",
+        "pword1": "",
+        "pword2": "",
+        "year": "2000",
+        "city": "hu-bp",
+        "color": "red",
+        "movies": [
+            "sw",
+            "shrek",
+            "lotr"
+        ],
+        "id": 5,
+        "pword": "$2y$10$2vTU.fKtBYxYa1x7u.9J8OpP\/1RJnzvCdQ7WMED6OF\/EVxwlfNLZa"
+    }
+}

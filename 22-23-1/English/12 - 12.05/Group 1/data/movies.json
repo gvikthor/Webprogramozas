@@ -1,0 +1,22 @@
+{
+    "sw": {
+        "id": "sw",
+        "title": "Star Wars",
+        "release": 1977
+    },
+    "lotr": {
+        "id": "lotr",
+        "title": "Lord of the Rings",
+        "release": 1977
+    },
+    "hp": {
+        "id": "hp",
+        "title": "Harry Potter",
+        "release": 1977
+    },
+    "nb": {
+        "id": "nb",
+        "title": "The Notebook",
+        "release": 1977
+    }
+}

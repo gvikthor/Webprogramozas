@@ -1,0 +1,38 @@
+{
+    "sw": {
+        "id": "sw",
+        "title": "Star Wars",
+        "release": 1977,
+        "description": "Star Wars is an American epic space opera[1] multimedia franchise created by George Lucas, which began with the eponymous 1977 film[b] and quickly became a worldwide pop-culture phenomenon. The franchise has been expanded into various films and other media, including television series, video games, novels, comic books, theme park attractions, and themed areas, comprising an all-encompassing fictional universe.[c] Star Wars is one of the highest-grossing media franchises of all time."
+    },
+    "lotr": {
+        "id": "lotr",
+        "title": "Lord of the Rings",
+        "release": 2001,
+        "description": "The Lord of the Rings is a series of three epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by J. R. R. Tolkien. The films are subtitled The Fellowship of the Ring (2001), The Two Towers (2002), and The Return of the King (2003). Produced and distributed by New Line Cinema with the co-production of WingNut Films, the series is an international venture between New Zealand and the United States. The films feature an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Christopher Lee, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Andy Serkis and Sean Bean. "
+    },
+    "mcu": {
+        "id": "mcu",
+        "title": "Marvel Cinematic Universe",
+        "release": 2008,
+        "description": "The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters."
+    },
+    "shrek": {
+        "id": "shrek",
+        "title": "Shrek",
+        "release": 2003,
+        "description": "Shrek is a 2001 American computer-animated fantasy comedy film loosely based on the 1990 book of the same name by William Steig, produced by DreamWorks Animation and released by DreamWorks Pictures. It is the first installment in the Shrek franchise. The film was directed by Andrew Adamson and Vicky Jenson (in their feature directorial debuts) from a screenplay written by Joe Stillman, Roger S. H. Schulman, and the writing team of Ted Elliott and Terry Rossio. It stars the voices of Mike Myers, Eddie Murphy, Cameron Diaz, and John Lithgow. In the film, the ogre Shrek (Myers) finds his swamp overrun by fairy tale creatures banished by Lord Farquaad (Lithgow). With the help of Donkey (Murphy), Shrek agrees to rescue Princess Fiona (Diaz) for Farquaad to regain his swamp. "
+    },
+    "tw": {
+        "title": "Twilight",
+        "id": "tw",
+        "release": 2008,
+        "description": "Twilight is a 2008 American romantic fantasy film directed by Catherine Hardwicke from a screenplay by Melissa Rosenberg, based on the 2005 novel of the same name by Stephenie Meyer. It is the first instalment in The Twilight Saga film series. The film stars Kristen Stewart and Robert Pattinson as Bella Swan, a teenage girl, and Edward Cullen, a vampire, respectively, and focuses on the development of Bella and Edward's relationship and the subsequent efforts of Edward and his family to keep Bella safe from a coven of evil vampires."
+    },
+    "asd": {
+        "title": "asdasd",
+        "id": "asd",
+        "release": 123,
+        "description": "<script>alert('xd')<\/script>"
+    }
+}

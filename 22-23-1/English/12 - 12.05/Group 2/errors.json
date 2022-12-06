@@ -1,0 +1,15 @@
+{
+    "uname_complex": "The username can only contain English letters and numbers!",
+    "uname_exists": "This username already exists!",
+    "uname_short": "The username should be atleast 5 characters long!",
+    "pword_nomatch": "The passwords don't match",
+    "pword_short": "The password should be atleast 8 characters long!",
+    "pword_complex": "The password should contain atleast one lowercase letter, one uppercase letter, one number and a special character (#, @)!",
+    "year_nan": "The birth year should be a number!",
+    "year_oob": "Your birth year must be between 1900 and 2010!",
+    "city_unknown": "The city you entered is unknown!",
+    "color_unknown": "The color you entered is unknown!",
+    "movies_empty": "You have to select atleast one movie!",
+    "movies_unknown": "At least one of the movies is unkown!",
+    "login_error": "The username-password combination doesn't exist!"
+}

@@ -1,0 +1,32 @@
+{
+    "0": {
+        "uname": "Almafa",
+        "pword": "$2y$10$mGrN92BOdcfo9MBYFHAOdehtDT0LlnuPqDKQJmecQVMYZMLwMxzsW",
+        "age": 20,
+        "catdog": "cat",
+        "city": "bp",
+        "movies": [
+            "lotr"
+        ],
+        "desc": "",
+        "id": 0,
+        "admin": false
+    },
+    "1": {
+        "uname": "Admin",
+        "pword": "$2y$10$3ng08swv74LvsDmmdtgfcufZT35Iw4bkyDzGzLsyAQs7WwC39b1cW",
+        "age": 20,
+        "catdog": "cat",
+        "city": "bp",
+        "movies": [
+            "sw",
+            "tw",
+            "tw",
+            "mcu",
+            "tw"
+        ],
+        "desc": "",
+        "id": 1,
+        "admin": true
+    }
+}

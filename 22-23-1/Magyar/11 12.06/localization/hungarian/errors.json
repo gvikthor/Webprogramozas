@@ -1,0 +1,16 @@
+{
+    "error_age_empty" : "Az életkor nem lehet üres!",
+    "error_age_nan" : "Az életkor csak szám lehet!",
+    "error_age_young" : "Az életkor legalább 18 legyen!",
+    "error_animal_invalid" : "Az állat érvénytelen!",
+    "error_city_invalid" : "A város érvénytelen!",
+    "error_uname_complex" : "A felhasználónév csak betűket és számokat tartalmazhat!",
+    "error_uname_empty" : "A felhasználónév nem lehet üres!",
+    "error_uname_unknown" : "A felhasználó nem létezik!",
+    "error_uname_short" : "A felhasználónév legyen legalább 5 karakter hosszú!",
+    "error_uname_taken" : "A felhasználónév foglalt!",
+    "error_pword_bad": "A felhasználónév-jelszó pár nem megfelelő!",
+    "error_pword_complex" : "A jelszó tartalmazzon legalább egy kisbetűt, nagybetűt, számot és speciális karaktert (#&@?)!",
+    "error_pword_nomatch" : "A jelszavak nem egyeznek!",
+    "error_pword_short" : "A jelszó legyen legalább 8 karakter hosszú!"
+}

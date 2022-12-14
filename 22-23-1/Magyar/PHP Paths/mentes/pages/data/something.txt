@@ -1,0 +1,1 @@
+Ez a fájl a pages/data/something.txt

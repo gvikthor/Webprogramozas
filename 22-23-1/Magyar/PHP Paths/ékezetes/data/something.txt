@@ -1,0 +1,1 @@
+Ez a fájl a data/something.txt

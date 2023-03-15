@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    span{
+        display: inline-block;
+    }
+</style>
+<body>
+<h1>Danish adventures</h1>
+<h2>Programs</h2>
+    <div id="programs"></div>
+<h2>Expenses</h2>
+    EUR: <input id="eur"> <br>
+    DKK: <input id="dkk"> <br>
+
+    <i>Hetedik feladat nélkül</i><br>
+    Sum spending: <span id="sum"></span> <button id="refresh">Refresh</button> <br>
+
+    <i>Hetedik feladattal</i><br>
+    Sum spending: <span id="sum-7"></span>
+    <button id="refresh-original">Original</button>
+    <button id="refresh-huf">HUF</button>
+    <button id="refresh-eur">EUR</button>
+    <button id="refresh-dkk">DKK</button> <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Expense</th>
+                <th>Amount</th>
+                <th>Currency</th>
+            </tr>
+        </thead>
+        <tbody id="expenses"></tbody>
+    </table>
+</body>
+</html>
+<script src="./solution-programs.js"></script>
+<script src="./solution-expenses.js"></script>

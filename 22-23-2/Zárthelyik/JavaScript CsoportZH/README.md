@@ -48,6 +48,8 @@ Mely pozíciókra jelentkezett legalább 10 ember? Írd ki a konzolra!
 ## 3. Feladat - 2 pont
 Összesen hány önkéntes jelentkezett táborszervezőnek? Írd ki a konzolra!
 
+*Helyes megoldás: 73*
+
 ## 4. Feladat - 2 pont
 Listázd ki a pozíciók neveit egy rendezetlen listába (`ul`)!
 

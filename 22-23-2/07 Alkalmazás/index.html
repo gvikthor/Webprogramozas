@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hidden{
+        display: none;
+    }
+</style>
+<body>
+    <div id="movie-details" class="hidden">
+        <h2 id="movie-title"></h2>
+        <input id="movie-rate-input" type="number" min="1" max="10" step="1"> <button id="movie-rate-btn">Rate</button> <br>
+        <span id="movie-genres"></span>
+        <span id="movie-ratings"></span>
+        <span id="movie-length"></span>
+        <span id="movie-year"></span>
+        <ul id="movie-directors"></ul>
+        <ul id="movie-cast"></ul>
+        <div id="movie-desc"></div>
+    </div>
+    <div id="search-div">
+        Keresés: <input class="update-search" id="search-box"> <!--button id="search-btn">Keres</button-->
+        <input class="update-search" type="checkbox" id="search-check-title"> Title |
+        <input class="update-search" type="checkbox" id="search-check-director"> Director |
+            <input class="update-search" type="checkbox" id="search-check-cast"> Cast |
+        <select class="update-search" id="search-genre">
+            <option value="ANY">ANY</option>
+        </select>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody id="movies-table"></tbody>
+    </table>
+</body>
+</html>
+<script src="./distance.js"></script>
+<script src="./data.js"></script>
+<script src="./script.js"></script>

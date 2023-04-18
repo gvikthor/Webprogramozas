@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Word game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Word game</h1>
+  
+  <form action="">
+    Guess:
+    <input type="text" maxlength="5" id="inputGuess">
+    <button type="submit">Guess</button>
+    <span id="error"></span>
+  </form>
+
+  <div id="end-of-game" hidden>
+    Correct! <br>
+    <button id="restart">Restart the game!</button>
+  </div>
+  
+  <details>
+    <summary>Click to see the word</summary>
+    <div></div>
+  </details>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Word</th>
+        <th>Matches</th>
+      </tr>
+    </thead>
+    <tbody id="guesses">
+
+    </tbody>
+  </table>
+  
+  <script src="words.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

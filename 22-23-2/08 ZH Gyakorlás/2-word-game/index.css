@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/elte-fi/www-assets@19.10.16/styles/mdss.min.css");
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333333;
+    color: #dddddd;
+  }
+} */
+
+span#error {
+  font-size: smaller;
+  color: red;
+}
+
+table td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+table tr.correct {
+  background-color: greenyellow;
+}
+#end-of-game {
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+  text-decoration: underline overline double green;
+  text-transform: uppercase;
+}

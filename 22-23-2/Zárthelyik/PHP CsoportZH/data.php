@@ -56,7 +56,8 @@ $a_tasks = [
         'answer' => '-5'
     ],
     [
-        'id' => 4,'Válassza ki az alábbiak közül a valós számok halmazán értelmezett x -> (x - 2)² függvény grafikonját!',
+        'id' => 4,
+        'description' => 'Válassza ki az alábbiak közül a valós számok halmazán értelmezett x -> (x - 2)² függvény grafikonját!',
         'image' => 'task4.png',
         'max_points' => 2,
         'answer' => 'C'

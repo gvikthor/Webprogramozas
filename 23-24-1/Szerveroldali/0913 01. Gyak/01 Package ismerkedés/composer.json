@@ -1,0 +1,7 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}

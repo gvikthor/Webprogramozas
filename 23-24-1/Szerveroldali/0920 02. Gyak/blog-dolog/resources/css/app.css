@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gyak-textcolors {
+    @apply text-gray-800 lg:text-pink-400 dark:text-red-500 lg:dark:text-green-500;
+}

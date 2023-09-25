@@ -1,4 +1,6 @@
 # Szerveroldali 2. gyak
+*Disclaimer: a gyakorlaton haladva eltérünk attól, amit előre terveztem, így kisebb nagyobb különbségek vannak a kódban.*
+
 ## KisZH
 KisZH: Mit jelent, hogy felseedelek egy adatbázist?
 
@@ -149,7 +151,7 @@ Ami nagyon izgalmas, hogy (ha telepítéskor ezt beállítottuk) a darkmode most
 
 Megoldás:
 ```HTML
-...
+<body class="font-sans text-gray-900 dark:text-gray-100 antialiased">
 ```
 
 ## Mégtöbb frontendes összezavarás
@@ -173,7 +175,7 @@ A webalkalmazásokban MINDIG mobile first szemléletmódot használunk. Tehét e
 
 Megoldás:
 ```HTML
-...
+<body class="font-sans text-gray-900 dark:text-gray-100 lg:text-pink-700 dark:lg:text-pink-500 antialiased">
 ```
 
 Utolsó lépésként pedig hozzunk létre saját classokat, hogy a csúnya hosszú leírásokat egyszerüsítsük. Másoljuk ki a text-color tulajdonságokat, és írjunk be egybe a helyükre valami class nevet, pl.:

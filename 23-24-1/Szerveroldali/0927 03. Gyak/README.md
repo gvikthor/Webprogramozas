@@ -11,7 +11,7 @@ Beadás: INF-es bejelentkezéssel formson https://forms.office.com/e/u1g5aDNmaS
 Folytassuk az előző órai projektet - értelemszerűen, neked nem kell másolni a mappát, én csak azért csinálom, hogy lássuk az előrehaladást. Első lépésként teszteljük, hogy az oldal még mindig működik. Nyissunk két külön konzolt a `blog-dolog` mappában, és az alábbi két parancsot futtassuk.
 ```
 npm run dev
-php artisan resve
+php artisan serve
 ```
 
 *Ha most töltötted le githubról a projektet, és `composer install` parancsot futtatva szeretnéd telepíteni a függőségeket, nem fogd tudni elindítani az oldalt, 500-as hibát fogsz kapni. Ez azért van, mert a github értelemszerűen a .env filet nem tölti fel. Először másold át a .env.example file tartalmát a .env fileba: `copy .env.example .env` (vagy kézzel). Ezt követően még a legfontosabb elem nincs meg, az `APP_KEY`. Ezt a `php artisan key:generate` parancs fogja kigenerálni.*
@@ -71,7 +71,15 @@ Töltsünk fel valamilyen tömböt példa adatokkal, és próbáljuk meg kigener
 **⚠️ Feladat: Generáld ki a bejegyzéseket a welcomeban található formátumban!**  
 Megoldás:
 ```
-...
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        @foreach ($posts as $post)
+            <div class="p-6 thor-post-colors flex flex-col shadow-sm rounded-lg">
+                <h2 class="text-xl font-bold">{{ $post->title }}</h2>
+                <p class="">{{ $post->desc }}</p>
+                <p class="text-right mt-auto">{{ $post->author }}</p>
+            </div>
+        @endforeach
+    </div>
 ```
 
 ## Bemenet

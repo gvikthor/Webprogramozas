@@ -186,14 +186,10 @@ value={{ old('title', '') }}
 **⚠️ Írd meg a maradék validációt és hibakiírást az űrlaphoz!**  
 Megoldás:
 ```
-
+web.php és create.blade.php fileok
 ```
 
 **⚠️ Adj hozzá egy új input mezőt, ami valamilyen számot vár (pl. minimum életkor a cikk olvasásához), validáld és kezeld hibaüzenettel! Elérhető validálási szabályok: [https://laravel.com/docs/10.x/validation#available-validation-rules](https://laravel.com/docs/10.x/validation#available-validation-rules)**  
-Megoldás:
-```
-
-```
 
 ## Összekötés
 

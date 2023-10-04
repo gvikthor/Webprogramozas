@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03</title>
+</head>
+<style>
+    .selected {
+        background-color: deeppink;
+    }
+</style>
+<body>
+    <!--div>
+    Bruttó: <input id="gross-income"> Ft <button id="calc">Kiszámol</button> <br>
+    SZJA: <span id="tax-szja"></span> Ft <br>
+    Nyugdíj: <span id="tax-nyugdij"></span> Ft <br>
+    Egészség: <span id="tax-egeszseg"></span> Ft <br>
+    Munkaerőp.: <span id="tax-munkaer"></span> Ft <br>
+    Szocho: <span id="tax-szocho"></span> Ft <br>
+    NETTÓ: <span id="net-income"></span> Ft 
+    </div-->
+
+    Bruttó:
+    <ul id="gross-income-list">
+        <li data-forint="300000">300.000 Ft</li>
+        <li data-forint="400000">400.000 Ft</li>
+        <li data-forint="500000">500.000 Ft</li>
+        <li data-forint="600000">600.000 Ft</li>
+    </ul>
+    Nettó: <span id="net-income"></span> Ft
+
+    <h2>Pedagógus bértábla</h2>
+    <button data-forint="10000">+10.000 Ft</button>
+    <button data-forint="-10000">-10.000 Ft</button>
+    <br>
+    <table id="pedber">
+        <thead>
+            <tr>
+                <th>Pályán töltött idő</th>
+                <th>Ped I.</th>
+                <th>Ped II.</th>
+                <th>Ped III.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>0-4</th>
+                <td>200000</td>
+                <td>220000</td>
+                <td>240000</td>
+            </tr>
+            <tr>
+                <th>5-9</th>
+                <td>220000</td>
+                <td>240000</td>
+                <td>260000</td>
+            </tr>
+            <tr>
+                <th>10-14</th>
+                <td>240000</td>
+                <td>260000</td>
+                <td>280000</td>
+            </tr>
+            <tr>
+                <th>15-19</th>
+                <td>260000</td>
+                <td>280000</td>
+                <td>300000</td>
+            </tr>
+            <tr>
+                <th>20-24</th>
+                <td>280000</td>
+                <td>300000</td>
+                <td>320000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<script src="script.js"></script>

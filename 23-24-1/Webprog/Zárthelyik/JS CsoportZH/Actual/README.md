@@ -72,7 +72,7 @@ Minden név mellé, a `div` tagen belülre helyezd el az adott emberhez tartozó
 
 *Helyes megoldás:*
 ```html
-<ul id="people">
+<div id="people">
     <div class="person">Rezső <span>tűzgyújtó folyadék</span><span>öngyújtó</span><span>szalonna</span><span>kenyér</span></div>
     <div class="person">Péter <span>tűzifa</span></div>
     <div class="person">Gergő <span>virsli</span><span>hagyma</span><span>mustár</span><span>ketchup</span><span>kifli</span></div>
@@ -80,7 +80,7 @@ Minden név mellé, a `div` tagen belülre helyezd el az adott emberhez tartozó
     <div class="person">Bálint <span>kézi fűrész</span><span>sör</span><span>papírpohár</span><span>papírtányér</span><span>evőeszköz</span></div>
     <div class="person">Míra <span>sió vitatrigris</span><span>papírtörlő</span></div>
     <div class="person">László</div>
-</ul>
+</div>
 ```
 *Ha az előre megadott HTML-be dolgozol, így fog kinézni:*  
 ![Spanek](src/spanek.png)

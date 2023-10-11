@@ -1,0 +1,13 @@
+resources\views\welcome.blade.php  <---- resources\views\layouts\guest.blade.php [02. Gyak]
+- cikkek listázva
+- !új bejegyzés!
+
+resources\views\posts\create.blade.php  <---- létrehoztunk egy Post modellt (app\Models\Post.php) [03. Gyak]
+              |
+              |
+              V
+adatbázis elemek (database) [04-05. Gyak]
+  migrations  +  factories
+              |
+              V
+           seeders

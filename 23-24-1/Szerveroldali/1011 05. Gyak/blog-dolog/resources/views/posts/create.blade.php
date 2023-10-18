@@ -24,7 +24,7 @@
 
     <h1>Új bejegyzés</h1>
 
-    <form class="flex flex-col gap-4" action="{{ route('posts.store') }}" method="POST">
+    <form class="flex flex-col gap-4" action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <label for="title">Cím</label>
         <input type="text" name="title" id="title" class="thor-input-field" value="{{ old('title', '') }}">
@@ -56,6 +56,18 @@
         @enderror
         @error('topics.*')
             <div class="text-red-500">Téma hiba: {{ $message }}</div>            
+        @enderror
+
+        <label for="attach_file">Csatolmány</label>
+        <input type="file" name="attach_file" id="attach_file" class="thor-input-field">
+        @error('attach_file')
+            <div class="text-red-500">Csatolmány hiba: {{ $message }}</div>
+        @enderror
+        
+        <label for="attach_image">Borítókép</label>
+        <input type="file" name="attach_image" id="attach_image" class="thor-input-field">
+        @error('attach_image')
+            <div class="text-red-500">Borítókép hiba: {{ $message }}</div>
         @enderror
 
         <button type="submit" class="p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm">Küldés</button>

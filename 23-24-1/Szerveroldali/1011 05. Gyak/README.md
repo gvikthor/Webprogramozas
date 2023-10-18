@@ -38,7 +38,7 @@ Futtassuk hát a migrationt, hogy ez az új tábla létrejöjjön.
 És jöhet az adatfeltöltés. Most ne random adataink legyenek, hanem fogjuk a bejegyzéseinket, amiket példának használtam, és töltsük fel velük az adatbázist. Egyelőre a képek és fileok üresek lesznek, milyen jó lenne, ha majd valami szerkesztés funkciót valaki implementálna az alkalmazásunkba hmmmmmm.
 
 Adottak az adataink, szóval nem random dolgokkal kell feltölteni az adatbázist. Vajon hogy lehetséges ez? Biztosan a seederrel kell játszani, úgyhogy módosítsuk is. Innentől ne a fakert használja, hanem illesszük be most (elég csúnyán) az adatainkat.
-⌨️ `01_welcome.blade.php`
+⌨️ `01_articles.php`
 
 **⚠️ Feladat: A Post seedert módosítsd úgy, hogy a megadott tömb adataival töltse fel az adatbázist!**  
 Megoldás:
@@ -77,18 +77,22 @@ Javasolt segítség:
     - A `content` csak egy szöveges mező, nem kell formázni semmilyen módon benne a szöveget.
     - A két csatolmány már bonyolultabb téma, ehhez a következő utakon érdemes elindulni:
         - A `resources\views\posts\create.blade.php` file valami ilyesmit vár, de persze hibakezelésre mindenképp szüksége lesz majd.
-        ```PHP
-        <label for="attach_file">Csatolmány</label>
-        <input type="file" name="attach_file" id="attach_file" class="thor-input-field">
-        
-        <label for="attach_image>">Borítókép</label>
-        <input type="file" name="attach_image" id="attach_image" class="thor-input-field">
-        ```
+            ```PHP
+            <label for="attach_file">Csatolmány</label>
+            <input type="file" name="attach_file" id="attach_file" class="thor-input-field">
+            
+            <label for="attach_image>">Borítókép</label>
+            <input type="file" name="attach_image" id="attach_image" class="thor-input-field">
+            ```
+        - **Fontos:** űrlappal csak akkor tudunk file-okat küldeni, ha megadunk egy extra kitételt a `form` tagen belülre, ami megadja, hogyan encryptelje az elküldött adatokat!
+            ```HTML
+            <form class="flex flex-col gap-4" action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
+            ```
         - A `routes\web.php` fileba valamilyen módon bele kell tenni a fileok ellenőrzését. A megfelelő attribútumhoz a következő két ellenőrző láncot érdemes megadni, de persze belátásotok szerint dönthettek. (MIME: Multipurpose Internet Mail Extensions, ez segít standard módon meghatározni a fileformátumot)
-        ```
-        a filehoz: nullable|file|mimes:txt,doc,docx,pdf,xls|max:4096
-        a borítóképhez: nullable|file|mimes:jpg,png|max:4096
-        ```
+            ```
+            a filehoz: nullable|file|mimes:txt,doc,docx,pdf,xls|max:4096
+            a borítóképhez: nullable|file|mimes:jpg,png|max:4096
+            ```
         - Ezeket el is kell menteni. Érdemes egyelőre ezt is a kérés feldolgozó függvényében hagyni. Viszont hogyan lehet elmenteni? Ehhez a küvetkező hasznos függvényekről érdemes tudni:
         - `$request->hasFile('kérésparaméter_neve')`: megmondja, hogy van-e file az adott kérésparaméterben
         - `$request->file('kérésparaméter_neve')`: visszaadja az adott helyen található filet
@@ -104,3 +108,93 @@ Javasolt segítség:
 - Próbáld feltölteni Factoryval és Seederrel
 - Rollbackeld
 - Töltsd fel a saját adatainkkal (a topics tömb bent van a `resources\welcome.blade.php` fileban)
+
+Lépésenként az egész:
+- Hozzuk létre a modellt, és tartozzanak hozzá migrációk, factory és seeder is. ([1004 04. Gyak # Modellek](https://github.com/gvikthor/Webprogramozas/tree/master/23-24-1/Szerveroldali/1004%2004.%20Gyak#modellek))
+    - `php artisan make:model Topic -mfs` : ne felejtsük el leállítani a két futó konzolt!
+    - `app\Models\Topic.php` : adjuk hozzá a fillable propertyket.
+        ```PHP
+        protected $fillable = [ 'shortname', 'fullname', 'color'];
+        ```
+    - `database\factories\TopicFactory.php` : ha random topicocat szeretnénk generálni, ez képes lenne rá, de nekünk most megvannak a megfelelő topicjaink.
+    - `database\migrations\****_**_**_******_create_topics_table.php` : na ez már viszont fontos! Töltsük fel a megfelelő attribútumokkal a címke adatbázist.
+        ```PHP
+        public function up(): void
+        {
+            Schema::create('topics', function (Blueprint $table) {
+                $table->id();
+                $table->string('shortname');
+                $table->string('fullname');
+                $table->string('color');
+                $table->timestamps();
+            });
+        }
+        ```
+    - `database\seeders\TopicSeeder.php` : mivel most nem csak random topicokat szeretnénk, hanem azokat, amik eddig is voltak, menjünk végig az objektumunkon, és adogassuk hozzá az adatbázishoz.
+        ```PHP
+        use App\Models\Topic;
+        /*...*/
+        public function run(): void
+        {
+            $topics = (object)[
+                'food' => (object)[
+                    'name' => 'Gastronomy',
+                    'color' => 'bg-red-200',
+                ],/*...*/
+            ];
+
+            foreach ($topics as $index => $topic) {
+                Topic::create([
+                    'shortname' => $inddex,
+                    'fullname' => $topic->name,
+                    'color' => $topic->color,
+                ]);
+                /* vagy ha nem tetted az elejére a use-os sort, akkor \App\Models\Topic::create() */
+            }
+        }
+        ```
+    - Készítsük el a táblát és népesítsük be.
+        - `php artisan migrate` : ezzel lefut a migráció, és megjelenik az adatbázisban a tábla üresen.
+        - `database\seeders\DatabaseSeeder.php` : ne felejtsük el seedelés előtt, hogy az adatbázisunkban már vannak bejegyzések, nem akarjuk mégtöbbel feltölteni. Helyettük a címkék seederét kéne futtatnunk.
+            ```PHP
+            public function run(): void
+            {
+                $this->call([
+                    TopicSeeder::class
+                ]);
+            }
+            ```
+        - `php artisan db:seed` : és akkor most már fel is seedelhetjük az adatbázist.
+- Készítsük el hozzá az űrlapot. ([0927 03. Gyak # Bemenet](https://github.com/gvikthor/Webprogramozas/tree/master/23-24-1/Szerveroldali/0927%2003.%20Gyak#bemenet))
+    - `routes\web.php` : két függvényre lesz szükségünk, az egyik a create oldal, a másik a store "kontroller".
+        ```PHP
+        use App\Models\Topic;
+        /*...*/
+        Route::get('/topics/create', function () {
+            return view('topics.create');
+        })->name('topics.create');
+
+        Route::post('/topics/store', function (Request $request) {
+            $request->validate([
+                'shortname' => 'required|min:4|max:20',
+                'fullname'  => 'required|min:4|max:50',
+                'color'  => 'required|min:4|max:30',
+            ]);
+
+            Topic::create([
+                'shortname' => $request->shortname,
+                'fullname' => $request->fullname,
+                'color' => $request->color,
+            ]);
+        })->name('topics.store');
+        ```
+    - `resources\views\topics\create.blade.php` : hozzuk létre ezt a filet, és töltsük fel egy megfelelő űrlappal.
+        ⌨️ `02_topic_form.php`
+    
+    - `resources\welcome.blade.php` : végezetül pedig a felhasználó is férjen hozzá ehhez az űrlaphoz.
+        ```HTML
+        <a
+            href="{{ route('topics.create') }}"
+            class="p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm mt-4"
+        >Új téma</a>
+        ```

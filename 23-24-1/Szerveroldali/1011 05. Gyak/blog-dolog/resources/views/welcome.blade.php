@@ -73,6 +73,11 @@
             href="{{ route('posts.create') }}"
             class="p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm mt-4"
         >Új bejegyzés</a>
+        
+        <a
+            href="{{ route('topics.create') }}"
+            class="p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm mt-4"
+        >Új téma</a>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">

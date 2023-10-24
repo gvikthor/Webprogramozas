@@ -65,9 +65,9 @@ Route::post('/posts/store', function (Request $request) {
         'desc' => $request->desc,
         'author' => $request->author,
         'topics' => json_encode($request->topics),
-        'attach_file' => $attach_file_name,
-        'attach_file_hash' => $attach_hash_name,
-        'attach_image' => $image_hash_name,
+        'attachment_file_name' => $attach_file_name,
+        'attachment_hash_name' => $attach_hash_name,
+        'image_hash_name' => $image_hash_name,
     ]);
 })->name('posts.store');
 

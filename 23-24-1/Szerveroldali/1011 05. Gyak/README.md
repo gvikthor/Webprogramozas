@@ -100,6 +100,7 @@ Javasolt segítség:
         - `$file->hashName()`: a $file változóban lévő file nevét adja vissza hashelve
         - `Storage::disk('public')->put('valami/utvonal/ide_írd_be_a_hash_nevet', $file->get())`: elmenti a korábban említett public mappában egy megadott mappaszerkezet alá az adott filet adott néven
     - Mindezek után ne felejtsd el a hibakezelést az űrlapban.
+    - És ne felejtsük el feltölteni az `app\Models\Post.php` fileban a fillable propertyket!
 
 2. **Hosszabb, de könnyebb feladat:** Készítsd el a címkékhez (kategóriákhoz, `topics`) mindazt, amit a bejegyzésekhez is csináltunk. 
 - Legyen egy címke adatbázis.

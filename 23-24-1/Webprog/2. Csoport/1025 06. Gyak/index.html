@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .delete {
+        cursor: pointer;
+    }
+    .delete:hover {
+        opacity: 50%;
+    }
+</style>
+<body>
+    <h1>Játékok</h1>
+    <input id="filter-title">
+    <select id="filter-genre">
+        <option value="any">Bármi</option>
+        <option value="platformer">Platformer</option>
+        <option value="action-adventure">Action-adventure</option>
+        <option value="sandbox">Sandbox</option>
+        <option value="strategy">Strategy</option>
+        <option value="rpg">RPG</option>
+    </select>
+    <br>
+    <ul id="games"></ul>
+    <form id="newgame">
+        <input id="title" placeholder="Játék neve"><br>
+        <input id="year" placeholder="2023"><br>
+        <input id="genre" placeholder="platformer"><br>
+        <input type="submit" value="➕">
+    </form>
+</body>
+</html>
+<script src="script.js"></script>

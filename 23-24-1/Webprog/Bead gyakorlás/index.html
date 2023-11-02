@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerrymandering</title>
+</head>
+<style>
+    #game-board td {
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+    #game-board .cell-of-current-tile {
+        background-color: rgb(62, 144, 211);
+    }
+
+    #game-tiles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #game-tiles table {
+        border-collapse: collapse;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    #game-tiles td {
+        border: 1px solid black;
+        width: 10px;
+        height: 10px;
+    }
+    #game-tiles table:hover td {
+        border: 1px solid red;
+    }
+    #game-tiles table.selected td {
+        border: 1px solid rgb(62, 144, 211);
+    }
+    #game-tiles .tile-cell {
+        background-color: black;
+    }
+</style>
+<body>
+    <table id="game-board">
+
+    </table>
+    <div id="game-tiles">
+
+    </div>
+    <div>
+        <button id="refresh-tiles">🔃 Refresh tiles (<span id="refresh-tiles-left"></span>)</button>
+        <input id="district-color" type="color" value="#000000">
+        <button id="confirm-district">✅ Confirm disctrict</button>
+    </div>
+    <ul id="districts">
+
+    </ul>
+    <button id="show-results">VOTE</button>
+    <div id="results"></div>
+</body>
+</html>
+<script src="script.js"></script>

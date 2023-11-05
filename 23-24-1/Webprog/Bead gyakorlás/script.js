@@ -267,6 +267,29 @@ function view_renderBoard(){
     }
 }
 
+function view_refreshBoard(){
+    gameBoard.querySelectorAll('.cell-of-current-tile').forEach((cell) => {
+        cell.classList.remove('cell-of-current-tile')
+    })
+
+    if(gameModel.isPlacing){
+        gameModel.tilesToChooseFrom[gameModel.currentTileIndex].forEach((tile, idxRow) => {
+            tile.forEach((value, idxCol) => {
+                if(value == 1){
+                    const whereToPlace = {
+                        row: gameModel.currentTilePosition.row + idxRow - 1,
+                        column: gameModel.currentTilePosition.column + idxCol - 1
+                    }
+                    const cell = gameBoard.querySelector(`[data-row="${whereToPlace.row}"][data-column="${whereToPlace.column}"]`)
+                    if(cell){
+                        cell.classList.add('cell-of-current-tile')
+                    }
+                }
+            })
+        })
+    }
+}
+
 function view_renderTiles(){
     gameTiles.innerHTML = ''
     gameModel.tilesToChooseFrom.forEach((tile, idxTile) => {
@@ -374,7 +397,7 @@ delegate(gameBoard, 'td', 'mouseover', (event, cell) => {
 
     gameModel.currentTilePosition.row = parseInt(cell.dataset.row)
     gameModel.currentTilePosition.column = parseInt(cell.dataset.column)
-    view_renderBoard()
+    view_refreshBoard()
 })
 
 // Lerakás

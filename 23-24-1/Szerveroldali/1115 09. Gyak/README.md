@@ -267,7 +267,7 @@ Adjuk hozzá a seedelést is a scriptünkhöz.
 ```JSON
 /*...*/
 "scripts": {
-    "db-fresh": "npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && db:seed:all"
+    "db-fresh": "npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
 },
 /*...*/
 ```

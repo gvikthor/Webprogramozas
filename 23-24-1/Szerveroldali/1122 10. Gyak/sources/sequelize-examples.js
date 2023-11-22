@@ -31,6 +31,16 @@ async function main() {
 
     console.log('Where:')
     console.log(await Rating.findAll({ where: { rating: 4 } }))
+
+    console.log(
+        await Rating.findAll({       // Keress a filmek közt
+            where: {                // Ahol
+                rating: {             // Az év
+                    [Op.gt]: 3   // [operator greater] Nagyobb mint 3 
+                }
+            }
+        })
+    )
     console.log('-'.repeat(20))
 
     console.log('Kapcsolatokkal együtt:')

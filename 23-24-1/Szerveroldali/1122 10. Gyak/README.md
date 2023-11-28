@@ -113,8 +113,8 @@ app.get('/movie/:movieKey/year/:plus', async (req, res) => {
     - `/all`: Az összes adatbázisban található film.
     - `/titles`: Az összes film címe egy HTML `ul`-ben.
     - `/nolan`: Az összes Christopher Nolan film adata.
-    - `/oldest`: A legrégebbi film képe egy `<img>` tagben kirajzolva.- `
-    - `/genre/:genreId`: Az összes film, aminek a kategóriája
+    - `/oldest`: A legrégebbi film képe egy `<img>` tagben kirajzolva.
+    - `/genre/:genreId`: Az összes film, aminek a kategóriája `genreId`
 - `/ratings`
     - `/happy`: A pozitív (4, 5) értékelések.
     - `/sad`: A negatív (1, 2) értékelések.

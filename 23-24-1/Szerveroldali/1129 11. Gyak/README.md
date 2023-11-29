@@ -5,6 +5,10 @@
 
 KisZH: [https://forms.office.com/e/3knVvggG4h](https://forms.office.com/e/3knVvggG4h)
 
+## npm init
+npm init
+`npm init`
+
 ## Jelszavak
 Ha megnyitjuk a users táblát, akkor azt tapasztaljuk, hogy AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. Ennek oka, hogy minden felhasználónak plain textként az a jelszava, hogy "jelszó". Ezzel több problémánk is van:
 - minden felhasználónak

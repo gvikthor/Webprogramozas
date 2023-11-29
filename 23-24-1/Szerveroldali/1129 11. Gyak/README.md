@@ -13,7 +13,7 @@ npm init
 Ha megnyitjuk a users táblát, akkor azt tapasztaljuk, hogy AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA. Ennek oka, hogy minden felhasználónak plain textként az a jelszava, hogy "jelszó". Ezzel több problémánk is van:
 - minden felhasználónak
 - plain textként
-- az a jelszava, hogy jelszó.
+- az a jelszava, hogy jelszó.  
 Szeretnénk titkosítani a jelszavainkat egy megfelelően biztonságos algoritmussal. Password hashelésről, saltolásról, algoritmusokról sok mindent lehet találni a neten. Nekünk most az a fontos, hogy bcryptet fogunk használni, mert GPU gyorsítással sem igazán feltörhető reális idő alatt, és szépen széthasheli az azonos jelszavakat.
 ```
 npm i bcrypt

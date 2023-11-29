@@ -2,6 +2,7 @@
 const {
   Model
 } = require('sequelize');
+const bcrypt = require('bcrypt')
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     /**
@@ -11,6 +12,14 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       this.hasMany(models.Rating)
+    }
+
+    toJSON(){
+      return {...this.get(), password: undefined}
+    }
+
+    passwordCompare(pword){
+      return bcrypt.compareSync(pword, this.password)
     }
   }
   User.init({

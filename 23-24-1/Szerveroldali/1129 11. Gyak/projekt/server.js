@@ -1,25 +1,23 @@
 const { User, Genre, Movie, Rating } = require('./models')
 const express = require('express')
+require('express-async-errors')
 const app = express()
 
-app.get('/', (req, res) => {
-    console.log('Hello There!')
-    res.send('<ul><li>General Kenobi!</li></ul>')
-})
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
 
-app.get('/movies', async (req, res) => {
-    const movies = await Movie.findAll()
-    res.json(movies)
-})
+app.use('/genres', require('./routers/genres'))
+app.use('/users', require('./routers/users'))
 
-app.get('/movie/:movieId', async (req, res) => {
-    const movie = await Movie.findByPk(req.params.movieId)
-    res.json(movie)
-})
-
-app.get('/movie/:movieId/add/:number', async (req, res) => {
-    const movie = await Movie.findByPk(req.params.movieId)
-    res.json(movie.year + parseInt(req.params.number))
+app.use((err, req, res, next) => {
+    if(res.headersSent){
+        return next(err) // fusson le a default error handler, ha már küldtünk választ
+    }
+    res.status(500).json({ // 500: Internal Server Error
+        name: err.name,
+        message: err.message,
+        stack: err.stack.split(/$\s+/gm)
+    })
 })
 
 app.listen(3000, () => {

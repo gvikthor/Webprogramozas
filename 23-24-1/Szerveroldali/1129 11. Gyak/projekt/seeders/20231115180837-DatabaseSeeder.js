@@ -2,6 +2,7 @@
 const models = require('../models')
 const { User, Movie, Genre, Rating } = models
 const faker = require('@faker-js/faker').faker
+const bcrypt = require('bcrypt')
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
@@ -85,7 +86,7 @@ module.exports = {
       displayname: user.name,
       username: user.uname,
       email: `${user.uname}@elte.hu`,
-      password: 'jelszo',
+      password: bcrypt.hashSync('jelszo', 10),
       isAdmin: false
     })))
     const movies = await Movie.bulkCreate(moviesRaw)

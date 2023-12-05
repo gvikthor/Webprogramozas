@@ -109,6 +109,9 @@ app.get('/movie/:movieKey/year/:plus', async (req, res) => {
 4. Írd meg a feladatokat.
 
 *A feladatok nem feltétlen nehézségi sorrendben vannak.*  
+
+⌨️ MEGOLDÁS: solution.js
+
 - `/movies`
     - `/all`: Az összes adatbázisban található film.
     - `/titles`: Az összes film címe egy HTML `ul`-ben.

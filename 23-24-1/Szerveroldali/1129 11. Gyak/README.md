@@ -233,14 +233,14 @@ Eddig mi vertikális middleware-eket írtunk, amik egymás után futottak le, mo
 const {expressjwt} = require('express-jwt')
 /*...*/
 router.get('/me', async (req, res) => {
-    res.json(req.user)
+    res.json(req.auth)
 })
 ```
 Ennek valahogy a userrel dolgozni kéne. A horizontális middleware-ek lényege, hogy a kérésre egymás után lefutnak, és ha az egyiknek nincs next-je (tehát lehalt), akkor a többi nem fut le.
 ```JS
                                 // itt a secret-key azért így van hívva, mert fent a sign-ban így hívtam. kiscica kiskutya
 router.get('/me', expressjwt({ secret: 'secret-key', algorithms: ['HS256'] }), async (req, res) => {
-    res.json(req.user)
+    res.json(req.auth)
 })
 ```
 Most, ha küldök ide egy kérést token nélkül, akkor unauthorized-ot kapok, ha jó tokennel, akkor meg OK-t. Hogy ne legyen olyan csúnya minden kérésünk, írjunk erre egy külön modult. Csináljunk egy `middlewares` mappát és bele egy `auth.js` filet.
@@ -252,6 +252,6 @@ module.exports = ejwt({ secret: 'secret-key', algorithms: ['HS256'] })
 ```JS
 router.get('/me', auth, async (req, res) => {
     console.log('alma')
-    res.json(req.user)
+    res.json(req.auth)
 })
 ```

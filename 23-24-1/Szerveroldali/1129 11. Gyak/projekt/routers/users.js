@@ -32,7 +32,8 @@ router.post('/login', async (req, res) => {
 router.get('/me',
     expressjwt({ secret: 'secret-key', algorithms: ['HS256'] }),
     async (req, res) => {
-        res.json(req.user)
+        //res.json(req.user) <-- nem user, hanem auth, csak hülye vagyok
+        res.json(req.auth)
     }
 )
 

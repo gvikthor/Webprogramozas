@@ -1,0 +1,26 @@
+{
+    "65709649f0925": {
+        "code": "IP-18WEB",
+        "name": "Webprog",
+        "max_stud": 5,
+        "students": [],
+        "teacher": "6570971f9f58c",
+        "id": "65709649f0925"
+    },
+    "6570971f5e796": {
+        "code": "IP-18ALGO",
+        "name": "Algoritmusok",
+        "max_stud": 3,
+        "students": [],
+        "teacher": "6570971f9f58c",
+        "id": "6570971f5e796"
+    },
+    "6570971f5fe8b": {
+        "code": "IP-18AUTO",
+        "name": "Aut\u00f3szerel\u00e9s alapok",
+        "max_stud": 4,
+        "students": [],
+        "teacher": "6570971fab773",
+        "id": "6570971f5fe8b"
+    }
+}

@@ -6,8 +6,9 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-app.use('/genres', require('./routers/genres'))
-app.use('/users', require('./routers/users'))
+//app.use('/genres', require('./routers/genres'))
+//app.use('/users', require('./routers/users'))
+app.use('/graphql', require('./graphql'))
 
 app.use((err, req, res, next) => {
     if(res.headersSent){
@@ -23,3 +24,5 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
     console.log('Server is running on port 3000')
 })
+
+console.log(Genre.findAll())

@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Center align the content in the body */
+}
+
+form {
+    max-width: 300px;
+    /* Set a maximum width for the form */
+    margin: 50px auto;
+    /* Center the form on the page */
+    padding: 20px;
+    /* Add padding to the form */
+    background-color: #fff;
+    /* Set a white background color for the form */
+    border-radius: 10px;
+    /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+}
+
+input {
+    width: 100%;
+    /* Make the input fields fill the container */
+    margin-bottom: 15px;
+    /* Add space between input fields */
+    padding: 10px;
+    /* Add padding to input fields */
+    box-sizing: border-box;
+    /* Include padding and border in the input's total width */
+    border: 1px solid #ddd;
+    /* Add a border to input fields */
+    border-radius: 5px;
+    /* Add rounded corners to input fields */
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    /* Set a blue background color for the submit button */
+    color: #fff;
+    /* Set text color for the submit button */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+    /* Change the background color on hover */
+}

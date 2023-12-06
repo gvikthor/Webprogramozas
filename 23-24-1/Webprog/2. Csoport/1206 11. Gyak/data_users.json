@@ -1,0 +1,47 @@
+{
+    "6570cb1f62671": {
+        "uname": "bgerg0",
+        "name": "B\u00e1thory Gerg\u0151",
+        "email": "b.gergo@gov.eu",
+        "password": "$2y$10$Eugw4CJK9WhdgqWpKmIS1ubyyQBUeVFF.cCa3bn780PVo2oEUM5BK",
+        "tenders": [],
+        "is_minister": true,
+        "id": "6570cb1f62671"
+    },
+    "6570cb1f6efcc": {
+        "uname": "miklosipeti",
+        "name": "Mikl\u00f3si P\u00e9ter",
+        "email": "m.peter@gov.eu",
+        "password": "$2y$10$ZJ\/RQxAlYt7w.PhMJ2PwVOi2Oaf5yHsSdn\/gHGJaa3X0sgMeDlQcW",
+        "tenders": [],
+        "is_minister": true,
+        "id": "6570cb1f6efcc"
+    },
+    "6570cb1f7c353": {
+        "uname": "budapest",
+        "name": "Budapest F\u0151v\u00e1rosi \u00d6nkorm\u00e1nyzat",
+        "email": "budapest@magyarorszag.gov.hu",
+        "password": "$2y$10$DmrTb1ikJGlYcd7vuZ7LJuj3qmyjlk32kaECS8OL\/vFZgqBzIrY9a",
+        "tenders": [],
+        "is_minister": false,
+        "id": "6570cb1f7c353"
+    },
+    "6570cb1f882af": {
+        "uname": "ELTE",
+        "name": "E\u00f6tv\u00f6s Lor\u00e1nd Tudom\u00e1nyegyetem",
+        "email": "kancellar@elte.hu",
+        "password": "$2y$10$iiET\/VVxLdw\/gcIngFK\/yeGfR39ACZmtPjCrxurWx65b5gmZHlAdK",
+        "tenders": [],
+        "is_minister": false,
+        "id": "6570cb1f882af"
+    },
+    "6570cb1f96313": {
+        "uname": "aron",
+        "name": "\u00c1ron",
+        "email": "aron@gmail.com",
+        "password": "$2y$10$dQ0hl5sAN1nXVTMU3oioO.NMz3uBsGZgL11VZjRvjVxlXdtNbeDJS",
+        "tenders": [],
+        "is_minister": false,
+        "id": "6570cb1f96313"
+    }
+}

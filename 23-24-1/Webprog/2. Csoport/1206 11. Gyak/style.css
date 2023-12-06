@@ -1,0 +1,97 @@
+body {
+    background-color: #f0f0f0;
+    /* Set a light background color */
+    color: #333;
+    /* Set a default text color */
+    font-family: Arial, sans-serif;
+    /* Choose a font family */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+header {
+    background-color: #3498db;
+    /* Set a blue background color for the header */
+    color: #fff;
+    /* Set text color for the header */
+    padding: 10px;
+    /* Add padding to the header */
+    text-align: center;
+    /* Center align the text in the header */
+    border-radius: 10px 10px 0 0;
+    /* Add rounded corners to the top of the header */
+}
+
+nav {
+    margin-top: 10px;
+    /* Add some space between the header and the navigation links */
+}
+
+nav a {
+    display: inline-block;
+    /* Display navigation links as block elements */
+    padding: 10px 20px;
+    /* Add padding to the navigation links */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #fff;
+    /* Set text color for the navigation links */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Collapse border spacing for the table */
+    margin-top: 20px;
+    /* Add some space between the header and the table */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Add padding to table cells */
+    border: 1px solid #ddd;
+    /* Add a border to table cells */
+    text-align: left;
+    /* Align text to the left in table cells */
+}
+
+th {
+    background-color: #3498db;
+    /* Set a blue background color for table headers */
+    color: #fff;
+    /* Set text color for table headers */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Set a background color for even rows in the table */
+}
+
+footer {
+    background-color: #3498db;
+    /* Set a blue background color for the footer */
+    color: #fff;
+    /* Set text color for the footer */
+    padding: 10px;
+    /* Add padding to the footer */
+    text-align: center;
+    /* Center align the text in the footer */
+    border-radius: 0 0 10px 10px;
+    /* Add rounded corners to the bottom of the footer */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+}
+
+nav a:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+}

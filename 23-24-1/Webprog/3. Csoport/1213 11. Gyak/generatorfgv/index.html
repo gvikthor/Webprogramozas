@@ -1,0 +1,17 @@
+<script>
+    function* valami(){
+        let step = 0
+        while(true){
+            console.log(step)
+            step++
+            if(step < 5){
+            yield step*3
+            }else{
+                return step*3
+            }
+        }
+    }
+
+    const peldanyositott_valami = valami()
+
+</script>

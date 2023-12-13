@@ -1,0 +1,74 @@
+{
+    "6570956a0ff9b": {
+        "uname": "ABC123",
+        "email": "abc123@elte.hu",
+        "password": "$2y$10$RDxQeclImdtZ1elONZK96O3pM56T8L9emAiFRRl9G9R\/rFUFrrJ\/S",
+        "student_of": [
+            "65709649f0925",
+            "6570971f5fe8b"
+        ],
+        "teacher_of": [],
+        "is_teacher": false,
+        "id": "6570956a0ff9b",
+        "courses": []
+    },
+    "6570971f6c7b3": {
+        "uname": "JKL987",
+        "email": "jkl987@elte.hu",
+        "password": "$2y$10$5K6H0izUjoDEhuTSUnwI\/ude1GLGIEENqvQEa7kWDAhBYzWKhVKLO",
+        "student_of": [],
+        "teacher_of": [],
+        "is_teacher": false,
+        "id": "6570971f6c7b3"
+    },
+    "6570971f79276": {
+        "uname": "QWE456",
+        "email": "qwe455@elte.hu",
+        "password": "$2y$10$nIoBbspLU1vCvtDjDQxiYemezu9Zy3PHJ8HU5Fv8zSM\/faM0WhUW6",
+        "student_of": [],
+        "teacher_of": [],
+        "is_teacher": false,
+        "id": "6570971f79276"
+    },
+    "6570971f85a2c": {
+        "uname": "123ASD",
+        "email": "123ASD@elte.hu",
+        "password": "$2y$10$.sePB92XK7RIf5axygGTZOaTXlkLv7dOllRrYMMjuJ9scGD2hnOEG",
+        "student_of": [],
+        "teacher_of": [],
+        "is_teacher": false,
+        "id": "6570971f85a2c"
+    },
+    "6570971f9255f": {
+        "uname": "456789",
+        "email": "456789@elte.hu",
+        "password": "$2y$10$YxibjuQKcKRhCDo8MDeI.ezsFUqojEBxD96MRCTbLOWu.nQw32uUq",
+        "student_of": [],
+        "teacher_of": [],
+        "is_teacher": false,
+        "id": "6570971f9255f"
+    },
+    "6570971f9f58c": {
+        "uname": "Fradi",
+        "email": "fradi@elte.hu",
+        "password": "$2y$10$ZJEbVK\/eZXrzdI7fibbvVuY1DI01fyDoo4P.M0gx4YYTiuc8EjvBm",
+        "student_of": [],
+        "teacher_of": [
+            "65709649f0925",
+            "6570971f5e796"
+        ],
+        "is_teacher": true,
+        "id": "6570971f9f58c"
+    },
+    "6570971fab773": {
+        "uname": "hz",
+        "email": "hz@elte.hu",
+        "password": "$2y$10$2PhETq6b9nW7eC7dqV5L1eQhahXhJnNPmYo5SgzkT3AJCd4aJg2P6",
+        "student_of": [],
+        "teacher_of": [
+            "6570971f5fe8b"
+        ],
+        "is_teacher": true,
+        "id": "6570971fab773"
+    }
+}

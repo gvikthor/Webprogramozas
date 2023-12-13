@@ -1,0 +1,21 @@
+<ul>
+
+</ul>
+
+<script>
+    function fetchke(celnev, fuggveny, json = true) {
+        if (json) fetch(celnev).then(v => v.json()).then(e => fuggveny(e))
+        else fetch(celnev).then(v => v.text()).then(e => fuggveny(e))
+    }
+
+    setInterval(()=>{
+        const list = document.querySelector('ul')
+        
+        fetchke('something.php', (result) => {
+            list.innerHTML = ''
+            for(const num of result){
+                list.innerHTML += `<li>${num}</li>`
+            }
+        })
+    }, 1000)
+</script>

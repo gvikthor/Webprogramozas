@@ -1,0 +1,20 @@
+<script>
+    function* szorzotabla(num){
+        let sum = 0
+        while(sum < 50){
+            sum += num
+            yield sum
+        }
+        return sum
+    }
+
+    const harmasszorzotabla = szorzotabla(3)
+
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+    console.log(harmasszorzotabla.next())
+</script>

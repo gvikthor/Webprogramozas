@@ -1,0 +1,18 @@
+<ul>
+
+</ul>
+
+<script>
+    const list = document.querySelector('ul')
+
+    function fetchke(celnev, fuggveny, json = true){
+        if(json) fetch(celnev).then(v => v.json()).then(e => fuggveny(e))
+        else     fetch(celnev).then(v => v.text()).then(e => fuggveny(e))
+    }
+
+    fetchke('data.php', result => {
+        for(const elem of result){
+            list.innerHTML += `${elem.name} (${elem.age})`
+        }
+    })
+</script>

@@ -74,7 +74,8 @@ router.post(
             return res.status(409).json({ error: 'You already rated this movie' })
         }
 
-        if(!movie.ratingsEnabled && !isAdmin) {
+        //if(!movie.ratingsEnabled && !isAdmin) {
+        if(!(movie.ratingsEnabled || isAdmin)) {
             return res.status(403).json({ error: 'Ratings are not enabled for this movie' })
         }
 

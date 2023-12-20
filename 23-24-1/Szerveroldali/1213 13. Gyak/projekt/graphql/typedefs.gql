@@ -1,0 +1,26 @@
+type Query {
+    test: String
+    testWithFriends(name: String): String
+    genres: [Genre]
+    genre(id: ID): Genre
+}
+
+type Genre {
+    id: ID!
+    name: String!
+    description: String
+    # createdAt: DateTime
+    # updatedAt: DateTime
+    movies: [Movie]
+}
+
+type Movie {
+    id: ID!
+    title: String!
+    director: String
+    description: String
+    year: Int
+    imageUrl: String
+    genres: [Genre]
+}
+

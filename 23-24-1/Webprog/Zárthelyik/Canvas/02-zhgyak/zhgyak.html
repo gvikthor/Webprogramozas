@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 ZH Gyak</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <!--
+        Jelenjen meg a canvas elemen Wall-e és Eva képe, valamint egy háttér.
+        Ha megnyomjuk a start gombot, akkor rajzoljuk ki a terepet (füveket, jegeket, lávákat), és innentől Wall-e mozoghat is.
+        - A terep adatok a data.js fájlban találhatóak.
+        - A fű zöld, a jég kék, a láva narancssárga.
+        Wall-e akkor mozog, ha egy checkbox be van pipálva az adott irányhoz.
+        Wall-e gyorsabb, ha jéghez ér, lassabb, ha fűhöz ér.
+        Ha Wall-e lávához ér, akkor meghal.
+        Ha Wall-e eléri Éva-t, akkor nyert.
+        Nehezítés: Wall-e kis eséllyel elcsúszik a jégen, és egy másik irányba megy tovább.
+        - 1:500 eséllyel vízszintesen
+        - 1:500 eséllyel függőlegesen
+        - 1:500 eséllyel mindkét irányba
+    -->
+
+    <div id="controls">
+        <button id="start">Start</button> <br>
+        <input type="checkbox" id="up"> Fel <br>
+        <input type="checkbox" id="down"> Le <br>
+        <input type="checkbox" id="left"> Balra <br>
+        <input type="checkbox" id="right"> Jobbra
+    </div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+</body>
+</html>
+<script src="data.js"></script>
+<script src="index.js"></script>

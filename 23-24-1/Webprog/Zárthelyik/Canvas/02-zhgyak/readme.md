@@ -1,0 +1,3 @@
+- Jelenjen meg a canvas elemen a robot képe.
+- A robot akkor mozog, ha egy checkbox be van pipálva az adott irányhoz.
+- A robot különböző felületeken különböző sebességgel mozog.

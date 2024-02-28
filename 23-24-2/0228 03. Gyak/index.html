@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .small {
+        background-color: darksalmon;
+    }
+    .large {
+        background-color: cornflowerblue;
+    }
+</style>
+<body>
+    <ul id="countries">
+    </ul>
+
+    <label for="eu-country-search">Nyelv szűrés</label>
+    <input id="eu-country-search">
+    <table id="eu-countries">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Capital</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="infobox">
+        <h2 id="name"></h2>
+        <div>This country has a population of <span id="pop"></span>, most of whom speak <span id="lang"></span>. It's size is about <span id="size"></span> km2.</div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

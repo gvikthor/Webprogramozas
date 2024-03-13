@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Table</title>
+</head>
+<style>
+    #todo-app-tr .card {
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    td {
+        min-width: 200px;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Todo</th>
+                <th>In progress</th>
+                <th>Done</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="todo-app-tr">
+                <td id="items-todo" class="status-col" data-status="todo"></td>
+                <td id="items-prog" class="status-col" data-status="prog"></td>
+                <td id="items-done" class="status-col" data-status="done"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<script src="scripts/utils.js"></script>
+<script src="scripts/database.js"></script>
+<script src="scripts/script.js"></script>

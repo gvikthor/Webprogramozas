@@ -1,0 +1,39 @@
+<div id="time"></div>
+
+<button>Fetch</button>
+<ul></ul>
+
+<script>
+    setInterval(() => {
+        fetch('date.php')
+            .then(response => response.text())
+            .then(result => {
+                document.querySelector('#time').innerText = result
+            })
+    }, 1000);
+
+
+    function fetchke(celnev, fuggveny, json = true) {
+        if (json) fetch(celnev).then(v => v.json()).then(e => fuggveny(e))
+        else fetch(celnev).then(v => v.text()).then(e => fuggveny(e))
+    }
+    document.querySelector('button').addEventListener('click', event => {
+        fetchke('data.php', games => {
+            const ul = document.querySelector('ul')
+            for (const game of games) {
+                ul.innerHTML += `<li>${game.title} (${game.year})</li>`
+            }
+        }
+    )
+        /*fetch('data.php')
+            .then(response => response.json())
+            .then(games => {
+                const ul = document.querySelector('ul')
+                for (const game of games) {
+                    ul.innerHTML += `<li>${game.title} (${game.year})</li>`
+                }
+            })*/
+    })
+
+
+</script>

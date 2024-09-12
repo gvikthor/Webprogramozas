@@ -1,0 +1,16 @@
+{
+    "name": "thor/composer_first",
+    "autoload": {
+        "psr-4": {
+            "Thor\\ComposerFirst\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thor"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}

@@ -2,9 +2,9 @@
 *Disclaimer: a gyakorlaton haladva eltérünk attól, amit előre terveztem, így kisebb nagyobb különbségek vannak a kódban.*
 
 ## KisZH
-KisZH: Mit jelent, hogy felseedelek egy adatbázist?
+KisZH: https://forms.office.com/e/xZPPhRTZ6z
 
-Beadás: INF-es bejelentkezéssel formson https://forms.office.com/e/tr5dpYejNY
+Beadás: INF-es bejelentkezéssel formson 
 
 ## Elindulás
 Kiinduló projekt, ezzel fogunk dolgozni a félévben:  

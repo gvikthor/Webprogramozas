@@ -45,7 +45,7 @@ Mi is az a Blade? Emlékezzünk vissza, hogy a PHP felfogható volt úgy, mint a
     <h2>Blade PHP tag</h2>
     @php
         $one_friend = 'Gergő';
-        $firends = ['Rezső', 'Péter', 'Áron'];
+        $friends = ['Rezső', 'Péter', 'Áron'];
         echo 'Ez egy mezei PHP tag';
     @endphp
 
@@ -53,21 +53,21 @@ Mi is az a Blade? Emlékezzünk vissza, hogy a PHP felfogható volt úgy, mint a
     Van egy {{$one_friend}} nevű barátunk.
 
     <h2>Blade elágazás</h2>
-    @if (count($firends) > 0)
-        Van {{count($firends)}} db emberünk.
+    @if (count($friends) > 0)
+        Van {{count($friends)}} db emberünk.
     @else
         Nincsen egy emberünk se.
     @endif
 
     <h2>Blade ciklus</h2>
     <ul>
-        @foreach ($firends as $friend)
+        @foreach ($friends as $friend)
             <li>{{$friend}}</li>
         @endforeach
     </ul>
 
     <h2>Forelse ciklus</h2>
-    @forelse ($firends as $friend)
+    @forelse ($friends as $friend)
         {{$friend}}
     @else
         Üres volt a tömb.
@@ -78,7 +78,7 @@ Mi is az a Blade? Emlékezzünk vissza, hogy a PHP felfogható volt úgy, mint a
         // {{var_dump($loop)}}
         // <hr>
         @if ($loop->first)
-            Első barátunk {{$firend}} <br>
+            Első barátunk {{$friend}} <br>
         @elseif ($loop->last)
             Legutóbbi barátunk {{$friend}}
         @else
@@ -125,6 +125,35 @@ $timetable = [
 ```
 Megoldás:
 ```
+<table>
+    <tr>
+        <th>Departure</th>
+        <th>Direction</th>
+        <th>Line</th>
+    </tr>
+    @foreach ($timetable as $metro)
+        <tr>
+            <td>{{$metro->depart}}</td>
+            <td>{{$metro->direction}}</td>
+            <td>
+                @switch ($metro->line)
+                @case (1)
+                    🟡
+                    @break
+            
+                @case (2)
+                    🔴
+                    @break
+                @case (3)
+                    🔵
+                    @break
+                @default
+                    ❓
+                @endswitch
+            </td>
+        </tr>
+    @endforeach
+</table>
 ```
 
 

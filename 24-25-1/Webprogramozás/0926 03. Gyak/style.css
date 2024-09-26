@@ -1,0 +1,21 @@
+.cikk {
+    background-color: #f1f2f1;
+}
+
+#cikk-3 {
+    background-color: red;
+}
+
+.cikk p {
+    color: gray;
+}
+
+#cikk-3 p {
+    color: black;
+}
+
+.cikk-cim {
+    background-color: blue;
+    color: orange;
+    font-weight: bolder;
+}

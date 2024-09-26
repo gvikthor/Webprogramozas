@@ -3,9 +3,9 @@
 - ⌨️ : Githubon a sources mappában megtalálod az ide tartozó kódrészletet.
 - ⚠️ : Ez egy feladat, amit neked kell megcsinálnod.
 
-KisZH: Mi a layout lényege?
+KisZH: Mi a layoutok lényege?
 
-Beadás: INF-es bejelentkezéssel formson 
+Beadás: INF-es bejelentkezéssel formson https://forms.office.com/e/s789FM4zdD
 
 ## Elindulás
 Folytassuk az előző órai projektet - értelemszerűen, neked nem kell másolni a mappát, én csak azért csinálom, hogy lássuk az előrehaladást. Első lépésként teszteljük, hogy az oldal még mindig működik. Nyissunk két külön konzolt a `blog-dolog` mappában, és az alábbi két parancsot futtassuk.

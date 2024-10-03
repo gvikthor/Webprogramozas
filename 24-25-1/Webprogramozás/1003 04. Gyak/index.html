@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #222222;
+        color: white;
+    }
+    .megnezve {
+        text-decoration: line-through;
+    }
+    .kijelolve {
+        background-color: rgb(78, 18, 18);
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <h2>Filmek</h2>
+    <ul id="filmek"></ul>
+
+<!-- Szorgalmi: ezt JS-ből generálni
+ thor@inf.elte.hu
+ zip, de előtte a js fileokat írjátok át .txt végűre
+-->
+    <h2>Hűtőszekrény</h2>
+    <button id="kijelolt-nullaz">Kijelöltek elfogyasztása</button>
+    <table id="hutoszekreny-tablazat">
+        <thead>
+            <tr>
+                <td>Termék</td>
+                <td>Mennyiség</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="termek">Tej</td>
+                <td>
+                    <!--button class="minusz">-</button-->
+                    <button data-ertek="-1">-</button>
+                    <span class="mennyiseg">4</span>
+                    <span class="mertekegyseg">l</span>
+                    <button data-ertek="1">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="termek">Szalámi</td>
+                <td>
+                    <button data-ertek="-10">-</button>
+                    <span class="mennyiseg">1</span>
+                    <span class="mertekegyseg">g</span>
+                    <button data-ertek="10">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="termek">Tojás</td>
+                <td>
+                    <button data-ertek="-1">-</button>
+                    <span class="mennyiseg">8</span>
+                    <span class="mertekegyseg">darab</span>
+                    <button data-ertek="10">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="termek">Saláta</td>
+                <td>
+                    <button data-ertek="-0.01">-</button>
+                    <span class="mennyiseg">1</span>
+                    <span class="mertekegyseg">kg</span>
+                    <button data-ertek="0.5">+</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<script src="script.js"></script>

@@ -69,7 +69,16 @@ Töltsünk fel valamilyen tömböt példa adatokkal, és próbáljuk meg kigener
 
 **⚠️ Feladat: Generáld ki a bejegyzéseket a welcomeban található formátumban!**  
 Megoldás:
-```
+```PHP
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    @foreach ($posts as $post)
+        <div class="p-6 thor-post-colors flex flex-col shadow-sm rounded-lg">
+            <h2 class="text-xl font-bold">{{$post->title}}</h2>
+            <p class="">{{$post->desc}}</p>
+            <p class="text-right mt-auto">{{$post->author}}</p>
+        </div>
+    @endforeach
+</div>
 ```
 
 ## Bemenet
@@ -116,7 +125,7 @@ Most már elküldhetem az űrlapot, de az eredmény valami, amit eddig (legtöbb
 **⚠️ Próbáljuk meg rákeresés nélkül megfejteni, mit rövidít ez a négy betű!**
 Megoldás:
 ```
-
+Cross-Site Request Forgery
 ```
 
 Ennek első kivédésére a GET kéréseket próbáljuk elkerülni, de ez még nem elég, a szerver kér valami plusz biztosítékot is, hogy itt nem lesz para. Ez a kódírás részéről semmi bonyolultat nem jelent, bele kell írnunk minden formba, hogy `@csrf`.
@@ -176,7 +185,26 @@ value={{ old('title', '') }}
 
 **⚠️ Írd meg a maradék validációt és hibakiírást az űrlaphoz!**  
 Megoldás:
+
+A `resources\views\posts\create.blade.php` file-ba ilyesmi sorokat kell illeszteni:
 ```
+@error('title')
+    <div class="text-red-500">Cím hiba: {{ $message }}</div>
+@enderror
+```
+
+Míg a `routes\web.php`-ba ehhez hasonló dolog kell:
+```
+Route::post('/posts/store', function (Request $request) {
+    $request->validate([
+        'title' => 'required|min:5|max:50',
+        'desc'  => 'required|min:15|max:250',
+        'author'  => 'required|min:4|max:20'
+    ], [
+        'required' => 'Jaj ne, ez muszáj 😠',
+        'title.required' => 'Cím hol van haló'
+    ]);
+})->name('posts.store');
 ```
 
 **⚠️ Adj hozzá egy új input mezőt, ami valamilyen számot vár (pl. minimum életkor a cikk olvasásához), validáld és kezeld hibaüzenettel! Elérhető validálási szabályok: [https://laravel.com/docs/10.x/validation#available-validation-rules](https://laravel.com/docs/10.x/validation#available-validation-rules)**  
@@ -192,7 +220,6 @@ Most már tudok listázni (még nem adatbázisból) és tudok beolvasni (még ne
     >Új bejegyzés</a>
 </div>
 ```
-*Igen, ezeket a classokat is a copilot generálta nagyrészt.*
 
 Ez még hibát fog dobni. Miért? Mert a routing még nem tudja, mi az a `posts.create`. Mondjuk meg neki a `routes\web.php` fileban:
 ```PHP

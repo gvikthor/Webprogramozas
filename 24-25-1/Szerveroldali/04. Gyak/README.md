@@ -167,11 +167,11 @@ protected $fillable = [
     'topics',
 ];
 ```
-Ez után indítsd újra a tinkert, és most futtasd le a kódot (és utána ne zárd be a tinkert). Most nézzünk bele a data browserben az adatainkba (refresh data gombot nyomd meg) és látjuk, hogy baj van (erre egy earning is felhívta a figyelmünket egyébként). A témák tömböt átalakította arra, hogy "Array". Persze, hiszen a JSON típus az csak egy string, megadott formátumban. Hiába akarok én tömböt beleerőltetni, nem fog menni. Töröljük hát a rossz adatot!
+Ez után indítsd újra a  (`php artisan tinker`), és most futtasd le a kódot (és utána ne zárd be a tinkert). Most nézzünk bele a data browserben az adatainkba (refresh data gombot nyomd meg) és látjuk, hogy baj van (erre egy warning is felhívta a figyelmünket egyébként). A témák tömböt átalakította arra, hogy "Array". Persze, hiszen a JSON típus az csak egy string, megadott formátumban. Hiába akarok én tömböt beleerőltetni, nem fog menni. Töröljük hát a rossz adatot!
 ```PHP
 Post::where('id', 1)->delete();
 ```
-És most futtassuk le a jó értékkel (a webprogron is látott `json_envode` függvényt eresztjük rá).
+És most futtassuk le a jó értékkel (a webprogron is látott `json_encode` függvényt eresztjük rá).
 ```PHP
 Post::create([
     'title' => 'My son, the dog',
@@ -222,7 +222,7 @@ Megoldás:
 ```PHP
 ```
 
-Ha megvan, indítsd újra a tinkert.
+Ha megvan, indítsd újra a  (`php artisan tinker`).
 ```PHP
 use App\Models\Post;
 ```

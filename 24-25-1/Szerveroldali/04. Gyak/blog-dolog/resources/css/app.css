@@ -17,3 +17,7 @@ h1 {
 .thor-input-field {
     @apply dark:text-gray-900 p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
 }
+
+.thor-checkbox {
+    border-radius: 2px;
+}

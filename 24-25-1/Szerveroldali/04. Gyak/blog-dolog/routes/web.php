@@ -10,11 +10,13 @@ Route::get('/', function () {
 
 Route::get('/posts/create', function () {
     return view('posts.create');
-});
+})->name('posts.create');
 
 Route::post('/posts/store', function (Request $request) {
     $request->validate([
         'title' => 'required|min:3|max:255',
+        'topics' => 'array|required|min:1',
+        'topics.*' => 'distinct'
     ],
     [
         'required' => 'Ez egy kötelező mező :attribute',

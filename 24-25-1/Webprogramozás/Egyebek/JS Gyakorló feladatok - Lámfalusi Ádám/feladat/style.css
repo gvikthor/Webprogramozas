@@ -1,0 +1,13 @@
+body {
+    background: lightgrey;
+}
+
+.output {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.selected-name {
+    font-weight: bold;
+    font-style: italic;
+}

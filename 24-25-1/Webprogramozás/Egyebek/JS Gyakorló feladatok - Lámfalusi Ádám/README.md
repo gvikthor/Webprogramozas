@@ -1,0 +1,1 @@
+Ezeket a feladatokat Lámfalusi Ádám készítette gyakorlásból, és felajánlotta, hogy megosztja a teljes csoporttal. Köszönjük a munkáját!

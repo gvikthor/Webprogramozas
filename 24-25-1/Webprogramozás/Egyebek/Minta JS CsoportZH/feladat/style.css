@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    color: #003366;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#task-1, #task-2 {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #003366;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#task-5-gomb {
+    background: linear-gradient(90deg, #003366, #3acec2);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+
+}
+
+#task-5-gomb:hover {
+    filter: brightness(85%);
+}
+
+#task-5-gomb:active {
+    filter: brightness(50%);
+}
+
+#task-5-span {
+    font-weight: bold;
+    color: #003366;
+}
+
+.kivalasztva {
+    background: linear-gradient(90deg, #3acec2, #68d4cb);
+}

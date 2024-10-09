@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS csoportzh készülés</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>JS csoportzh készülés</h1>
+    <h2>Adatok</h2>
+    <div id="data-stuff">
+        <p>Nevek: Ori, Nori, Dori, Bifur, Bofur, Bombur, Oin, Gloin, Kili, Fili, Dwalin, Balin, Thorin</p>
+    </div>
+
+    <h2>Feladatok</h2>
+    <div id="task1">
+        <h3>1. feladat</h2>
+        <p>A <span lang="en">names</span> tömbből válogasd ki azokat a neveket, amik "in"-re végződnek!</p>
+        <p id="task1-output" class="output"></p>
+    </div>
+
+    <div id="task2">
+        <h3>2. feladat</h2>
+        <p>A <span lang="en">names</span> tömbből válogasd ki azokat a neveket, amik "bo"-val kezdődnek!</p>
+        <p id="task2-output" class="output"></p>
+    </div>
+
+    <div id="task3">
+        <h3>3. feladat</h2>
+        <p>A <span lang="en">names</span> tömbből ird ki az összes nevet csupa nagybetűvel!</p>
+        <p id="task3-output" class="output"></p>
+    </div>
+
+    <div id="task4"></div>
+        <h3>4. feladat</h2>
+        <p>Döntsd el, hogy a <span lang="en">names</span> tömbben szereplő nevek mindegyike legalább 3 karakter hosszú-e a megfelelő válasz aláhúzásával!</p>
+        <ul>
+            <li id="task4-yes">Igen</li>
+            <li id="task4-no">Nem</li>
+        </ul>
+    </div>
+
+    <div id="task5"></div>
+        <h3>5. feladat</h2>
+        <p>Döntsd el, hogy a <span lang="en">names</span> tömbben szereplő nevek mindegyike tartalmaz-e egy "o" betűt a megfelelő válasz pirosra színezésével és félkövérré tételével!</p>
+        <ul>
+            <li id="task5-yes">Igen</li>
+            <li id="task5-no">Nem</li>
+        </ul>
+    </div>
+
+    <div id="task6"></div>
+        <h3>6. feladat</h2>
+        <p>Döntsd el, hogy a <span lang="en">names</span> tömbben szereplő nevek legalább egyike tartalmaz-e egy "w" és "d" betűt a megfelelő válasz zöldre színezésével!</p>
+        <ul>
+            <li id="task6-yes">Igen</li>
+            <li id="task6-no">Nem</li>
+        </ul>
+    </div>
+
+    <div id="task7"></div>
+        <h3>7. feladat</h2>
+        <p>Döntsd el, hogy a <span lang="en">names</span> tömbben szereplő nevek legalább egyike legalább 10 karakter hosszú-e a megfelelő válasz pirosra színezésével!</p>
+        <ul>
+            <li id="task7-yes">Igen</li>
+            <li id="task7-no">Nem</li>
+        </ul>
+    </div>
+
+    <div id="task8"></div>
+        <h3>8. feladat</h2>
+        <p>Ha a Bofur név szerepel a <span lang="en">names</span> tömbben, írd ki az indexét! Ha nem, írd ki, hogy "Bofur nincs meg"!</p>
+        <p id="task8-output" class="output"></p>
+    </div>
+
+    <div id="task9"></div>
+        <h3>9. feladat</h2>
+        <p>Ha a Bilbo név szerepel a <span lang="en">names</span> tömbben, írd ki az indexét! Ha nem, írd ki, hogy "Bilbo nincs meg"!</p>
+        <p id="task9-output" class="output"></p>
+    </div>
+
+    <div id="task10"></div>
+        <h3>10. feladat</h2>
+        <p>Az alábbi két gombhoz rendelj funkcionalitást, amivel a nevek kiemelését fel-le lehet mozgatni! (az aktuálisan kiemelt név félkövér és dőlt)</p>
+        <button id="task10-up">&#8593</button> <!-- up arrow -->
+        <button id="task10-down">&#8595</button> <!-- down arrow -->
+        <ul id="task10-names">
+            <li>Oin</li>
+            <li>Gloin</li>
+            <li class="selected-name">Dwalin</li>
+            <li>Balin</li>
+            <li>Bifur</li>
+            <li>Bofur</li>
+        </ul>
+    </div>
+    
+    <div id="task11"></div>
+        <h3>11. feladat</h2>
+        <p>A listaelemekhez rendelj funkcionalitást, amivel a nevek kiemelését kattintással ki-be lehet kapcsolni! (egy aktuálisan kiemelt név félkövér és dőlt)</p>
+        <ul id="task11-names">
+            <li>Oin</li>
+            <li>Gloin</li>
+            <li class="selected-name">Dwalin</li>
+            <li>Balin</li>
+            <li>Bifur</li>
+            <li>Bofur</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

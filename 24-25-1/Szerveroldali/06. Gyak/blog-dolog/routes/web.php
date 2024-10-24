@@ -12,7 +12,11 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
+
+// Itt elősre kettőspontot írtam, ami nem jó, mert az az Express syntax.
+// Szimplán összekevertem fejben. Laravelben kapcsos zárójel a paraméter.
 //Route::get('/posts/show/:id', [PostController::class, 'show'])->name('posts.show');
+Route::get('/posts/show/{id}', [PostController::class, 'show'])->name('posts.show');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

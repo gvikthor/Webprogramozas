@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Játék</title>
+</head>
+<style>
+    .elrejtve {
+        display: none;
+    }
+
+    .oldal {
+        display: none;
+    }
+    .aktiv {
+        display: block !important;
+    }
+
+    #jatek td {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    #jatek tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #jatek table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h1>Sakky</h1>
+
+    <div id="menu" class="oldal">
+        <h2>Főmenü</h2>
+        <button class="nav" data-cel="jatek">Új játék</button> <br>
+        <button class="nav" data-cel="szabalyok">Szabályok</button> <br>
+        <button class="nav" data-cel="keszitok">Készítők</button> <br>
+
+        <div>
+            <h3>Beállítások</h3>
+            <label for="meret">Táblaméret</label><br>
+            <input id="meret" name="meret" type="number" value="8">
+        </div>
+    </div>
+
+    <div id="jatek" class="oldal">
+        <h2>Játéktér</h2>
+        <button class="nav" data-cel="menu">Főmenü</button>
+        <table></table>
+    </div>
+
+    <div id="szabalyok" class="oldal">
+        <h2>Szabályok</h2>
+        <div>
+            Almafa
+        </div>
+        <button class="nav" data-cel="menu">Főmenü</button>
+    </div>
+
+    <div id="keszitok" class="oldal">
+        <h2>Készítők</h2>
+        <ul>
+            <li>Petike</li>
+            <li>Gergőke</li>
+            <li>Áronka</li>
+        </ul>
+        <button class="nav" data-cel="menu">Főmenü</button>
+    </div>
+
+</body>
+</html>
+
+<script src="script.js"></script>

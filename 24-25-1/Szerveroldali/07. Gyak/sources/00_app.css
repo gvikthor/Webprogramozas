@@ -1,0 +1,21 @@
+/* Ha szeretnél nem kör alakú checkboxokat, ezt módosítsd */
+.thor-input-field {
+    @apply dark:text-gray-900 p-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+.thor-input-field:not([type="checkbox"]) {
+    @apply rounded-lg;
+}
+
+.thor-input-field[type="checkbox"] {
+    @apply rounded-md;
+}
+
+/* Ez meg majd a loginhez egy egyszerűsítés, ha szeretnél átláthatóbb HTML-t, ezt tedd a CSS file végére */
+.thor-menu-item-blue {
+    @apply p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm mt-4;
+}
+
+.thor-menu-item-red {
+    @apply p-2 bg-red-500 hover:bg-red-900 text-white rounded-lg shadow-sm mt-4;
+}

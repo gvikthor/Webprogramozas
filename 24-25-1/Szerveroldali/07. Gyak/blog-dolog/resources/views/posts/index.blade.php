@@ -11,17 +11,27 @@
 
     <h1>Blog</h1>
     
+    @auth
     <div class="py-6">
         <a
             href="{{ route('posts.create') }}"
             class="p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-lg shadow-sm mt-4"
         >Új bejegyzés</a>
     </div>
+    @else
+    <div>
+        Jelentkezz be bejegyzés hozzáadásához!
+    </div>
+    @endauth
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
         @foreach ($posts as $post)
             <div class="p-6 thor-post-colors flex flex-col shadow-sm rounded-lg">
-                <h2 class="text-xl font-bold">{{ $post->title }}</h2>
+                <h2 class="text-xl font-bold">
+                    <a href="{{ route("posts.show", $post->id) }}">
+                    {{ $post->title }}
+                    </a>
+                </h2>
                 <p class="">{{ $post->desc }}</p>
                 <p class="text-right mt-auto">{{ $post->author }}</p>
                 <div class="flex flex-wrap mt-auto">

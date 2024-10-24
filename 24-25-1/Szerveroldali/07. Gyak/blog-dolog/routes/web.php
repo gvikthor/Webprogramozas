@@ -17,6 +17,8 @@ Route::get('/posts', [PostController::class, 'index'])->name('posts.index');
 // Szimplán összekevertem fejben. Laravelben kapcsos zárójel a paraméter.
 //Route::get('/posts/show/:id', [PostController::class, 'show'])->name('posts.show');
 Route::get('/posts/show/{id}', [PostController::class, 'show'])->name('posts.show');
+Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
+Route::post('/posts/store', [PostController::class, 'store'])->name('posts.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -26,8 +28,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
-    Route::post('/posts/store', [PostController::class, 'store'])->name('posts.store');
 });
 
 require __DIR__.'/auth.php';

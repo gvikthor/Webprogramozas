@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Post;
 use App\Models\Topic;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
@@ -84,9 +85,11 @@ class PostController extends Controller
      */
     public function show(string $id)
     {
-        $post = Post::where('author', $id);
+        $user = Auth::user();
+        $post = Post::find($id);
         return view('posts.show', [
-            'post' => $post
+            'post' => $post,
+            'email' => $user->email ?? null
         ]);
     }
 

@@ -1,6 +1,7 @@
 <?php
-require_once 'filmek.php';
+require_once 'fuggvenyek.php';
 $index = $_GET['id'];
+$filmek = json_beolvas('filmek');
 $film = $filmek[$index];
 
 ?>
@@ -13,7 +14,7 @@ $film = $filmek[$index];
     <title>Document</title>
 </head>
 <body>
-    <h1><?=$film->title?> (<?=$film->year?>)</h1>
-    <div><?=$film->description?></div>
+    <h1><?=$film->cim?> (<?=$film->ev?>)</h1>
+    <div>Besorolás: <?=$film->besorolas?></div>
 </body>
 </html>

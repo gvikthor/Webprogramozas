@@ -1,0 +1,37 @@
+[
+    {
+        "cim": "D\u0171ne: Pr\u00f3f\u00e9cia",
+        "ev": 2024,
+        "besorolas": "18",
+        "szarmazas": "usa",
+        "kategoria": [
+            "akc",
+            "kal",
+            "dra"
+        ]
+    },
+    {
+        "cim": "Star Wars",
+        "ev": 1977,
+        "besorolas": "12",
+        "szarmazas": "usa",
+        "kategoria": [
+            "akc",
+            "rom",
+            "kal",
+            "dra"
+        ]
+    },
+    {
+        "cim": "Star Wars 2",
+        "ev": 2002,
+        "besorolas": "12",
+        "szarmazas": "usa",
+        "kategoria": [
+            "akc",
+            "rom",
+            "kal",
+            "dra"
+        ]
+    }
+]

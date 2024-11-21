@@ -14,6 +14,7 @@ Route::post('/login', [ApiController::class, 'login'])->name('api.login');
 Route::get('/teszt/{number1}/{number2}', [ApiController::class, 'teszt'])->name('api.teszt');
 
 Route::get( '/ticket/{id}',   [ApiController::class, 'ticketByID'])  ->name('api.ticketByID');
+Route::get('/usersByFirstLetter/{firstLetter}', [ApiController::class, 'usersByFirstLetter'])->name('api.usersByFirstLetter');
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [ApiController::class, 'logout'])->name('api.logout');

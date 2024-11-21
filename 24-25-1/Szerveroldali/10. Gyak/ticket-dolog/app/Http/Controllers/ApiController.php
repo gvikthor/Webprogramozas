@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Resources\TicketResource;
+use App\Http\Resources\UserResource;
 use App\Models\Ticket;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -104,5 +105,10 @@ class ApiController extends Controller
         $ticket = Ticket::find($id);
         return new TicketResource($ticket);
         //return [ 'title' => $ticket->title ];
+    }
+
+    public function usersByFirstLetter($firstLetter) {
+        $user = User::where('name', 'LIKE', "$firstLetter%")->first();
+        return new UserResource($user); 
     }
 }

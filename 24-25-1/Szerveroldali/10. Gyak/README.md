@@ -1,4 +1,4 @@
-# Szerveroldali 9. gyak
+# Szerveroldali 10. gyak
 *Disclaimer: a gyakorlaton haladva eltérünk attól, amit előre terveztem, így kisebb nagyobb különbségek vannak a kódban.*  
 - ⌨️ : Githubon a sources mappában megtalálod az ide tartozó kódrészletet.
 - ⚠️ : Ez egy feladat, amit neked kell megcsinálnod.

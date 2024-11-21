@@ -74,6 +74,5 @@ Komplexebb kérések:
   - `php artisan make:resource TicketCollection --collection`
 
 
-- `⌨️ ApiController.php` - ennek a megfelelő tartalma az `app/http/controllers/ApiController.php`-ba megy
-- `⌨️ api.php` - ennek a megfelelő tartalma a `routes/api.php`-ba megy
-- `⌨️ ValidateURIParams
+- `⌨️ 02_ApiController.php` - ennek a megfelelő tartalma az `app/http/controllers/ApiController.php`-ba megy
+- `⌨️ 03_api.php` - ennek a megfelelő tartalma a `routes/api.php`-ba megy

@@ -16,9 +16,9 @@ Az előző órai (helyettesített) gyakot folytatjuk. Ha letöltöd githubról a
 `routes/api.php`
 ```PHP
 Route::middleware('auth:sanctum')->group(function () {
-    Route::post('logout', [ApiController::class, 'logout'])->name('api.logout');
-    Route::get( 'user',   [ApiController::class, 'user'])  ->name('api.user');
-}
+    Route::post('/logout', [ApiController::class, 'logout'])->name('api.logout');
+    Route::get( '/user',   [ApiController::class, 'user'])  ->name('api.user');
+});
 ```
 
 `app/http/Controllers/ApiController.php`
@@ -54,13 +54,32 @@ Laravel 11-ben több struktúrális változás is történt, amelyek miatt kidob
 
 - Beépített megoldás használata (regex) ==> 404 error mindig (ez az esetek nagy részében helyes, hiszen URI paraméterben leginkább azonosítókat szoktunk amúgy is lekérdezni. Ráadásul a lényegi validációra a body-nál van szükség.)
 - Custom middleware készítése (`⌨️ 01_ValidateURIParams.php`)
-  - ezt persze rendesen a middleare készítő parancs segíytségével!
+  - ezt persze rendesen a middleare készítő parancs segítségével!
   - `php artisan make:middleware ValidateURIParams`
 - Router-en átengedni és lekezelni a controllerben
 
 
-
 ## REST végpontok, resource-ok
+
+Emlékeztető 4. gyakorlatról:
+- `Post::count()`: hány bejegyzésünk van?
+- `Post::first()`: melyik az első a listában?
+- `Post::find(2)`: add ide a 2 ID-jű bejegyzést! Ha nem létezik, null.
+- `Post::findOrFail(10)`: add ide a 10 ID-jű bejegyzést! Ha nem létezik, hiba.
+- `Post::find([1,2])`: add ide az 1, 2 ID-jű bejegyzéseket! Ha nem létezik, kihagyja. Egy collectiont ad visza, ami olyasmi, mint egy tömb, csak okos függvénykéi vannak.
+- `Post::all()`: add ide az összes bejegyzést!
+- `Post::where('author', 'Bátori Gergő')`: ez csak egy buildert ad vissza, nem a konkrét eredményt, tehát ő csak egy queryt/lekérést épít fel
+- `Post::where('author', 'Bátori Gergő')->getQuery()->toSql()`: megmutatja az SQL kérést, amit le fog futtatni (ahol a ? a binding, SQL injection ellen véd)
+- `Post::where('author', 'Bátori Gergő')->getQuery()->getBindings()`: megmutatja a behelyettesítéseket/bindingokat
+- `Post::where('author', 'Bátori Gergő')->get()`: lefuttatja a lekérdezést
+- `Post::where('author', '=', 'Bátori Gergő')->get()`: ez ugyanaz
+- `$valami = Post::first()`: belerakja a valami válzotóba a lekérés eremdényét
+- `$valami->title = 'My son, the dog <3'`: módosítja a változóban az értéket, de még nem tette be az adatbázisba
+- `$valami->save()`: elmenti az adatbázisba
+- `Post::first()->update(['title' => 'My son, the dog'])`: ugyanez, csak változó nélkül
+- `Post::where('id', 1)->delete();`: ezt előbb néztük
+- `Post::destroy(1)`: törli a 1 id-jű elemet
+- `Post::destroy([1,2,3])`: törli az 1,2,3 id-jű elemeket
 
 Komplexebb kérések:
 - API Resource készítése és használata

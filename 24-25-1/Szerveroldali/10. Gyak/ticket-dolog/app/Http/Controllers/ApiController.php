@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Ticket;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -9,7 +10,8 @@ use Illuminate\Support\Facades\Validator;
 
 class ApiController extends Controller
 {
-    public function register(Request $request) {
+    public function register(Request $request)
+    {
         // Validation
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
@@ -25,7 +27,7 @@ class ApiController extends Controller
             'email' => 'Az email',
             'password' => 'A jelszó',
         ]);
-        if($validator->fails()) {
+        if ($validator->fails()) {
             return response()->json([
                 'error' => $validator->messages(),
             ], 400);
@@ -42,21 +44,21 @@ class ApiController extends Controller
         ], 201);
     }
 
-    public function login(Request $request) {
+    public function login(Request $request)
+    {
         // Validation
         $validator = Validator::make($request->all(), [
-            'email' => 'required|string|email|unique:users,email',
+            'email' => 'required|string',
             'password' => 'required|string',
         ], [
             'required' => ':attribute mező megadása kötelező!',
             'string' => ':attribute mező kötelezően szöveges lehet csak!',
-            'email' => ':attribute mező csak helyesen formázott email címet tartalmazhat!',
-            'unique' => ':attribute cím már foglalt!',
+            'email' => ':attribute mező csak helyesen formázott email címet tartalmazhat!'
         ], [
             'email' => 'Az email',
             'password' => 'A jelszó',
         ]);
-        if($validator->fails()) {
+        if ($validator->fails()) {
             return response()->json([
                 'error' => $validator->messages(),
             ], 400);
@@ -66,7 +68,7 @@ class ApiController extends Controller
 
         $user = User::where('email', $validated['email'])->first();
 
-        if(Auth::attempt($validated)) {
+        if (Auth::attempt($validated)) {
             $token = $user->createToken('auth', $user->admin ? ['ticket:admin'] : []);
 
             return response()->json([
@@ -77,5 +79,28 @@ class ApiController extends Controller
                 'error' => 'Hibás jelszó.',
             ], 401);
         }
+    }
+
+    public function logout(Request $request)
+    {
+        $request->user()->currentAccessToken()->delete();
+        return response()->json([], 204);
+    }
+
+    public function user(Request $request)
+    {
+        return $request->user();
+    }
+
+    public function teszt(Request $request, $number1, $number2)
+    {
+        return [
+            'osszeg' => $number1 + $number2
+        ];
+    }
+
+    public function ticketByID($id) {
+        $ticket = Ticket::where('id', $id);
+        return $ticket;
     }
 }

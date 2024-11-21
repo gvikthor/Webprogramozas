@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\TicketResource;
 use App\Models\Ticket;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -100,7 +101,8 @@ class ApiController extends Controller
     }
 
     public function ticketByID($id) {
-        $ticket = Ticket::where('id', $id);
-        return $ticket;
+        $ticket = Ticket::find($id);
+        return new TicketResource($ticket);
+        //return [ 'title' => $ticket->title ];
     }
 }

@@ -3,9 +3,10 @@
 ## Információk
 - A feladatmegoldására 45 perc van, a Canvas feltöltésre további 5.
 - Adott egy induló csomag zip-ként.
-    - Induló HTML, de nem kötelező azt használni (`index.html`, `kurzus.html`).
-    - Induló adathalmaz (`data.php`).
+    - Induló PHP, de nem kötelező azt használni (`index.php`, `fuggvenyek.php`).
+    - Induló adathalmaz (`adatok` mappa).
     - Induló readme file (`readme.md`).
+    - Styluslap, de nem kötelező használni (`style.css`)
 - Egyetlen zip filet tölts fel, melynek tartalma:
     - Minden releváns `php` file.
     - Egy readme file.

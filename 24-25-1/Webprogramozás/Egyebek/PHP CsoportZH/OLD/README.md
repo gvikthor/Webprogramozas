@@ -63,6 +63,7 @@ Az új csatorna hozzáadása űrlap elküldhető, és az ellenőrzések helyesen
 - 1 pont: Influencer megadása nem kötelező, de ha üres, akkor írd be a csatorna nevét ide is.
 - 1 pont: A kép egy link legyen. Nyugodtan használd a `fuggvenyek.php` fileban található `helyes_url` függvényt.
     - Hiba: `A profilképnek megadott link helyes URL formátumú legyen!`
+- Mikor csináltam a ZH-t, kimaradt a felirartkozó szám megadása és annak ellenőrzése:( Tehát űrlap elem sincs neki, írj be valami default értéket, hogy ne dobjon hibát, mikor iterálsz rajta. (Vagy ha későbbi évben nézed vissza gyakorlás képpen, csináld meg itt a szám ellenőrzést!)
 
 ## 3. Feladat - 1 pont
 Feldolgozás után (akár volt hiba, akár nem) irányítsd vissza a felhasználót a kezdőlapra.

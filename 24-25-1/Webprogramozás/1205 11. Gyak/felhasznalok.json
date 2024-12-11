@@ -1,0 +1,14 @@
+{
+    "6751d2eff1a34": {
+        "nev": "Gergo",
+        "jelszo": "$2y$10$k8b\/LI.u.YPMo7HUNqgbs.mRVoW0o11USoYy4KbhqkQyivi7f4ntq",
+        "admin" : true,
+        "id": "6751d2eff1a34"
+    },
+    "6751d306d7a40": {
+        "nev": "Peti",
+        "jelszo": "$2y$10$hHbPFFIISAOe7gZUw1ElauKdpl09q29dV13Dr5RoDARuBgat1HwpG",
+        "admin": false,
+        "id": "6751d306d7a40"
+    }
+}

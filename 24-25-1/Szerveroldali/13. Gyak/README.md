@@ -189,6 +189,27 @@ type Mutation {
     createTicket(title: String!, done: Boolean!, priority: Int!): Ticket! @create
 }
 ```
+
+Órai kispanda create:
+```gql
+type Mutation {
+  kispanda(title: String!, done: Boolean!, priority: Int!) : Ticket @create
+}
+```
+
+```gql
+mutation {
+  kispanda(
+    title: "Mégegy új ticket",
+    done: false,
+    priority: 1
+  ){
+    id
+  }
+}
+```
+/Óra vége
+
 De milyen jó lenne, ha ennél még szebbre csinálhatnánk, és persze lehet... na jó, ez már elég meredek hazugság, nem lesz szebb, PHP-ban semmi sem szép, de legalább tanulunk egy új featuret. Tudunk egy input típust készíteni, és azt felhasználni mint elvárt argumentumok.
 ```gql
 input CreateTicketInput {
@@ -279,6 +300,34 @@ Ha jól csináltuk, ez a lekérés kilistázza a ticketeket a kommentjeikkel, il
     commentCount
     comments {
       text
+    }
+  }
+}
+```
+
+Órai kód:
+```gql
+type Ticket {
+    id: ID!
+    title: String!
+    done: Boolean!
+    priority: Int!
+    comments: [Comment!]! @belongsToMany
+    kiselefant: Int! @count(relation: "comments")
+    updated_at: DateTime!
+    created_at: DateTime!
+    deleted_at: DateTime
+}
+```
+```gql
+{
+  tickets(title: "%"){
+    id
+    kiselefant
+    comments {
+      user {
+        name
+      }
     }
   }
 }

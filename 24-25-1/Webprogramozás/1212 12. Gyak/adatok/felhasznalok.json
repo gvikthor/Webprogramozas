@@ -1,0 +1,14 @@
+{
+    "675aff1377a4f": {
+        "nev": "admin",
+        "jelszo": "$2y$10$BczFuc8\/qPnJV2VjcF5lHuBQnWHncJ.\/rO5FeVVu\/n02gSBaTrPAS",
+        "admin": true,
+        "id": "675aff1377a4f"
+    },
+    "675aff13845ff": {
+        "nev": "peti",
+        "jelszo": "$2y$10$owAI1oQI\/HUh64M.S45.7OZSuu.ymh5jKqbPZ4dV6ived\/qMcEQMe",
+        "admin": false,
+        "id": "675aff13845ff"
+    }
+}

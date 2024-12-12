@@ -1,0 +1,26 @@
+{
+    "675aff1368ee2": {
+        "id": "675aff1368ee2",
+        "marka": "Opel",
+        "tipus": "Astra H",
+        "evjarat": "2005",
+        "hasznalt": false,
+        "tulajdonos": "SYSTEM"
+    },
+    "675b0a4515b77": {
+        "marka": "Citroen",
+        "tipus": "Picasso",
+        "evjarat": "2005",
+        "hasznalt": true,
+        "tulajdonos": "SYSTEM",
+        "id": "675b0a4515b77"
+    },
+    "675b0b4a795dc": {
+        "marka": "Ford",
+        "tipus": "Focus",
+        "evjarat": "2005",
+        "hasznalt": true,
+        "tulajdonos": "SYSTEM",
+        "id": "675b0b4a795dc"
+    }
+}

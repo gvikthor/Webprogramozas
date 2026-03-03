@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #new-game-error {
+        color: red;
+    }
+</style>
+<body>
+    <h1>Video games</h1>
+
+    <h2>Add new game</h2>
+    <input id="new-game-name" placeholder="Name of new game">
+    <input id="new-game-year" placeholder="Release year">
+    <input id="new-game-category" placeholder="Category">
+    <button id="new-game-button">Add</button>
+
+    <div id="new-game-error"></div>
+
+    <h2>Game list</h2>
+    <input id="filter-name">
+    and
+    <select id="filter-category"></select>
+    <button id="filter-button">Filter</button>
+    <ul id="game-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

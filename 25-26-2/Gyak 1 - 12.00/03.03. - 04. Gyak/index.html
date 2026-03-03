@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f1f2f1;
+    }
+    h1 {
+        color: darkcyan;
+    }
+    li .category {
+        border-radius: 10px;
+        padding: 2px;
+        background-color: azure;
+    }
+    .strategy { background-color: rgb(204, 125, 125) !important; }
+    .shooter { background-color:rgb(148, 216, 216) !important; }
+    .simulation { background-color: rgb(71, 228, 139) !important;}
+</style>
+<body>
+    <h1>Videogames</h1>
+
+    <div>
+        <h2>Add new game</h2>
+        <input id="new-name" placeholder="Game name">
+        <input id="new-release" placeholder="Release year">
+        <input id="new-category" placeholder="Category">
+        <button id="add-new-game">Add</button>
+    </div>
+
+    <h2>Game list</h2>
+    <input id="filter-name">
+    and
+    <select id="filter-category"></select>
+    <button id="filter-button">Filter</button>
+    <ul id="game-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

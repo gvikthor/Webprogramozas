@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f1f2f1;
+    }
+
+    h1 {
+        color: darkcyan;
+    }
+
+    .error {
+        color: crimson;
+    }
+
+    li .category {
+        border-radius: 10px;
+        padding: 2px;
+        background-color: azure;
+    }
+
+    /*
+    .strategy { background-color: #cc7d7d !important; }
+    .shooter { background-color:#94d8d8 !important; }
+    .simulation { background-color: #47e48b !important;}
+    */
+
+    #navigation {
+        display: flex;
+    }
+
+    #navigation span {
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    #navigation span.current {
+        text-decoration: underline;
+    }
+
+
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+<body>
+    <div id="navigation">
+
+    </div>
+
+    <div id="page-games" class="page hidden" data-displayname="Games">
+        <h1>Videogames</h1>
+
+        <div>
+            <h2>Add new game</h2>
+            <input id="new-name" placeholder="Game name">
+            <input id="new-release" placeholder="Release year">
+            <input id="new-category" placeholder="Category">
+            <button id="add-new-game">Add</button>
+        </div>
+        <div id="new-game-error" class="error"></div>
+
+        <h2>Game list</h2>
+        <input id="filter-name">
+        and
+        <select id="filter-category"></select>
+        <button id="filter-button">Filter</button>
+        <ul id="game-list"></ul>
+    </div>
+
+    <div id="page-categories" class="page hidden" data-displayname="Categories">
+        <h1>Categories</h1>
+        <h2>Add new category</h2>
+        <div>
+            <input id="new-category-name" placeholder="Category name">
+            <!--input id="new-category-color" placeholder="Color (hex): #FFFFFF"-->
+            <input type="color" id="new-category-color" value="#FFFFFF" />
+            <button id="add-new-category">Add</button>
+        </div>
+        <div id="new-category-error" class="error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

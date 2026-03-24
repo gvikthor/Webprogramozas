@@ -1,3 +1,24 @@
+/**
+ * Delegáló függvény, ami kiváltja a sok azonos eseménykezelőt.
+ * @param {HTMLElement} parent A szülő összefoglaló elem
+ * @param {String} child CSS selector a gyerekre
+ * @param {String} when Esemény, pl. click
+ * @param {Function} what Két paraméteres függvény, első paraméter: event, második az elem, amire kattintottak
+ */
+function delegate(parent, child, when, what){
+    function eventHandlerFunction(event){
+        let eventTarget  = event.target;
+        let eventHandler = this;
+        let closestChild = eventTarget.closest(child);
+
+        if(eventHandler.contains(closestChild)){
+            what(event, closestChild);
+        }
+    }
+
+    parent.addEventListener(when, eventHandlerFunction);
+}
+
 const menuDiv = document.querySelector('#menu')
 const pages = document.querySelectorAll('.page')
 
@@ -40,11 +61,13 @@ const allCategories = [
     { name: 'strategy', color: '#8c75e7' },
 ]
 
-const allGames = [
+let allGames = [
     { name: 'Fifa 24', year: 2023, category: allCategories[0] },
     { name: 'Star Wars Battlefront 2', year: 2005, category: allCategories[1] },
     { name: 'Dune Spice Wars', year: 2023, category: allCategories[2] },
 ]
+
+
 
 const inputNewGameName = document.querySelector('#new-game-name')
 const inputNewGameYear = document.querySelector('#new-game-year')
@@ -76,6 +99,10 @@ function generateGameList(games) {
             <span style="background-color: ${game.category.color}">
                 ${game.category.name}
             </span>
+            <button
+                class="delete-button"
+                data-gamename="${game.name}"
+            >🚯</button>
         </li>`
     }
 }
@@ -103,6 +130,8 @@ function addGameToList() {
     const category = allCategories.find(category => category.name == inputNewGameCategory.value)
     if(!category) return "This category doesn't exist!"
 
+    if(allGames.some(game => game.name.toLowerCase() == newGame.name.toLowerCase())) return 'The game name must be unique!'
+
     newGame.category = category
 
     allGames.push(newGame)
@@ -110,6 +139,11 @@ function addGameToList() {
     generateCategoryOptions(allCategories)
 
     return '✅ Game added.'
+}
+
+function deleteGame(name) {
+    allGames = allGames.filter(game => game.name != name)
+    filterAndListGames()
 }
 
 function addCategoryToList() {
@@ -125,11 +159,7 @@ function addCategoryToList() {
 
 }
 
-function handleButtonNewGameClick() { // handle Elemneve Eseményneve
-    errorDivNewGame.innerHTML = addGameToList()
-}
-
-function handleFilterButtonClick() {
+function filterAndListGames() {
     const nameFilterValue = inputFilterName.value.toLowerCase()
     const categoryFilterValue = selectFilterCategory.value.toLowerCase()
     const filteredGames = allGames.filter(game => 
@@ -139,13 +169,50 @@ function handleFilterButtonClick() {
     generateGameList(filteredGames)
 }
 
+function handleButtonNewGameClick() { // handle Elemneve Eseményneve
+    errorDivNewGame.innerHTML = addGameToList()
+}
+
+function handleFilterButtonClick() {
+    filterAndListGames()
+}
+
 function handleButtonNewCategoryClick() {
     addCategoryToList()
+}
+
+// A delegálásra átadott függvényekbe mindig kettő paraméter kell: event és elem (de persze bárhogy hívhatod őket, csak ez a két információ fog továbbadódni)
+function handleGameULdelegateDeleteClick(event, deleteButton) { // Ez kicsit bonyolultabb, hiszen nem csak egy elem van, hanem egy nagy szülő elem, és neki gyerekei amiknek van egy azonosítási módja úgymond (pl. class)
+    deleteGame(deleteButton.dataset.gamename)
+}
+
+function handleGameULselectGameClick(event, li) {
+    li.classList.toggle('selected')
 }
 
 buttonNewGame.onclick = handleButtonNewGameClick
 buttonFilter.onclick = handleFilterButtonClick
 buttonNewCategory.onclick = handleButtonNewCategoryClick
+delegate(gamesUL, '.delete-button', 'click', handleGameULdelegateDeleteClick)
+delegate(gamesUL, 'li', 'click', handleGameULselectGameClick)
 generateGameList(allGames)
 generateCategoryOptions(allCategories)
 clearInputs()
+
+/*
+Gyakorlás:
+Add hozzá a megfelelő szükséges HTML elemeket és attribútumokat.
+ 
+1. feladat
+Lehessen kijelölni elemeket (és megszüntetni a kijelölést).
+Amik ki vannak jelölve, azoknak mindig írjuk ki az össz értékét!
+ 
+2. feladat
+Lehessen növelni vagy csökkenteni a kijelölt termékek árát százasával.
+ 
+<ul>
+    <li>Tej 500Ft</li>
+    <li>Kenyér 200Ft</li>
+    <li>Sajt 900Ft</li>
+</ul>
+*/

@@ -1,6 +1,13 @@
 # Delegálás
 ## Függvény
 ```js
+/**
+ * Delegáló függvény, ami kiváltja a sok azonos eseménykezelőt.
+ * @param {HTMLElement} parent A szülő összefoglaló elem
+ * @param {String} child CSS selector a gyerekre
+ * @param {String} when Esemény, pl. click
+ * @param {Function} what Két paraméteres függvény, első paraméter: event, mésodik az elem, amire kattintottak
+ */
 function delegate(parent, child, when, what){
     function eventHandlerFunction(event){
         let eventTarget  = event.target;

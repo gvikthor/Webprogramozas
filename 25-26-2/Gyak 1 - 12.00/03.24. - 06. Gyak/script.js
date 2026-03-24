@@ -1,3 +1,25 @@
+/**
+ * Delegáló függvény, ami kiváltja a sok azonos eseménykezelőt.
+ * @param {HTMLElement} parent A szülő összefoglaló elem
+ * @param {String} child CSS selector a gyerekre
+ * @param {String} when Esemény, pl. click
+ * @param {Function} what Két paraméteres függvény, első paraméter: event, mésodik az elem, amire kattintottak
+ */
+function delegate(parent, child, when, what){
+    function eventHandlerFunction(event){
+        let eventTarget  = event.target;
+        let eventHandler = this;
+        let closestChild = eventTarget.closest(child);
+
+        if(eventHandler.contains(closestChild)){
+            what(event, closestChild);
+        }
+    }
+
+    parent.addEventListener(when, eventHandlerFunction);
+}
+
+
 /////////////////////////////////////
 // Oldalak közti váltogatás //
 const navigationDiv = document.querySelector('#navigation')
@@ -27,9 +49,6 @@ for(const span of navSpans) {
 
 showPageAndHideOthers('page-games')
 
-
-
-
 /////////////////////////////////////
 // Oldalak funkciói //
 
@@ -46,7 +65,7 @@ const categories = [
     { name: 'strategy', color: '#cc7d7d' }
 ]
 
-const games = [
+let games = [
     { name: 'Star Wars Battlefront 2', release: 2018, category: categories[0] },
     { name: 'Sims 4', release: 2016, category: categories[1] },
     { name: 'Age of Mythology', release: 2002, category: categories[2] },
@@ -81,6 +100,7 @@ function listGames(gamesToList) {
         gameUL.innerHTML += `<li>
             ${game.name}
             <span class="category" style="background-color:${game.category.color}" >${game.category.name}</span>
+            <button class="delete-game" data-gamename="${game.name}">🚯</button>
         </li>`
     }
 }
@@ -110,6 +130,8 @@ function addNewGame() {
     if (isNaN(newGame.release)) return { success: false, error: 'A megjelenés éve legyen szám!' }
     if (newGame.release < 1950) return { success: false, error: 'A megjelenés éve legyen nagyobb (vagy egyenlő) mint 1950!' }
     if (newGame.release > 2100) return { success: false, error: 'A megjelenés éve legyen kisebb (vagy egyenlő) mint 2100!' }
+
+    if(games.some(game => game.name.toLowerCase() == newGame.name.toLowerCase())) return { success: false, error: 'A játék neve legyen egyedi!' }
 
     return { success: true, game: newGame }
 }
@@ -182,9 +204,46 @@ function handleNewCategoryButtonClick() {
     }
 }
 
+function deleteGameByName(gameName) {
+    games = games.filter(game => game.name != gameName)
+    filterGames()
+}
+
+function handleGameULdelegateGameDelete(event, deleteButton) {
+    deleteGameByName(deleteButton.dataset.gamename)
+}
+function handleGameULdelegateGameSelect(event, li) {
+    // Csak akkor jelöljünk ki egy játékot, ha control click, nem pedig sima click
+    if(!event.ctrlKey) return
+    
+    li.classList.toggle('selected')
+}
+
+//delegate(gameUL, '.delete-game', 'click', (event, elem) => {})
+delegate(gameUL, '.delete-game', 'click', handleGameULdelegateGameDelete)
+delegate(gameUL, 'li', 'click', handleGameULdelegateGameSelect)
+
 newGameButton.onclick = handleNewGameButtonClick
 filterButton.onclick = filterGames
 newCategoryButton.onclick = handleNewCategoryButtonClick
 
 listGames(games)
 listCategories()
+
+/*
+Gyakorlás:
+Add hozzá a megfelelő szükséges HTML elemeket és attribútumokat.
+
+1. feladat
+Lehessen kijelölni elemeket (és megszüntetni a kijelölést).
+Amik ki vannak jelölve, azoknak mindig írjuk ki az össz értékét!
+
+2. feladat
+Lehessen növelni vagy csökkenteni a kijelölt termékek árát százasával.
+
+<ul>
+    <li>Tej 500Ft</li>
+    <li>Kenyér 200Ft</li>
+    <li>Sajt 900Ft</li>
+</ul>
+*/

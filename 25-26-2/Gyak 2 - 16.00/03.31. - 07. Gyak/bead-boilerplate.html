@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Kliensoldali beadandó – Admin felület</title>
+    <style>
+        :root {
+            --primary: #008B94;
+            --yellow: #ead36f;
+            --dark: #002275;
+            --brown: #c9a983;
+            --bg: #f5f7f8;
+            --card: #ffffff;
+            --text: #1f2933;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        header {
+            background: var(--dark);
+            color: white;
+            padding: 1rem 2rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            transition: 0.2s;
+        }
+
+        nav a.active,
+        nav a:hover {
+            background: var(--primary);
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .list-item {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .badge {
+            padding: 0.25rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            color: white;
+            margin-left: 0.3rem;
+        }
+
+        .badge.pink { background: #fc03db; }
+        .badge.blue { background: #03dbfc; }
+        .badge.gray { background: #c7d2d4; color: black; }
+        .badge.fb { background: #0b24de; }
+        .badge.yt { background: #ff001e; }
+        .badge.tv { background: #650b16; }
+
+        form {
+            display: grid;
+            gap: 0.8rem;
+            margin-top: 1rem;
+        }
+
+        input, select {
+            padding: 0.5rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.6rem;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #006d73;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .stat-row {
+            margin-bottom: 0.8rem;
+        }
+
+        .bar {
+            height: 10px;
+            background: var(--primary);
+            border-radius: 6px;
+            margin-top: 0.3rem;
+        }
+
+        .bar.yellow { background: var(--yellow); }
+        .bar.brown { background: var(--brown); }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎉 PartyZone Admin</h1>
+    <nav>
+        <a href="#" class="active">Celebek</a>
+        <a href="#">Platformok</a>
+        <a href="#">Statisztikák</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- CELEBEK -->
+    <section class="card">
+        <h2>Celebek</h2>
+
+        <div class="list-item">
+            Bajusz Patrik
+            <div>
+                <span class="badge pink">KitKot</span>
+                <span class="badge fb">Facetoot</span>
+                <span class="badge yt">YouToBe</span>
+            </div>
+        </div>
+
+        <div class="list-item">
+            LordKyron
+            <div>
+                <span class="badge blue">CsakVentillátorok</span>
+                <span class="badge tv">TVII</span>
+            </div>
+        </div>
+
+        <div class="list-item">
+            Góth Tabi
+            <div>
+                <span class="badge blue">CsakVentillátorok</span>
+                <span class="badge gray">Iwiw</span>
+            </div>
+        </div>
+
+        <h3>Új celeb hozzáadása</h3>
+        <form>
+            <input type="text" placeholder="Név">
+            <select>
+                <option>Platform kiválasztása</option>
+                <option>KitKot</option>
+                <option>Facetoot</option>
+            </select>
+            <button>Hozzáadás</button>
+        </form>
+    </section>
+
+    <!-- PLATFORMOK -->
+    <section class="card grid">
+        <div>
+            <h2>Platform típusok</h2>
+
+            <div class="list-item">Short-form content</div>
+            <div class="list-item">Közösségi média</div>
+            <div class="list-item">Televízió</div>
+
+            <form>
+                <input type="text" placeholder="Új típus neve">
+                <button>Hozzáadás</button>
+            </form>
+        </div>
+
+        <div>
+            <h2>Platformok</h2>
+
+            <div class="list-item">KitKot</div>
+            <div class="list-item">Facetoot</div>
+            <div class="list-item">YouToBe</div>
+
+            <form>
+                <input type="text" placeholder="Név">
+                <input type="color">
+                <select>
+                    <option>Típus</option>
+                </select>
+                <button>Hozzáadás</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- STATISZTIKA -->
+    <section class="card">
+        <h2>Statisztikák</h2>
+
+        <h3>Celebek platformonként</h3>
+        <div class="stat-row">
+            KitKot (3)
+            <div class="bar" style="width: 60%"></div>
+        </div>
+        <div class="stat-row">
+            Facetoot (5)
+            <div class="bar yellow" style="width: 90%"></div>
+        </div>
+
+        <h3>Celebek típusonként</h3>
+        <div class="stat-row">
+            Közösségi média (6)
+            <div class="bar" style="width: 80%"></div>
+        </div>
+
+        <h3>Platformok típusonként</h3>
+        <div class="stat-row">
+            Short-form (2)
+            <div class="bar brown" style="width: 40%"></div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    Kliensoldali beadandó – minta sablon
+</footer>
+
+</body>
+</html>

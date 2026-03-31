@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #252525;
+        color: #f8f8f8;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu span {
+        display: block;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .current {
+        text-decoration: underline;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .selected {
+        text-decoration: underline;
+        background-color: darkgrey;
+    }
+</style>
+
+<body>
+    <div id="menu"></div>
+
+    <div class="page" id="page-games" data-title="Games" data-animal="Kiscica">
+        <h1>Games</h1>
+
+        <h2>Add new game</h2>
+        <input id="new-game-name" placeholder="Name of new game">
+        <input id="new-game-year" placeholder="Release year">
+        <input id="new-game-category" placeholder="Category">
+        <button id="add-new-game-btn">Add</button>
+
+        <div id="game-errors"></div>
+
+        <h2>Game list</h2>
+        <input id="filter-name">
+        title in
+        <select id="filter-category"></select>
+        category.
+        <button id="filter-btn">Filter</button>
+        <ul id="game-list"></ul>
+    </div>
+
+    <div class="page" id="page-categories" data-title="Categories" data-animal="Kiskutya">
+        <h1>Categories</h1>
+
+        <h2>Add new category</h2>
+        <input id="new-category-name" placeholder="Category name">
+        <input id="new-category-color" type="color" value="#000000">
+        <button id="add-new-category-btn">Add</button>
+
+        <div id="category-errors"></div>
+    </div>
+
+    <div class="page" id="page-example" data-title="Example">
+        <h1>Example</h1>
+        <div>This is an example page.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

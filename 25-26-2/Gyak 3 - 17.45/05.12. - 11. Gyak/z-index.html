@@ -1,0 +1,28 @@
+<ul id="games">
+
+</ul>
+
+<script>
+    const gamesUL = document.querySelector('#games')
+    function writeGames(games) {
+        gamesUL.innerHTML = ''
+        // a games nem egy lista/tömb, hanem egy objektum. nincs rajta for-of, csak for-in (ami indexen megy végig)
+        for (const index in games) {
+            const game = games[index]
+            gamesUL.innerHTML += `<li>${game.gamename} (${game.release})</li>`
+        }
+    }
+
+    function fetchke(celnev, fuggveny, json = true) {
+        if (json) fetch(celnev).then(v => v.json()).then(e => fuggveny(e))
+        else fetch(celnev).then(v => v.text()).then(e => fuggveny(e))
+    }
+
+    function fetchAndWriteGames() {
+        // nem feltétlen saját szerver, ez lehetne mondjuk https://games.com/api/games/all
+        fetchke('z-api-getAllGames.php', writeGames)
+    }
+
+    setInterval(fetchAndWriteGames, 5000)
+    fetchAndWriteGames()
+</script>

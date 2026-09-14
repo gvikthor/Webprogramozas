@@ -1,0 +1,27 @@
+{
+    "69fa05647193c": {
+        "gamename": "Fifa 23",
+        "release": 2022,
+        "genre": "sport",
+        "rating": "good",
+        "platform": [
+            "windows",
+            "linux",
+            "xbox",
+            "ps"
+        ],
+        "id": "69fa05647193c"
+    },
+    "69fa05ff70b14": {
+        "gamename": "R6 Siege",
+        "release": 2020,
+        "genre": "simulation",
+        "rating": "good",
+        "platform": [
+            "windows",
+            "linux",
+            "ps"
+        ],
+        "id": "69fa05ff70b14"
+    }
+}

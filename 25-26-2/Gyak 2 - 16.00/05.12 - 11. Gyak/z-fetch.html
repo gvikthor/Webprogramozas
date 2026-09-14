@@ -1,0 +1,25 @@
+Ez nem tananyag, hanem óra végi érdekesség.
+
+<ul id="game-list">
+
+</ul>
+
+<script>
+    const gameUL = document.querySelector('#game-list')
+    function fillListWithGames(games) {
+        gameUL.innerHTML = ''
+        for (const index in games) {
+            gameUL.innerHTML += `<li>${games[index].gamename} (${games[index].release})</li>`
+        }
+    }
+
+    function fetchke(celnev, fuggveny, json = true) {
+        if (json) fetch(celnev).then(v => v.json()).then(e => fuggveny(e))
+        else fetch(celnev).then(v => v.text()).then(e => fuggveny(e))
+    }
+
+    // ez nem így nézne ki, hanem pl. https://valami.com/api/get-games/
+    //fetchke('z-api-get-games.php', fillListWithGames)
+
+    setInterval(() => fetchke('z-api-get-games.php', fillListWithGames), 5000)
+</script>

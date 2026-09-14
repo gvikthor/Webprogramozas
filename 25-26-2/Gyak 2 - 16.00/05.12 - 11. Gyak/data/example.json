@@ -1,0 +1,26 @@
+{
+    "69f9fe07257eb": {
+        "name": "Peter",
+        "age": 31,
+        "color": "red",
+        "id": "69f9fe07257eb"
+    },
+    "69f9ff019b640": {
+        "name": "Gerg\u0151",
+        "age": 31,
+        "color": "yellow",
+        "id": "69f9ff019b640"
+    },
+    "69f9ff2dcf7a1": {
+        "name": "\u00c1ron",
+        "age": 25,
+        "color": "black",
+        "id": "69f9ff2dcf7a1"
+    },
+    "69f9ff3d88362": {
+        "name": "Andris",
+        "age": 29,
+        "color": "pink",
+        "id": "69f9ff3d88362"
+    }
+}

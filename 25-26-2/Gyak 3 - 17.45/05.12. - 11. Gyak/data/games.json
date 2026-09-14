@@ -1,0 +1,37 @@
+{
+    "69fa178b5c71a": {
+        "gamename": "Fifa 23",
+        "release": 2022,
+        "genre": "sport",
+        "rating": "good",
+        "platform": [
+            "windows",
+            "linux",
+            "xbox",
+            "ps"
+        ],
+        "id": "69fa178b5c71a"
+    },
+    "69fa1909a3a48": {
+        "gamename": "R6 Siege",
+        "release": 2020,
+        "genre": "shooter",
+        "rating": "good",
+        "platform": [
+            "windows",
+            "xbox",
+            "ps"
+        ],
+        "id": "69fa1909a3a48"
+    },
+    "6a035929618c8": {
+        "gamename": "Sims 4",
+        "release": 2014,
+        "genre": "strategy",
+        "rating": "good",
+        "platform": [
+            "linux"
+        ],
+        "id": "6a035929618c8"
+    }
+}

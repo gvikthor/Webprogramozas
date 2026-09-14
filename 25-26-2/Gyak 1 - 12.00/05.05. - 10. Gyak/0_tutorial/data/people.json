@@ -1,0 +1,39 @@
+{
+    "69f9c8663d3db": {
+        "name": "Peti",
+        "age": 28,
+        "friends": [
+            "Gerg\u0151",
+            "Andi",
+            "\u00c1ron"
+        ]
+    },
+    "69f9c8c2973d6": {
+        "name": "Gerg\u0151",
+        "age": 31,
+        "friends": [
+            "Peti",
+            "Andi",
+            "\u00c1ron"
+        ],
+        "id": "69f9c8c2973d6"
+    },
+    "69f9c8d89cdc9": {
+        "name": "Tomi",
+        "age": 29,
+        "friends": [
+            "Andris",
+            "Petra"
+        ],
+        "id": "69f9c8d89cdc9"
+    },
+    "69f9c8fa6d62d": {
+        "name": "Andris",
+        "age": 29,
+        "friends": [
+            "Tomi",
+            "Petra"
+        ],
+        "id": "69f9c8fa6d62d"
+    }
+}

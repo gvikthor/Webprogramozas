@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .selected {
+        background-color: salmon;
+        text-decoration: underline;
+    }
+
+    table, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<body>
+    <div>
+        <p>Sum of selected list items: <span id="li-sum">0</span></p>
+        <p>Sum of selected table cells: <span id="td-sum">0</span></p>
+    </div>
+    
+    <ul></ul>
+
+    <table></table>
+
+    <div>
+        Row index: <input id="row-index-input"> <br>
+        Col index: <input id="col-index-input"> <br>
+        <button id="get-value">Get value of cell</button> <br>
+        <p>The value of the cell is: <span id="cell-value"></span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

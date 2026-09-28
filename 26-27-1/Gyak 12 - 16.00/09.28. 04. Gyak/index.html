@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .selected {
+        background-color: lightblue;
+        text-decoration: underline;
+    }
+
+    table, tr, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<body>
+    <div>
+        <p>Sum of numbers in list: <span id="list-sum">0</span> </p>
+        <p>Sum of numbers in table: <span id="table-sum">0</span> </p>
+    </div>
+
+    <ul></ul>
+
+    <table></table>
+
+    <div>
+        Row index: <input id="query-row-num">
+        Col index: <input id="query-col-num">
+        <button id="run-query">Get value</button> <br>
+        <p>The value of the cel is: <span id="query-result"></span></p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

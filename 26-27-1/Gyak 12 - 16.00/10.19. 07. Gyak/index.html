@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .selected {
+        background-color: lime;
+        text-decoration: underline;
+    }
+    .hidden {
+        display: none;
+    }
+</style>
+<body>
+
+    <div>
+        <span>
+            Name (partial):<input id="filter-name">
+        </span>
+        <span>
+            Country: <select id="filter-country">
+                <option value="none">---</option>
+            </select>
+        </span>
+        <span>
+            Population: <input id="filter-pop-min"> - <input id="filter-pop-max">
+        </span>
+        <button id="filter-go">Apply filters</button>
+    </div>
+
+    <div id="new-pic" class="hidden">
+        Enter new picture name: <input id="new-pic-name"> <button id="save-pic-name">Save</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+                <th>Population</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody id="city-rows"></tbody>
+    </table>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
